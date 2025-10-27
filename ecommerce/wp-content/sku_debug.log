@@ -1,0 +1,368 @@
+[2025-02-03 12:12:38] Buscando lotes para SKU con sufijo: ING-338-
+[2025-02-03 12:12:38] Comparando SKU de lote: ING-338-010-L397 con SKU buscado: ING-338-
+[2025-02-03 12:12:38] Lote encontrado - SKU: ING-338-010-L397
+[2025-02-03 12:12:38] Comparando SKU de lote: ING-338-005-L396 con SKU buscado: ING-338-
+[2025-02-03 12:12:38] Lote encontrado - SKU: ING-338-005-L396
+[2025-02-03 12:12:38] Comparando SKU de lote: ING-338-001-L395 con SKU buscado: ING-338-
+[2025-02-03 12:12:38] Lote encontrado - SKU: ING-338-001-L395
+[2025-02-03 12:12:38] Comparando SKU de lote: ING-337-001-L394 con SKU buscado: ING-338-
+[2025-02-03 12:12:38] Comparando SKU de lote: ING-336-006-L392 con SKU buscado: ING-338-
+[2025-02-03 12:12:38] Comparando SKU de lote: ING-337-005-L393 con SKU buscado: ING-338-
+[2025-02-03 12:17:25] Buscando lotes para SKU base: ING-338-
+[2025-02-03 12:17:25] Sin peso definido para el producto SKU: ING-338-010-L397
+[2025-02-03 12:17:25] Lote encontrado - SKU (sin peso): ING-338-010-L397
+[2025-02-03 12:17:25] Sin peso definido para el producto SKU: ING-338-005-L396
+[2025-02-03 12:17:25] Lote encontrado - SKU (sin peso): ING-338-005-L396
+[2025-02-03 12:17:25] Sin peso definido para el producto SKU: ING-338-001-L395
+[2025-02-03 12:17:25] Lote encontrado - SKU (sin peso): ING-338-001-L395
+[2025-02-03 12:17:25] Sin peso definido para el producto SKU: ING-337-001-L394
+[2025-02-03 12:17:25] Sin peso definido para el producto SKU: ING-336-006-L392
+[2025-02-03 12:17:25] Sin peso definido para el producto SKU: ING-337-005-L393
+[2025-02-03 12:43:20] Buscando lotes para SKU base: ING-338-
+[2025-02-03 12:43:20] Sin peso definido para el producto SKU: ING-338-010-L397
+[2025-02-03 12:43:20] Lote encontrado - SKU (sin peso): ING-338-010-L397
+[2025-02-03 12:43:20] Sin peso definido para el producto SKU: ING-338-005-L396
+[2025-02-03 12:43:20] Lote encontrado - SKU (sin peso): ING-338-005-L396
+[2025-02-03 12:43:20] Sin peso definido para el producto SKU: ING-338-001-L395
+[2025-02-03 12:43:20] Lote encontrado - SKU (sin peso): ING-338-001-L395
+[2025-02-03 12:43:20] Sin peso definido para el producto SKU: ING-337-001-L394
+[2025-02-03 12:43:20] Sin peso definido para el producto SKU: ING-336-006-L392
+[2025-02-03 12:43:20] Sin peso definido para el producto SKU: ING-337-005-L393
+[2025-02-03 12:46:16] Buscando lotes para SKU base: ING-338-
+[2025-02-03 12:46:16] Sin peso definido para el producto SKU: ING-338-010-L397
+[2025-02-03 12:46:16] Lote encontrado - SKU (sin peso): ING-338-010-L397
+[2025-02-03 12:46:16] Sin peso definido para el producto SKU: ING-338-005-L396
+[2025-02-03 12:46:16] Lote encontrado - SKU (sin peso): ING-338-005-L396
+[2025-02-03 12:46:16] Sin peso definido para el producto SKU: ING-338-001-L395
+[2025-02-03 12:46:16] Lote encontrado - SKU (sin peso): ING-338-001-L395
+[2025-02-03 12:46:16] Sin peso definido para el producto SKU: ING-337-001-L394
+[2025-02-03 12:46:16] Sin peso definido para el producto SKU: ING-336-006-L392
+[2025-02-03 12:46:16] Sin peso definido para el producto SKU: ING-337-005-L393
+[2025-02-03 12:51:36] Sku ing que busca: ING-338-000
+[2025-02-03 12:51:36] Buscando lotes para SKU base: ING-338-
+[2025-02-03 12:51:36] Sin peso definido para el producto SKU: ING-338-010-L397
+[2025-02-03 12:51:36] Lote encontrado - SKU (sin peso): ING-338-010-L397
+[2025-02-03 12:51:36] Sin peso definido para el producto SKU: ING-338-005-L396
+[2025-02-03 12:51:36] Lote encontrado - SKU (sin peso): ING-338-005-L396
+[2025-02-03 12:51:36] Sin peso definido para el producto SKU: ING-338-001-L395
+[2025-02-03 12:51:36] Lote encontrado - SKU (sin peso): ING-338-001-L395
+[2025-02-03 12:51:36] Sin peso definido para el producto SKU: ING-337-001-L394
+[2025-02-03 12:51:36] Sin peso definido para el producto SKU: ING-336-006-L392
+[2025-02-03 12:51:36] Sin peso definido para el producto SKU: ING-337-005-L393
+[2025-02-03 12:55:42] Sku ing de variacion que busca: ING-338-001
+[2025-02-03 12:55:42] Buscando lotes para SKU base: ING-338-
+[2025-02-03 12:55:42] Sin peso definido para el producto SKU: ING-338-010-L397
+[2025-02-03 12:55:42] Lote encontrado - SKU (sin peso): ING-338-010-L397
+[2025-02-03 12:55:42] Sin peso definido para el producto SKU: ING-338-005-L396
+[2025-02-03 12:55:42] Lote encontrado - SKU (sin peso): ING-338-005-L396
+[2025-02-03 12:55:42] Sin peso definido para el producto SKU: ING-338-001-L395
+[2025-02-03 12:55:42] Lote encontrado - SKU (sin peso): ING-338-001-L395
+[2025-02-03 12:55:42] Sin peso definido para el producto SKU: ING-337-001-L394
+[2025-02-03 12:55:42] Sin peso definido para el producto SKU: ING-336-006-L392
+[2025-02-03 12:55:42] Sin peso definido para el producto SKU: ING-337-005-L393
+[2025-02-03 12:58:30] Sku ing de variacion que busca: ING-338-005
+[2025-02-03 12:58:30] Buscando lotes para SKU base: ING-338-005
+[2025-02-03 12:58:30] Sin peso definido para el producto SKU: ING-338-005-L398
+[2025-02-03 12:58:30] Lote encontrado - SKU (sin peso): ING-338-005-L398
+[2025-02-03 12:58:30] Sin peso definido para el producto SKU: ING-338-010-L397
+[2025-02-03 12:58:30] Sin peso definido para el producto SKU: ING-338-005-L396
+[2025-02-03 12:58:30] Lote encontrado - SKU (sin peso): ING-338-005-L396
+[2025-02-03 12:58:30] Sin peso definido para el producto SKU: ING-338-001-L395
+[2025-02-03 12:58:30] Sin peso definido para el producto SKU: ING-337-001-L394
+[2025-02-03 12:58:30] Sin peso definido para el producto SKU: ING-336-006-L392
+[2025-02-03 12:58:30] Sin peso definido para el producto SKU: ING-337-005-L393
+[2025-02-03 16:07:01] Buscando lotes para SKU base: ELAB-198
+[2025-02-03 16:07:01] Lote encontrado - SKU: ELAB-198-L344
+[2025-02-03 17:05:57] Buscando lotes para SKU base: ELAB-201
+[2025-02-03 17:05:57] Lote encontrado - SKU: ELAB-201-L347
+[2025-02-06 18:58:26] Sku ing de variacion que busca: ING-344-002
+[2025-02-06 18:58:26] Buscando lotes para SKU base: ING-344-002
+[2025-02-06 18:58:26] Sin peso definido para el producto SKU: ING-342-002-L412
+[2025-02-06 18:58:26] Sin peso definido para el producto SKU: ING-344-002-L410
+[2025-02-06 18:58:26] Lote encontrado - SKU (sin peso): ING-344-002-L410
+[2025-02-06 18:58:26] Sin peso definido para el producto SKU: ING-343-002-L408
+[2025-02-06 18:58:26] Sin peso definido para el producto SKU: ING-342-002-L405
+[2025-02-06 18:58:26] Sin peso definido para el producto SKU: ING-343-005-L404
+[2025-02-06 18:58:26] Sin peso definido para el producto SKU: ING-342-002-L403
+[2025-02-06 18:58:26] Sin peso definido para el producto SKU: ING-341-005-L401
+[2025-02-06 18:58:26] Sin peso definido para el producto SKU: ING-342-008-L402
+[2025-02-06 19:35:23] Sku ing de variacion que busca: ING-341-005
+[2025-02-06 19:35:23] Buscando lotes para SKU base: ING-341-005
+[2025-02-06 19:35:23] Sin peso definido para el producto SKU: ING-342-002-L412
+[2025-02-06 19:35:23] Sin peso definido para el producto SKU: ING-344-002-L410
+[2025-02-06 19:35:23] Sin peso definido para el producto SKU: ING-343-002-L408
+[2025-02-06 19:35:23] Sin peso definido para el producto SKU: ING-342-002-L405
+[2025-02-06 19:35:23] Sin peso definido para el producto SKU: ING-343-005-L404
+[2025-02-06 19:35:23] Sin peso definido para el producto SKU: ING-342-002-L403
+[2025-02-06 19:35:23] Sin peso definido para el producto SKU: ING-341-005-L401
+[2025-02-06 19:35:23] Lote encontrado - SKU (sin peso): ING-341-005-L401
+[2025-02-06 19:35:23] Sin peso definido para el producto SKU: ING-342-008-L402
+[2025-02-06 19:39:49] Sku ing de variacion que busca: ING-343-005
+[2025-02-06 19:39:49] Buscando lotes para SKU base: ING-343-005
+[2025-02-06 19:39:49] Sin peso definido para el producto SKU: ING-342-002-L412
+[2025-02-06 19:39:49] Sin peso definido para el producto SKU: ING-344-002-L410
+[2025-02-06 19:39:49] Sin peso definido para el producto SKU: ING-343-002-L408
+[2025-02-06 19:39:49] Sin peso definido para el producto SKU: ING-342-002-L405
+[2025-02-06 19:39:49] Sin peso definido para el producto SKU: ING-343-005-L404
+[2025-02-06 19:39:49] Lote encontrado - SKU (sin peso): ING-343-005-L404
+[2025-02-06 19:39:49] Sin peso definido para el producto SKU: ING-342-002-L403
+[2025-02-06 19:39:49] Sin peso definido para el producto SKU: ING-341-005-L401
+[2025-02-06 19:39:49] Sin peso definido para el producto SKU: ING-342-008-L402
+[2025-02-06 20:04:24] Sku ing de variacion que busca: ING-343-002
+[2025-02-06 20:04:24] Buscando lotes para SKU base: ING-343-002
+[2025-02-06 20:04:24] Sin peso definido para el producto SKU: ING-342-002-L412
+[2025-02-06 20:04:24] Sin peso definido para el producto SKU: ING-344-002-L410
+[2025-02-06 20:04:24] Sin peso definido para el producto SKU: ING-343-002-L408
+[2025-02-06 20:04:24] Lote encontrado - SKU (sin peso): ING-343-002-L408
+[2025-02-06 20:04:24] Sin peso definido para el producto SKU: ING-342-002-L405
+[2025-02-06 20:04:24] Sin peso definido para el producto SKU: ING-343-005-L404
+[2025-02-06 20:04:24] Sin peso definido para el producto SKU: ING-342-002-L403
+[2025-02-06 20:04:24] Sin peso definido para el producto SKU: ING-341-005-L401
+[2025-02-06 20:04:24] Sin peso definido para el producto SKU: ING-342-008-L402
+[2025-02-06 20:08:06] Sku ing de variacion que busca: ING-343-002
+[2025-02-06 20:08:06] Buscando lotes para SKU base: ING-343-002
+[2025-02-06 20:08:06] Sin peso definido para el producto SKU: ING-342-002-L412
+[2025-02-06 20:08:06] Sin peso definido para el producto SKU: ING-344-002-L410
+[2025-02-06 20:08:06] Sin peso definido para el producto SKU: ING-343-002-L408
+[2025-02-06 20:08:06] Lote encontrado - SKU (sin peso): ING-343-002-L408
+[2025-02-06 20:08:06] Sin peso definido para el producto SKU: ING-342-002-L405
+[2025-02-06 20:08:06] Sin peso definido para el producto SKU: ING-343-005-L404
+[2025-02-06 20:08:06] Sin peso definido para el producto SKU: ING-342-002-L403
+[2025-02-06 20:08:06] Sin peso definido para el producto SKU: ING-341-005-L401
+[2025-02-06 20:08:06] Sin peso definido para el producto SKU: ING-342-008-L402
+[2025-02-06 20:11:58] Sku ing de variacion que busca: ING-343-002
+[2025-02-06 20:11:58] Buscando lotes para SKU base: ING-343-002
+[2025-02-06 20:11:58] Sin peso definido para el producto SKU: ING-342-002-L412
+[2025-02-06 20:11:58] Sin peso definido para el producto SKU: ING-344-002-L410
+[2025-02-06 20:11:58] Sin peso definido para el producto SKU: ING-343-002-L408
+[2025-02-06 20:11:58] Lote encontrado - SKU (sin peso): ING-343-002-L408
+[2025-02-06 20:11:58] Sin peso definido para el producto SKU: ING-342-002-L405
+[2025-02-06 20:11:58] Sin peso definido para el producto SKU: ING-343-005-L404
+[2025-02-06 20:11:58] Sin peso definido para el producto SKU: ING-342-002-L403
+[2025-02-06 20:11:58] Sin peso definido para el producto SKU: ING-341-005-L401
+[2025-02-06 20:11:58] Sin peso definido para el producto SKU: ING-342-008-L402
+[2025-03-26 12:28:05] Sku ing de variacion que busca: ING-369-001
+[2025-03-26 12:28:05] Buscando lotes para SKU base: ING-369-001
+[2025-03-26 12:28:05] Sin peso definido para el producto SKU: ING-369-001-L426
+[2025-03-26 12:28:05] Lote encontrado - SKU (sin peso): ING-369-001-L426
+[2025-03-28 15:05:41] Sku ing de variacion que busca: ING-396-001
+[2025-03-28 15:05:41] Buscando lotes para SKU base: ING-396-001
+[2025-03-28 15:05:41] Sin peso definido para el producto SKU: ING-396-001-L429
+[2025-03-28 15:05:41] Lote encontrado - SKU (sin peso): ING-396-001-L429
+[2025-05-22 17:18:27] Sku ing de variacion que busca: ING-470-0.2
+[2025-05-22 17:18:27] Buscando lotes para SKU base: ING-470-0.2
+[2025-05-22 17:18:27] Sin peso definido para el producto SKU: ING-469-001-L459
+[2025-05-22 17:18:27] Sin peso definido para el producto SKU: ING-470-005-L458
+[2025-05-22 17:18:27] Sin peso definido para el producto SKU: ING-470-000-L457
+[2025-05-22 17:18:27] Sin peso definido para el producto SKU: ING-469-000-L456
+[2025-05-22 22:16:44] Buscando lotes para SKU base: ELAB-234
+[2025-05-22 22:16:44] Lote encontrado - SKU: ELAB-234-L362
+[2025-05-22 22:25:46] Buscando lotes para SKU base: ELAB-234
+[2025-05-22 22:25:46] Lote encontrado - SKU: ELAB-234-L362
+[2025-05-22 22:26:16] Buscando lotes para SKU base: ELAB-234
+[2025-05-22 22:26:16] Lote encontrado - SKU: ELAB-234-L362
+[2025-05-22 22:26:51] Buscando lotes para SKU base: ELAB-234
+[2025-05-22 22:26:51] Lote encontrado - SKU: ELAB-234-L362
+[2025-05-22 22:27:37] Buscando lotes para SKU base: ELAB-234
+[2025-05-22 22:27:37] Lote encontrado - SKU: ELAB-234-L362
+[2025-05-22 22:29:15] Buscando lotes para SKU base: ELAB-234
+[2025-05-22 22:29:15] Lote encontrado - SKU: ELAB-234-L362
+[2025-05-22 22:37:09] Buscando lotes para SKU base: ELAB-234
+[2025-05-22 22:37:09] Lote encontrado - SKU: ELAB-234-L362
+[2025-05-22 22:45:39] Buscando lotes para SKU base: ELAB-234
+[2025-05-22 22:45:39] Lote encontrado - SKU: ELAB-234-L362
+[2025-05-22 23:20:22] Sku ing de variacion que busca: ING-469-0.5
+[2025-05-22 23:20:22] Buscando lotes para SKU base: ING-469-0.5
+[2025-05-22 23:20:22] Sin peso definido para el producto SKU: ING-469-001-L459
+[2025-05-22 23:20:22] Sin peso definido para el producto SKU: ING-470-005-L458
+[2025-05-22 23:20:22] Sin peso definido para el producto SKU: ING-470-000-L457
+[2025-05-22 23:20:22] Sin peso definido para el producto SKU: ING-469-000-L456
+[2025-05-22 23:21:46] Sku ing de variacion que busca: ING-469-0.5
+[2025-05-22 23:21:46] Buscando lotes para SKU base: ING-469-0.5
+[2025-05-22 23:21:46] Sin peso definido para el producto SKU: ING-469-001-L459
+[2025-05-22 23:21:46] Sin peso definido para el producto SKU: ING-470-005-L458
+[2025-05-22 23:21:46] Sin peso definido para el producto SKU: ING-470-000-L457
+[2025-05-22 23:21:46] Sin peso definido para el producto SKU: ING-469-000-L456
+[2025-05-22 23:22:20] Sku ing de variacion que busca: ING-469-0.5
+[2025-05-22 23:22:20] Buscando lotes para SKU base: ING-469-0.5
+[2025-05-22 23:22:20] Sin peso definido para el producto SKU: ING-469-001-L459
+[2025-05-22 23:22:20] Sin peso definido para el producto SKU: ING-470-005-L458
+[2025-05-22 23:22:20] Sin peso definido para el producto SKU: ING-470-000-L457
+[2025-05-22 23:22:20] Sin peso definido para el producto SKU: ING-469-000-L456
+[2025-05-22 23:26:37] Sku ing de variacion que busca: ING-470-0.2
+[2025-05-22 23:26:37] Buscando lotes para SKU base: ING-470-0.2
+[2025-05-22 23:26:37] Sin peso definido para el producto SKU: ING-469-001-L459
+[2025-05-22 23:26:37] Sin peso definido para el producto SKU: ING-470-005-L458
+[2025-05-22 23:26:37] Sin peso definido para el producto SKU: ING-470-000-L457
+[2025-05-22 23:26:37] Sin peso definido para el producto SKU: ING-469-000-L456
+[2025-05-22 23:35:32] Sku ing de variacion que busca: ING-470-0.2
+[2025-05-22 23:35:32] Buscando lotes para SKU base: ING-470-0.2
+[2025-05-22 23:35:32] Sin peso definido para el producto SKU: ING-469-001-L459
+[2025-05-22 23:35:32] Sin peso definido para el producto SKU: ING-470-005-L458
+[2025-05-22 23:35:32] Sin peso definido para el producto SKU: ING-470-000-L457
+[2025-05-22 23:35:32] Sin peso definido para el producto SKU: ING-469-000-L456
+[2025-05-22 23:38:30] Sku ing de variacion que busca: ING-470-0.2
+[2025-05-22 23:38:30] Buscando lotes para SKU base: ING-470-0.2
+[2025-05-22 23:38:30] Sin peso definido para el producto SKU: ING-469-001-L459
+[2025-05-22 23:38:30] Sin peso definido para el producto SKU: ING-470-005-L458
+[2025-05-22 23:38:30] Sin peso definido para el producto SKU: ING-470-000-L457
+[2025-05-22 23:38:30] Sin peso definido para el producto SKU: ING-469-000-L456
+[2025-05-22 23:39:46] Sku ing de variacion que busca: ING-469-0.5
+[2025-05-22 23:39:46] Buscando lotes para SKU base: ING-469-0.5
+[2025-05-22 23:39:46] Sin peso definido para el producto SKU: ING-469-001-L459
+[2025-05-22 23:39:46] Sin peso definido para el producto SKU: ING-470-005-L458
+[2025-05-22 23:39:46] Sin peso definido para el producto SKU: ING-470-000-L457
+[2025-05-22 23:39:46] Sin peso definido para el producto SKU: ING-469-000-L456
+[2025-05-22 23:48:51] Sku ing de variacion que busca: ING-470-0.2
+[2025-05-22 23:48:51] Buscando lotes para SKU base: ING-470-0.2
+[2025-05-22 23:48:51] Sin peso definido para el producto SKU: ING-469-001-L459
+[2025-05-22 23:48:51] Sin peso definido para el producto SKU: ING-470-005-L458
+[2025-05-22 23:48:51] Sin peso definido para el producto SKU: ING-470-000-L457
+[2025-05-22 23:48:51] Sin peso definido para el producto SKU: ING-469-000-L456
+[2025-05-22 23:52:06] Sku ing de variacion que busca: ING-470-0.2
+[2025-05-22 23:52:06] Buscando lotes para SKU base: ING-470-0.2
+[2025-05-22 23:52:06] Sin peso definido para el producto SKU: ING-469-001-L459
+[2025-05-22 23:52:06] Sin peso definido para el producto SKU: ING-470-005-L458
+[2025-05-22 23:52:06] Sin peso definido para el producto SKU: ING-470-000-L457
+[2025-05-22 23:52:06] Sin peso definido para el producto SKU: ING-469-000-L456
+[2025-05-22 23:55:48] Sku ing de variacion que busca: ING-470-0.2
+[2025-05-22 23:55:48] Buscando lotes para SKU base: ING-470-0.2
+[2025-05-22 23:55:48] Sin peso definido para el producto SKU: ING-469-001-L459
+[2025-05-22 23:55:48] Sin peso definido para el producto SKU: ING-470-005-L458
+[2025-05-22 23:55:48] Sin peso definido para el producto SKU: ING-470-000-L457
+[2025-05-22 23:55:48] Sin peso definido para el producto SKU: ING-469-000-L456
+[2025-05-22 23:59:52] Sku ing de variacion que busca: ING-470-0.2
+[2025-05-22 23:59:52] Buscando lotes para SKU base: ING-470-0.2
+[2025-05-22 23:59:52] Sin peso definido para el producto SKU: ING-469-001-L459
+[2025-05-22 23:59:52] Sin peso definido para el producto SKU: ING-470-005-L458
+[2025-05-22 23:59:52] Sin peso definido para el producto SKU: ING-470-000-L457
+[2025-05-22 23:59:52] Sin peso definido para el producto SKU: ING-469-000-L456
+[2025-05-23 00:07:10] Sku ing de variacion que busca: ING-470-0.2
+[2025-05-23 00:07:10] Buscando lotes para SKU base: ING-470-0.2
+[2025-05-23 00:07:10] Sin peso definido para el producto SKU: ING-469-001-L459
+[2025-05-23 00:07:10] Sin peso definido para el producto SKU: ING-470-005-L458
+[2025-05-23 00:07:10] Sin peso definido para el producto SKU: ING-470-000-L457
+[2025-05-23 00:07:10] Sin peso definido para el producto SKU: ING-469-000-L456
+[2025-05-23 00:08:48] Sku ing de variacion que busca: ING-470-0.2
+[2025-05-23 00:08:48] Buscando lotes para SKU base: ING-470-0.2
+[2025-05-23 00:08:48] Sin peso definido para el producto SKU: ING-469-001-L459
+[2025-05-23 00:08:48] Sin peso definido para el producto SKU: ING-470-005-L458
+[2025-05-23 00:08:48] Sin peso definido para el producto SKU: ING-470-000-L457
+[2025-05-23 00:08:48] Sin peso definido para el producto SKU: ING-469-000-L456
+[2025-05-23 00:14:39] Sku ing de variacion que busca: ING-470-0.2
+[2025-05-23 00:14:39] Buscando lotes para SKU base: ING-470-0.2
+[2025-05-23 00:14:39] Sin peso definido para el producto SKU: ING-469-001-L459
+[2025-05-23 00:14:39] Sin peso definido para el producto SKU: ING-470-005-L458
+[2025-05-23 00:14:39] Sin peso definido para el producto SKU: ING-470-000-L457
+[2025-05-23 00:14:39] Sin peso definido para el producto SKU: ING-469-000-L456
+[2025-05-23 00:18:07] Sku ing de variacion que busca: ING-470-0.2
+[2025-05-23 00:18:07] Buscando lotes para SKU base: ING-470-0.2
+[2025-05-23 00:18:07] Sin peso definido para el producto SKU: ING-469-001-L459
+[2025-05-23 00:18:07] Sin peso definido para el producto SKU: ING-470-005-L458
+[2025-05-23 00:18:07] Sin peso definido para el producto SKU: ING-470-000-L457
+[2025-05-23 00:18:07] Sin peso definido para el producto SKU: ING-469-000-L456
+[2025-05-23 00:23:00] Sku ing de variacion que busca: ING-470-0.2
+[2025-05-23 00:23:00] Buscando lotes para SKU base: ING-470-0.2
+[2025-05-23 00:23:00] Sin peso definido para el producto SKU: ING-469-001-L459
+[2025-05-23 00:23:00] Sin peso definido para el producto SKU: ING-470-005-L458
+[2025-05-23 00:23:00] Sin peso definido para el producto SKU: ING-470-000-L457
+[2025-05-23 00:23:00] Sin peso definido para el producto SKU: ING-469-000-L456
+[2025-05-23 00:27:43] Sku ing de variacion que busca: ING-470-0.2
+[2025-05-23 00:27:43] Buscando lotes para SKU base: ING-470-0.2
+[2025-05-23 00:27:43] Sin peso definido para el producto SKU: ING-469-001-L459
+[2025-05-23 00:27:43] Sin peso definido para el producto SKU: ING-470-005-L458
+[2025-05-23 00:27:43] Sin peso definido para el producto SKU: ING-470-000-L457
+[2025-05-23 00:27:43] Sin peso definido para el producto SKU: ING-469-000-L456
+[2025-05-23 00:29:22] Sku ing de variacion que busca: ING-469-001
+[2025-05-23 00:29:22] Buscando lotes para SKU base: ING-469-001
+[2025-05-23 00:29:22] Sin peso definido para el producto SKU: ING-469-001-L459
+[2025-05-23 00:29:22] Lote encontrado - SKU (sin peso): ING-469-001-L459
+[2025-05-23 00:29:22] Sin peso definido para el producto SKU: ING-470-005-L458
+[2025-05-23 00:29:22] Sin peso definido para el producto SKU: ING-470-000-L457
+[2025-05-23 00:29:22] Sin peso definido para el producto SKU: ING-469-000-L456
+[2025-05-23 00:36:14] Sku ing de variacion que busca: ING-470-0.2
+[2025-05-23 00:36:14] Buscando lotes para SKU base: ING-470-0.2
+[2025-05-23 00:36:14] Sin peso definido para el producto SKU: ING-469-001-L459
+[2025-05-23 00:36:14] Sin peso definido para el producto SKU: ING-470-005-L458
+[2025-05-23 00:36:14] Sin peso definido para el producto SKU: ING-470-000-L457
+[2025-05-23 00:36:14] Sin peso definido para el producto SKU: ING-469-000-L456
+[2025-05-23 00:37:37] Sku ing de variacion que busca: ING-469-0.5
+[2025-05-23 00:37:37] Buscando lotes para SKU base: ING-469-0.5
+[2025-05-23 00:37:37] Sin peso definido para el producto SKU: ING-469-001-L459
+[2025-05-23 00:37:37] Sin peso definido para el producto SKU: ING-470-005-L458
+[2025-05-23 00:37:37] Sin peso definido para el producto SKU: ING-470-000-L457
+[2025-05-23 00:37:37] Sin peso definido para el producto SKU: ING-469-000-L456
+[2025-05-23 00:38:39] Sku ing de variacion que busca: ING-469-001
+[2025-05-23 00:38:39] Buscando lotes para SKU base: ING-469-001
+[2025-05-23 00:38:39] Sin peso definido para el producto SKU: ING-469-001-L459
+[2025-05-23 00:38:39] Lote encontrado - SKU (sin peso): ING-469-001-L459
+[2025-05-23 00:38:39] Sin peso definido para el producto SKU: ING-470-005-L458
+[2025-05-23 00:38:39] Sin peso definido para el producto SKU: ING-470-000-L457
+[2025-05-23 00:38:39] Sin peso definido para el producto SKU: ING-469-000-L456
+[2025-05-23 10:16:32] Sku ing de variacion que busca: ING-474-001
+[2025-05-23 10:16:32] Buscando lotes para SKU base: ING-474-001
+[2025-05-23 10:16:32] Sin peso definido para el producto SKU: ING-474-002-L462
+[2025-05-23 10:16:32] Sin peso definido para el producto SKU: ING-474-001-L461
+[2025-05-23 10:16:32] Lote encontrado - SKU (sin peso): ING-474-001-L461
+[2025-05-23 10:16:32] Sin peso definido para el producto SKU: ING-474-000-L460
+[2025-05-23 10:17:21] Sku ing de variacion que busca: ING-474-0.5
+[2025-05-23 10:17:21] Buscando lotes para SKU base: ING-474-0.5
+[2025-05-23 10:17:21] Sin peso definido para el producto SKU: ING-474-002-L462
+[2025-05-23 10:17:21] Sin peso definido para el producto SKU: ING-474-001-L461
+[2025-05-23 10:17:21] Sin peso definido para el producto SKU: ING-474-000-L460
+[2025-05-23 13:47:10] Sku ing de variacion que busca: ING-475-005
+[2025-05-23 13:47:10] Buscando lotes para SKU base: ING-475-005
+[2025-05-23 13:47:10] Sin peso definido para el producto SKU: ING-475-000-L463
+[2025-05-23 13:47:10] Sin peso definido para el producto SKU: ING-474-002-L462
+[2025-05-23 13:47:10] Sin peso definido para el producto SKU: ING-474-001-L461
+[2025-05-23 13:47:10] Sin peso definido para el producto SKU: ING-474-000-L460
+[2025-05-23 14:17:20] Sku ing de variacion que busca: ING-477-006
+[2025-05-23 14:17:20] Buscando lotes para SKU base: ING-477-006
+[2025-05-23 14:17:20] Sin peso definido para el producto SKU: ING-477-000-L464
+[2025-05-23 14:27:09] Sku ing de variacion que busca: ING-477-006
+[2025-05-23 14:27:09] Buscando lotes para SKU base: ING-477-006
+[2025-05-23 14:27:09] Sin peso definido para el producto SKU: ING-477-000-L464
+[2025-05-28 09:57:15] Buscando lotes para SKU base: ELAB-248
+[2025-05-28 09:57:15] Lote encontrado - SKU: ELAB-248-L369
+[2025-05-28 14:01:37] Buscando lotes para SKU base: ELAB-248
+[2025-05-28 14:01:37] Lote encontrado - SKU: ELAB-248-L369
+[2025-05-28 15:09:07] Sku ing de variacion que busca: ING-485-010
+[2025-05-28 15:09:07] Buscando lotes para SKU base: ING-485-010
+[2025-05-28 15:09:07] Sin peso definido para el producto SKU: ING-485-001-L473
+[2025-05-28 15:09:07] Sin peso definido para el producto SKU: ING-482-002-L470
+[2025-05-30 02:26:56] Sku ing de variacion que busca: ING-485-010
+[2025-05-30 02:26:56] Buscando lotes para SKU base: ING-485-010
+[2025-05-30 02:26:56] Sin peso definido para el producto SKU: ING-485-001-L473
+[2025-05-30 02:26:56] Sin peso definido para el producto SKU: ING-482-002-L470
+[2025-05-30 02:38:32] Buscando lotes para SKU base: ELAB-249
+[2025-05-30 02:38:32] Lote encontrado - SKU: ELAB-249-L370
+[2025-06-03 15:05:35] Sku ing de variacion que busca: ING-487-005
+[2025-06-03 15:05:35] Buscando lotes para SKU base: ING-487-005
+[2025-06-03 15:05:35] Sin peso definido para el producto SKU: ING-487-005-L478
+[2025-06-03 15:05:35] Lote encontrado - SKU (sin peso): ING-487-005-L478
+[2025-06-03 15:05:35] Sin peso definido para el producto SKU: ING-487-005-L477
+[2025-06-03 15:05:35] Lote encontrado - SKU (sin peso): ING-487-005-L477
+[2025-06-03 15:05:35] Sin peso definido para el producto SKU: ING-484-012-L472
+[2025-06-03 15:05:35] Sin peso definido para el producto SKU: ING-483-002-L475
+[2025-06-03 15:05:35] Sin peso definido para el producto SKU: ING-485-001-L473
+[2025-06-03 15:05:35] Sin peso definido para el producto SKU: ING-482-002-L470
+[2025-06-03 15:46:35] Sku ing de variacion que busca: ING-487-005
+[2025-06-03 15:46:35] Buscando lotes para SKU base: ING-487-005
+[2025-06-03 15:46:35] Sin peso definido para el producto SKU: ING-487-005-L478
+[2025-06-03 15:46:35] Lote encontrado - SKU (sin peso): ING-487-005-L478
+[2025-06-03 15:46:35] Sin peso definido para el producto SKU: ING-487-005-L477
+[2025-06-03 15:46:35] Lote encontrado - SKU (sin peso): ING-487-005-L477
+[2025-06-03 15:46:35] Sin peso definido para el producto SKU: ING-484-012-L472
+[2025-06-03 15:46:35] Sin peso definido para el producto SKU: ING-483-002-L475
+[2025-06-03 15:46:35] Sin peso definido para el producto SKU: ING-485-001-L473
+[2025-06-03 15:46:35] Sin peso definido para el producto SKU: ING-482-002-L470
+[2025-06-03 15:55:16] Sku ing de variacion que busca: ING-487-005
+[2025-06-03 15:55:16] Buscando lotes para SKU base: ING-487-005
+[2025-06-03 15:55:16] Sin peso definido para el producto SKU: ING-487-005-L478
+[2025-06-03 15:55:16] Lote encontrado - SKU (sin peso): ING-487-005-L478
+[2025-06-03 15:55:16] Sin peso definido para el producto SKU: ING-487-005-L477
+[2025-06-03 15:55:16] Lote encontrado - SKU (sin peso): ING-487-005-L477
+[2025-06-03 15:55:16] Sin peso definido para el producto SKU: ING-484-012-L472
+[2025-06-03 15:55:16] Sin peso definido para el producto SKU: ING-483-002-L475
+[2025-06-03 15:55:16] Sin peso definido para el producto SKU: ING-485-001-L473
+[2025-06-03 15:55:16] Sin peso definido para el producto SKU: ING-482-002-L470

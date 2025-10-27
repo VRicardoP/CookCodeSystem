@@ -1,0 +1,15 @@
+{
+    "name": "alvaro/apiwoo",
+    "description": "API Woocommerce",
+    "license": "MTI",
+    "authors": [
+        {
+            "name": "Cook Code System",
+            "email": "medinamomparler@gmail.com"
+        }
+    ],
+    "require": {
+        "automattic/woocommerce": "^3.1"
+    }
+    
+}

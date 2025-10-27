@@ -1,0 +1,257 @@
+
+/* =====================================
+   CANTIDAD (BOTONES)
+
+   
+.button:hover{
+    background-color:var(--ccs-hover-color) ;
+}
+===================================== */
+
+.quantity-button-disabled {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #c1c1c1;
+    border-radius: 40px;
+    background-color: var(--ccs-main-color-trans);
+    color: white;
+}
+
+.quantity-button {
+    display: none;
+    border: 1px solid #c1c1c1;
+    border-radius: 40px;
+    width: 20px;
+    border: none;
+}
+
+.quantity-button:nth-of-type(1) {
+    display: flex !important;
+}
+
+
+/* Versión alternativa con pulso sutil */
+.alternative-effect:active {
+    animation: pulse 0.3s ease;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(0.95); }
+    100% { transform: scale(1); }
+}
+
+.input-button {
+    text-align: center;
+    min-width: 0;
+    border: none;
+    height: 100%;
+}
+#customAddToCart {
+    /* Tipografía */
+    font-size: 1.1em;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    
+    /* Dimensiones y espaciado */
+    padding: 12px 25px;
+    margin: 15px 0;
+    width: auto;
+    min-width: 200px;
+    
+    /* Estilo visual */
+    background-color: var(--ccs-main-color, #4CAF50);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    
+    /* Efectos y transiciones */
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    box-shadow: 
+        0 3px 6px rgba(0,0,0,0.1),
+        0 2px 3px rgba(0,0,0,0.1);
+    
+    /* Posicionamiento */
+    position: relative;
+    overflow: hidden;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+/* Efecto hover mejorado */
+#customAddToCart:hover {
+    
+    transform: translateY(-2px);
+    box-shadow: 
+        0 5px 12px rgba(0,0,0,0.15),
+        0 4px 6px rgba(0,0,0,0.1);
+    color: white !important;
+      background-color: var(--ccs-hover-color);
+}
+
+/* Efecto activo (al hacer click) */
+#customAddToCart:active {
+    transform: translateY(1px);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+
+
+/* Icono (opcional) */
+#customAddToCart::before {
+    content: "🛒";
+    font-size: 1.2em;
+    transition: transform 0.3s ease;
+}
+
+/* Animación al añadir al carrito */
+#customAddToCart.added::before {
+    transform: scale(1.3) rotate(15deg);
+}
+
+
+/* CONTENEDOR PRINCIPAL */
+.quantity-wrapper {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+/* BOTONES + Y - */
+.add, 
+.subtract {
+    /* Tipografía */
+    font-weight: 700;
+    color: white;
+    font-size: 1.4em;
+    line-height: 1;
+    
+    /* Dimensiones */
+    width: 42px;
+    height: 52px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    /* Estilo */
+    background-color: var(--ccs-main-color, #4CAF50);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    
+    /* Efectos */
+    transition: all 0.2s cubic-bezier(0.25, 0.8, 0.25, 1);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    user-select: none;
+    position: relative;
+}
+
+
+/* HOVER */
+.add:hover, 
+.subtract:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    background-color: var(--ccs-hover-color);
+}
+
+/* CLICK */
+.add:active, 
+.subtract:active {
+    transform: translateY(1px);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+
+/* INPUT */
+#customQuantity {
+    /* Dimensiones */
+    width: 150px;
+    height: 48px;
+    
+    /* Tipografía */
+    font-size: 1.1em;
+    font-weight: 600;
+    text-align: center;
+    color: #333;
+    
+    /* Estilo */
+    background: white;
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.05);
+    
+    /* Interacción */
+    outline: none;
+    transition: all 0.2s ease;
+    -moz-appearance: textfield;
+}
+
+/* QUITAR FLECHAS EN CHROME/SAFARI */
+#customQuantity::-webkit-outer-spin-button,
+#customQuantity::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* FOCO */
+#customQuantity:focus {
+    border-color: var(--ccs-main-color, #4CAF50);
+    box-shadow: 
+        inset 0 1px 3px rgba(0,0,0,0.05),
+        0 0 0 2px rgba(76, 175, 80, 0.1);
+}
+
+/* EFECTO ONDA (OPCIONAL) */
+.add::after, 
+.subtract::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 5px;
+    height: 5px;
+    background: rgba(255,255,255,0.5);
+    opacity: 0;
+    border-radius: 100%;
+    transform: translate(-50%, -50%);
+}
+
+.add:active::after, 
+.subtract:active::after {
+    animation: ripple 0.4s ease-out;
+}
+
+@keyframes ripple {
+    0% { transform: translate(-50%, -50%) scale(1); opacity: 0.5; }
+    100% { transform: translate(-50%, -50%) scale(15); opacity: 0; }
+}
+
+/* =====================================
+   BOTÓN TOGGLE SIDEBAR MOBILE
+===================================== */
+#toggle-sidebar-mobile-button {
+    display: inline-block;
+    background-color: var(--ccs-main-color);
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin: 1em auto;
+}
+
+#toggle-sidebar-mobile-button:hover {
+    background-color: var(--ccs-hover-color);
+    transform: scale(1.03);
+}

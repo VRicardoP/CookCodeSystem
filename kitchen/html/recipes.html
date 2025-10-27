@@ -1,0 +1,694 @@
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Cook code</title>
+
+    <!-- Custom fonts for this template-->
+    <!-- <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">-->
+    <script src="https://kit.fontawesome.com/2e2cc992ca.js" crossorigin="anonymous"></script>
+ 
+
+
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+
+    <!-- Custom styles for this template-->
+    <link href="css/sb-admin-2.min.css" rel="stylesheet">
+
+</head>
+
+<body onload="llenarMenuDesplegableIngredientes()" id="page-top">
+
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+            <!-- Sidebar - Brand -->
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.php">
+                <div class="sidebar-brand-icon rotate-n-15">
+                 
+                </div>
+                <div class="sidebar-brand-text mx-3"><img src="./img/cookcodeblack.jpg" height="80" width="225"></div>
+            </a>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider my-0">
+
+            <!-- Nav Item - Dashboard -->
+            <li class="nav-item active">
+                <a class="nav-link" href="index.php">
+                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <span>Dashboard</span></a>
+            </li>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider">
+
+            <!-- Heading -->
+            <div class="sidebar-heading">
+                Utilities
+            </div>
+           
+
+
+
+            
+            
+
+            <!-- Divider -->
+            <hr class="sidebar-divider d-none d-md-block">
+
+            <!-- Sidebar Toggler (Sidebar) -->
+            <div class="text-center d-none d-md-inline">
+                <button class="rounded-circle border-0" id="sidebarToggle"></button>
+            </div>
+        </ul>
+        <!-- End of Sidebar -->
+
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- Main Content -->
+            <div id="content">
+
+                <!-- Topbar -->
+                <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+                    <!-- Sidebar Toggle (Topbar) -->
+                    <button id="sidebarToggleTop" name="boto_burguer" class="btn btn-link d-md-none rounded-circle mr-3">
+                        <i class="fa fa-bars"></i>
+                    </button>
+
+                    <!-- Topbar Search -->
+                <!--<form
+                        class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
+                        <div class="input-group">
+                            <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..."
+                                aria-label="Search" aria-describedby="basic-addon2">
+                            <div class="input-group-append">
+                                <button class="btn btn-primary" type="button">
+                                    <i class="fas fa-search fa-sm"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>-->
+
+                    <!-- Topbar Navbar -->
+                    <ul class="navbar-nav ml-auto">
+
+                        <!-- Nav Item - Search Dropdown (Visible Only XS) -->
+                        <li class="nav-item dropdown no-arrow d-sm-none">
+                            <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-search fa-fw"></i>
+                            </a>
+                            <!-- Dropdown - Messages -->
+                            <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in"
+                                aria-labelledby="searchDropdown">
+                                <form class="form-inline mr-auto w-100 navbar-search">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control bg-light border-0 small"
+                                            placeholder="Search for..." aria-label="Search"
+                                            aria-describedby="basic-addon2">
+                                        <div class="input-group-append">
+                                            <button class="btn btn-primary" type="button">
+                                                <i class="fas fa-search fa-sm"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </li>
+
+                        <!-- Nav Item - Alerts -->
+                        <li class="nav-item dropdown no-arrow mx-1">
+                            <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-bell fa-fw"></i>
+                                <!-- Counter - Alerts -->
+                                <span class="badge badge-danger badge-counter">3+</span>
+                            </a>
+                            <!-- Dropdown - Alerts -->
+                            <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in"
+                                aria-labelledby="alertsDropdown">
+                                <h6 class="dropdown-header">
+                                    Alerts Center
+                                </h6>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                    <div class="mr-3">
+                                        <div class="icon-circle bg-primary">
+                                            <i class="fas fa-file-alt text-white"></i>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="small text-gray-500">August 20, 2023</div>
+                                        <span class="font-weight-bold">Bolognese tags level i slow</span>
+                                    </div>
+                                </a>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                    <div class="mr-3">
+                                        <div class="icon-circle bg-success">
+                                            <i class="fas fa-donate text-white"></i>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="small text-gray-500">August 15, 2023</div>
+                                        Some falafel is expired
+                                    </div>
+                                </a>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                    <div class="mr-3">
+                                        <div class="icon-circle bg-warning">
+                                            <i class="fas fa-exclamation-triangle text-white"></i>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="small text-gray-500">August 10, 2023</div>
+                                        Order without stock of Meat balls
+                                    </div>
+                                </a>
+                                <a class="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a>
+                            </div>
+                        </li>
+
+                        
+
+                        <div class="topbar-divider d-none d-sm-block"></div>
+
+                        <!-- Nav Item - User Information -->
+                        <li class="nav-item dropdown no-arrow">
+                            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Administrator</span>
+                                <img class="img-profile rounded-circle"
+                                    src="img/undraw_profile.svg">
+                            </a>
+                            <!-- Dropdown - User Information -->
+                            <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
+                                aria-labelledby="userDropdown">
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Profile
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Settings
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Activity Log
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+                                    <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Logout
+                                </a>
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </nav>
+                <!-- End of Topbar -->
+<!-- ************************************************************************************************************************ -->
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+
+                    <!-- Page Heading -->
+
+
+                    <!-- Content Row -->
+                    <div class="row">
+
+                        <!-- Earnings (Monthly) Card Example -->
+
+
+                        <!-- Earnings (Monthly) Card Example -->
+
+
+                        <!-- Earnings (Monthly) Card Example -->
+  
+
+                        <!-- Pending Requests Card Example -->
+                
+                    </div>
+
+                    <!-- Content Row -->
+                    <div class="row">
+                        <h1 class="display-3">Recipe Cost Calculator</h1>
+                        <p class="lead">Costing calculator with predefined shrinkages</p>
+                  
+                        <div class="col-md-12 col-lg-12">
+                          <form class="needs-validation" novalidate>
+                            <div class="row g-3">
+                  <label>Name recipe: <input/></label>
+                              <!-- Table -->
+                              <table class="table-dark">
+                                <thead>
+                                  <tr>
+                                    <th>Ingredient</th>
+                                    <th>Unitary price Kg</th>
+                                    <th>Net weight gr</th>
+                                    <th>Gross weight gr</th>
+                                    <th>Weight shrinkage %</th>
+                                  
+                                 
+                                    <th>Precio total</th>
+                                  </tr>
+                                </thead>
+                                <tbody id="mytab1">
+                                  <tr>
+                                    <th><input type="text" class="form-control" placeholder="ex.Meat" value="" id="1"></th>
+                                    <td><input type="number" class="form-control" id="2" placeholder="ex.20(euros)" value="" required>
+                                    </td>
+                                    <td><input type="number" class="form-control" id="3" placeholder="ex.100(grams)" value="" required>
+                                    </td>
+                                    <td><input type="number" class="form-control" id="4" placeholder="shrinking" value="" required>
+                                    </td>
+                                 
+                                    <td><input type="number" class="form-control" id="5" placeholder="ex.2(gross weight)" value="" required>
+                                    </td>
+                                   
+                                   
+                                    <td><input type="number" class="form-control" id="6" placeholder="price" value="" required>
+                                    </td>
+                                  </tr>
+
+
+
+                                  <tr>
+                                    <th>   <input class="form-control" id="7">
+                                        <!-- Las opciones se llenarán dinámicamente -->
+                                    </input></th>
+
+                                    <td><input type="number" class="form-control" id="8" placeholder="" value="" required></td>
+                                    <td><input type="number" class="form-control" id="9" placeholder="" value="" required></td>
+                                    <td><input type="number" class="form-control" id="10" placeholder="" value="" required></td>
+                                    <td><input type="text" class="form-control" id="11" placeholder="" value="" required></td>
+                                  
+                                 
+                                    <td><input type="number" class="form-control" id="12" placeholder="" value="" required></td>
+                                  </tr>
+
+
+                                  <tr>
+                                    <th>
+                                        
+                                        
+                                        <input type="text" id="searchInput13" onclick="toggleSelectOptions(event,'13')" oninput="filterOptions(13)" placeholder="Buscar opción...">
+                                        <div id="selectContainer13" style="display: none; position: absolute; z-index: 999;">
+                                            <select class="form-control" id="13">
+                                                <!-- Las opciones se llenarán dinámicamente -->
+                                            </select>
+                                        </div>
+                                </th>  
+                                    
+                                    
+                                    
+                                    <td><input type="number" class="form-control" id="14" placeholder="" value="" required></td>
+                                    <td><input type="number" class="form-control" id="15" placeholder="" value="" required></td>
+                                    <td><input type="number" class="form-control" id="16" placeholder="" value="" required></td>
+                                    <td><input type="text" class="form-control" id="17" placeholder="" value="" required></td>
+                                  
+                                    
+                                    <td><input type="number" class="form-control" id="18" placeholder="" value="" required></td>
+                                  </tr>
+                                  <tr>
+                                    <th> 
+                                        
+                                        
+                                        <input type="text" id="searchInput19" onclick="toggleSelectOptions(event,'19')" oninput="filterOptions(19)" placeholder="Buscar opción...">
+                                        <div id="selectContainer19" style="display: none; position: absolute; z-index: 999;">
+                                            <select class="form-control" id="19">
+                                                <!-- Las opciones se llenarán dinámicamente -->
+                                            </select>
+                                        </div>
+                                
+                                
+                                
+                                </th> 
+                                    <td><input type="number" class="form-control" id="20" placeholder="" value="" required></td>
+                                    <td><input type="number" class="form-control" id="21" placeholder="" value="" required></td>
+                                    <td><input type="number" class="form-control" id="22" placeholder="" value="" required></td>
+                                    <td><input type="text" class="form-control" id="23" placeholder="" value="" required></td>
+                                   
+                                   
+                                    <td><input type="number" class="form-control" id="24" placeholder="" value="" required></td>
+                                  </tr>
+                                  <tr>
+                                    <th>  
+                                        
+                                        <input type="text" id="searchInput25" onclick="toggleSelectOptions(event,'25')" oninput="filterOptions(25)" placeholder="Buscar opción...">
+                                        <div id="selectContainer25" style="display: none; position: absolute; z-index: 999;">
+                                            <select class="form-control" id="25">
+                                                <!-- Las opciones se llenarán dinámicamente -->
+                                            </select>
+                                        </div>
+                                
+                                
+                                
+                                
+                                </th> 
+                                    <td><input type="number" class="form-control" id="26" placeholder="" value="" required></td>
+                                    <td><input type="number" class="form-control" id="27" placeholder="" value="" required></td>
+                                    <td><input type="number" class="form-control" id="28" placeholder="" value="" required></td>
+                                    <td><input type="text" class="form-control" id="29" placeholder="" value="" required></td>
+                                   
+                                   
+                                    <td><input type="number" class="form-control" id="30" placeholder="" value="" required></td>
+                                  
+                                  </tr>
+                                  <tr> 
+                                    <th>  
+                                        
+                                        <input type="text" id="searchInput31" onclick="toggleSelectOptions(event,'31')" oninput="filterOptions(31)" placeholder="Buscar opción...">
+                                        <div id="selectContainer31" style="display: none; position: absolute; z-index: 999;">
+                                            <select class="form-control" id="31">
+                                                <!-- Las opciones se llenarán dinámicamente -->
+                                            </select>
+                                        </div>
+                                
+                                
+                                
+                                </th> 
+                                    <td><input type="number" class="form-control" id="32" placeholder="" value="" required></td>
+                                    <td><input type="number" class="form-control" id="33" placeholder="" value="" required></td>
+                                    <td><input type="number" class="form-control" id="34" placeholder="" value="" required></td>
+                                    <td><input type="text" class="form-control" id="35" placeholder="" value="" required></td>
+                                   
+                                   
+                                    <td><input type="number" class="form-control" id="36" placeholder="" value="" required></td>
+                                  </tr>
+                                  <tr>
+                                    <th> 
+                                        
+                                        
+                                        <input type="text" id="searchInput37" onclick="toggleSelectOptions(event,'37')" oninput="filterOptions(37)" placeholder="Buscar opción...">
+                                        <div id="selectContainer37" style="display: none; position: absolute; z-index: 999;">
+                                            <select class="form-control" id="37">
+                                                <!-- Las opciones se llenarán dinámicamente -->
+                                            </select>
+                                        </div>
+                                
+                                
+                                </th> 
+                                    <td><input type="number" class="form-control" id="38" placeholder="" value="" required></td>
+                                    <td><input type="number" class="form-control" id="39" placeholder="" value="" required></td>
+                                    <td><input type="number" class="form-control" id="40" placeholder="" value="" required></td>
+                                    <td><input type="text" class="form-control" id="41" placeholder="" value="" required></td>
+                                  
+                                    
+                                    <td><input type="number" class="form-control" id="42" placeholder="" value="" required></td>
+                                  </tr>
+                                  <tr>
+                                    <th> 
+                                        
+                                        
+                                        <input type="text" id="searchInput43" onclick="toggleSelectOptions(event,'43')" oninput="filterOptions(43)" placeholder="Buscar opción...">
+                                        <div id="selectContainer43" style="display: none; position: absolute; z-index: 999;">
+                                            <select class="form-control" id="43">
+                                                <!-- Las opciones se llenarán dinámicamente -->
+                                            </select>
+                                        </div>
+                                
+                                
+                                
+                                </th> 
+                                    <td><input type="number" class="form-control" id="44" placeholder="" value="" required></td>
+                                    <td><input type="number" class="form-control" id="45" placeholder="" value="" required></td>
+                                    <td><input type="number" class="form-control" id="46" placeholder="" value="" required></td>
+                                    <td><input type="text" class="form-control" id="47" placeholder="" value="" required></td>
+                                   
+                                   
+                                    <td><input type="number" class="form-control" id="48" placeholder="" value="" required></td>
+                                  </tr>
+                                  <tr>
+                                    <th>  
+                                        
+                                        <input type="text" id="searchInput49" onclick="toggleSelectOptions(event,'49')" oninput="filterOptions(49)" placeholder="Buscar opción...">
+                                        <div id="selectContainer49" style="display: none; position: absolute; z-index: 999;">
+                                            <select class="form-control" id="49">
+                                                <!-- Las opciones se llenarán dinámicamente -->
+                                            </select>
+                                        </div>
+                                
+                                </th> 
+                                    <td><input type="number" class="form-control" id="50" placeholder="" value="" required></td>
+                                    <td><input type="number" class="form-control" id="51" placeholder="" value="" required></td>
+                                    <td><input type="number" class="form-control" id="52" placeholder="" value="" required></td>
+                                    <td><input type="text" class="form-control" id="53" placeholder="" value="" required></td>
+                                   
+                                  
+                                    <td><input type="number" class="form-control" id="54" placeholder="" value="" required></td>
+                                  </tr>
+                                  <tr>
+                                    <th>  
+                                        
+                                        <input type="text" id="searchInput55" onclick="toggleSelectOptions(event,'55')" oninput="filterOptions(55)" placeholder="Buscar opción...">
+                                        <div id="selectContainer55" style="display: none; position: absolute; z-index: 999;">
+                                            <select class="form-control" id="55">
+                                                <!-- Las opciones se llenarán dinámicamente -->
+                                            </select>
+                                        </div>
+                                
+                                </th> 
+                                    <td><input type="number" class="form-control" id="56" placeholder="" value="" required></td>
+                                    <td><input type="number" class="form-control" id="57" placeholder="" value="" required></td>
+                                    <td><input type="number" class="form-control" id="58" placeholder="" value="" required></td>
+                                    <td><input type="text" class="form-control" id="59" placeholder="" value="" required></td>
+                                  
+                                  
+                                    <td><input type="number" class="form-control" id="60" placeholder="" value="" required></td>
+                                  </tr>
+                                  <tr>
+                                    <th> 
+                                        
+                                        <input type="text" id="searchInput61" onclick="toggleSelectOptions(event,'61')" oninput="filterOptions(61)" placeholder="Buscar opción...">
+                                        <div id="selectContainer61" style="display: none; position: absolute; z-index: 999;">
+                                            <select class="form-control" id="61">
+                                                <!-- Las opciones se llenarán dinámicamente -->
+                                            </select>
+                                        </div>
+                                
+                                </th>
+                                    <td><input type="number" class="form-control" id="62" placeholder="" value="" required></td>
+                                    <td><input type="number" class="form-control" id="63" placeholder="" value="" required></td>
+                                    <td><input type="number" class="form-control" id="64" placeholder="" value="" required></td>
+                                    <td><input type="text" class="form-control" id="65" placeholder="" value="" required></td>
+                                   
+                                  
+                                    <td><input type="number" class="form-control" id="66" placeholder="" value="" required></td>
+                                    
+                                  </tr>
+                                  <tr>
+                                    <th> 
+                                        
+                                        <input type="text" id="searchInput67" onclick="toggleSelectOptions(event,'67')" oninput="filterOptions(67)" placeholder="Buscar opción...">
+                                        <div id="selectContainer67" style="display: none; position: absolute; z-index: 999;">
+                                            <select class="form-control" id="67">
+                                                <!-- Las opciones se llenarán dinámicamente -->
+                                            </select>
+                                        </div>
+                                
+                                
+                                </th> 
+                                    <td><input type="number" class="form-control" id="68" placeholder="" value="" required></td>
+                                    <td><input type="number" class="form-control" id="69" placeholder="" value="" required></td>
+                                    <td><input type="number" class="form-control" id="70" placeholder="" value="" required></td>
+                                    <td><input type="text" class="form-control" id="71" placeholder="" value="" required></td>
+                                   
+                                 
+                                    <td><input type="number" class="form-control" id="72" placeholder="" value="" required></td>
+                                  </tr>
+                                  <tr>
+                                    <th> 
+                                        <input type="text" id="searchInput73" onclick="toggleSelectOptions(event,'73')" oninput="filterOptions(73)" placeholder="Buscar opción...">
+                                        <div id="selectContainer73" style="display: none; position: absolute; z-index: 999;">
+                                            <select class="form-control" id="73">
+                                                <!-- Las opciones se llenarán dinámicamente -->
+                                            </select>
+                                        </div>
+                                
+                                
+                                </th> 
+                                    <td><input type="number" class="form-control" id="74" placeholder="" value="" required></td>
+                                    <td><input type="number" class="form-control" id="75" placeholder="" value="" required></td>
+                                    <td><input type="number" class="form-control" id="76" placeholder="" value="" required></td>
+                                    <td><input type="text" class="form-control" id="77" placeholder="" value="" required></td>
+                                   
+                                  
+                                    <td><input type="number" class="form-control" id="78" placeholder="" value="" required></td>
+                                  </tr>
+                                  <tr>
+                                    <th>  
+                                        
+                                        <input type="text" id="searchInput79" onclick="toggleSelectOptions(event,'79')" oninput="filterOptions(79)" placeholder="Buscar opción...">
+                                        <div id="selectContainer79" style="display: none; position: absolute; z-index: 999;">
+                                            <select class="form-control" id="79">
+                                                <!-- Las opciones se llenarán dinámicamente -->
+                                            </select>
+                                        </div>
+                                
+                                
+                                </th> 
+                                    <td><input type="number" class="form-control" id="80" placeholder="" value="" required></td>
+                                    <td><input type="number" class="form-control" id="81" placeholder="" value="" required></td>
+                                    <td><input type="number" class="form-control" id="82" placeholder="" value="" required></td>
+                                    <td><input type="text" class="form-control" id="83" placeholder="" value="" required></td>
+                                   
+                                  
+                                    <td><input type="number" class="form-control" id="84" placeholder="" value="" required></td>
+                                  </tr>
+                                  <tr>
+                                    <th> 
+                                        
+                                        <input type="text" id="searchInput85" onclick="toggleSelectOptions(event,'85')" oninput="filterOptions(85)" placeholder="Buscar opción...">
+                                        <div id="selectContainer85" style="display: none; position: absolute; z-index: 999;">
+                                            <select class="form-control" id="85">
+                                                <!-- Las opciones se llenarán dinámicamente -->
+                                            </select>
+                                        </div>
+                                
+                                
+                                </th> 
+                                    <td><input type="number" class="form-control" id="86" placeholder="" value="" required></td>
+                                    <td><input type="number" class="form-control" id="87" placeholder="" value="" required></td>
+                                    <td><input type="number" class="form-control" id="88" placeholder="" value="" required></td>
+                                    <td><input type="text" class="form-control" id="89" placeholder="" value="" required></td>
+                                  
+                                   
+                                    <td><input type="number" class="form-control" id="90" placeholder="" value="" required></td>
+                                  </tr>
+                                  <tr>
+                                    <th> 
+                                        
+                                        <input type="text" id="searchInput91" onclick="toggleSelectOptions(event,'91')" oninput="filterOptions(91)" placeholder="Buscar opción...">
+                                        <div id="selectContainer91" style="display: none; position: absolute; z-index: 999;">
+                                            <select class="form-control" id="91">
+                                                <!-- Las opciones se llenarán dinámicamente -->
+                                            </select>
+                                        </div>
+                                
+                                
+                                </th> 
+                                    <td><input type="number" class="form-control" id="92" placeholder="" value="" required></td>
+                                    <td><input type="number" class="form-control" id="93" placeholder="" value="" required></td>
+                                    <td><input type="number" class="form-control" id="94" placeholder="" value="" required></td>
+                                    <td><input type="text" class="form-control" id="95" placeholder="" value="" required></td>
+                                   
+                                 
+                                    <td><input type="number" class="form-control" id="96" placeholder="" value="" required></td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            
+                              <!-- test -->
+                              <div class="container">
+                                <div class="row">
+                                  <div class="col">
+                                   
+                                  </div>
+                               
+                                  <div class="col">
+                                    
+                                    <button type="button" class=" btn btn-primary m-3 p-3"
+                                    onclick="result()">Sum</button>
+                                    
+                                    <button type="reset" class=" btn btn-warning m-3 p-3" onclick="clearValues()">Clear</button>
+
+                                    <label for="result">Result:</label>
+                                    <span id="result"></span>
+
+                                  </div>
+                                  <div class="col"> 
+                                    <button type="save" class=" btn btn-primary m-3 p-3"
+                                    onclick="result()">Save</button>
+                                  </div>
+                        
+                                </div>
+                              </div>
+                              <hr class="my-4">
+                  
+                          </form>
+                        </div>
+                       
+                        <!-- Content Column -->
+                        <div class="col-lg-6 mb-4">
+
+                            <!-- Project Card Example -->
+
+                           
+
+                      
+                </div>
+                <!-- /.container-fluid -->
+
+            </div>
+            <!-- End of Main Content -->
+
+            <!-- Footer -->
+            <footer class="sticky-footer bg-white">
+               
+            </footer>
+            <!-- End of Footer -->
+
+        </div>
+        <!-- End of Content Wrapper -->
+
+    </div>
+    <!-- End of Page Wrapper -->
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Logout Modal-->
+    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                    <a class="btn btn-primary" href="login.html">Logout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Core plugin JavaScript-->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="js/sb-admin-2.min.js"></script>
+
+    <!-- Page level plugins -->
+    <script src="vendor/chart.js/Chart.min.js"></script>
+
+    <!-- Page level custom scripts -->
+    <script src="script.js"></script>
+ 
+</body>
+
+</html>

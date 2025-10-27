@@ -1,0 +1,373 @@
+#btnPrint {
+    float: right;
+}
+
+
+
+/* Fondo oscuro que cubre la página */
+#backgroundOverlay {
+    display: none;
+    /* Se oculta por defecto */
+    position: fixed;
+    /* Fijo para que cubra toda la pantalla */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    /* Hacemos el fondo transparente */
+    backdrop-filter: blur(2px);
+    /* Aplica el desenfoque al fondo */
+    z-index: 3;
+    /* Se coloca detrás del modal */
+}
+
+/* Asegúrate de que el modal esté por encima del fondo oscuro */
+.modal {
+    z-index: 4;
+    /* El modal estará por encima del fondo oscuro */
+}
+
+@media print {
+    @page {}
+
+
+
+    nav {
+        display: none;
+    }
+
+    button {
+        display: none;
+    }
+
+    #sidebar {
+        display: none;
+    }
+
+    #divContent {
+        display: none;
+    }
+
+
+}
+
+
+
+/* General Styles for Modal */
+.modal-recipe {
+    display: none;
+    /* Oculto por defecto */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    /* Habilita el scroll si el contenido es demasiado largo */
+    background-color: rgba(0, 0, 0, 0.6);
+    /* Fondo semi-transparente */
+}
+
+.modal-ing{
+    display: none;
+    /* Oculto por defecto */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    /* Habilita el scroll si el contenido es demasiado largo */
+    background-color: rgba(0, 0, 0, 0.6);
+    /* Fondo semi-transparente */
+}
+
+/* Modal Content Box */
+.modal-content {
+    border: 5px solid #007934;
+    background-color: #f9f9f9;
+    margin: 5% auto;
+    /* Centrado */
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    /* Ajusta el ancho general */
+    max-width: 775px;
+    /* Reduce el ancho máximo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 0.3s ease-in-out;
+    /* Animación de entrada */
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Header Section */
+.modal-header {
+    display: flex;
+    justify-content: space-between; /* Espacia los elementos horizontalmente */
+    align-items: flex-end; /* Alinea el contenido superiormente */
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+/* Name Styling */
+.modal-name {
+    display: flex;
+    flex-direction: column; /* Apila el contenido verticalmente */
+    justify-content: flex-end; /* Alinea el contenido hacia el final */
+    height: 100%; /* Asegura que el contenedor ocupe toda la altura */
+   
+}
+/* Image Styling */
+.modal-image {
+    display: flex;
+    align-items: center; /* Centra la imagen verticalmente */
+    justify-content: center; /* Centra la imagen horizontalmente */
+}
+
+
+
+
+
+.recipe-image {
+    width: 120px;
+    /* Tamaño uniforme */
+    height: 120px;
+    object-fit: cover;
+    /* Asegura que todas las imágenes se ajusten */
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+
+.ingredient-image {
+    width: 120px;
+    /* Tamaño uniforme */
+    height: 120px;
+    object-fit: cover;
+    /* Asegura que todas las imágenes se ajusten */
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+/* Body Section */
+.modal-body {
+    display: flex;
+    gap: 20px;
+    /* Espaciado entre columnas */
+}
+
+/* Columns Layout */
+.modal-columns {
+    display: flex;
+    flex-wrap: wrap;
+    /* Permite que las columnas se ajusten en pantallas pequeñas */
+    gap: 20px;
+}
+
+.modal-column-left,
+.modal-column-right {
+    flex: 1;
+    min-width: 300px;
+    /* Tamaño mínimo para las columnas */
+}
+
+/* Instructions Section */
+.modal-instructions {
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Recipe Details */
+
+.recipe-details p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #333;
+    text-align:center;
+}
+.recipe-details p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Ingredients and Elaborados Sections */
+.modal-ingredients {
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    max-height: 150px;
+    /* Altura máxima con scroll */
+    overflow-y: auto;
+}
+
+.modal-ingredients p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555;
+}
+
+
+.btn-primary img {
+    vertical-align: middle;
+}
+
+/* Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #aaa;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.close:hover {
+    color: #000;
+}
+
+
+.square-text {
+    display: inline-block;
+    padding: 3px;
+    border: 2px solid black;
+    margin: 5px;
+    border-radius: 5px; /* Optional, for rounded corners */
+    background-color: #f0f0f0; /* Optional, for background color */
+    font-family: Arial, sans-serif; /* Optional, for a cleaner font */
+}
+
+.value-box {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px 10px;
+    border: 2px solid #8a6d3b; /* Color marrón tipo cartón */
+    border-radius: 4px 12px 4px 12px; /* Esquinas alternadas */
+    background: linear-gradient(145deg, #f4e3c1, #e0c693); /* Simula textura de cartón */
+    font-size: 16px;
+    font-weight: bold;
+    color: #5a3e1b; /* Color oscuro para contraste */
+    text-align: center;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); /* Sombra para dar relieve */
+    position: relative;
+}
+.square-edit {
+    position: relative;
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); /* Sombra para dar relieve */
+    background: linear-gradient(145deg, #f4e3c1, #e0c693); /* Simula textura de cartón */
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Efecto hover */
+.square-edit:hover {
+    background: linear-gradient(145deg, #b63226, #ae2e22);
+    color: white; /* Cambia el color del texto a blanco */
+}
+
+/* Crear las líneas diagonales cruzadas (X) dentro del cuadro */
+.square-edit:hover::before,
+.square-edit:hover::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(1, 1, 1); /* Color de las líneas */
+}
+
+/* Línea diagonal de arriba a izquierda a abajo a derecha */
+.square-edit:hover::before {
+    transform: rotate(45deg);
+    top: 50%;
+    left: 0%;
+    width: 100%; /* Asegura que la línea sea un poco más larga que el cuadro */
+}
+
+/* Línea diagonal de abajo a izquierda a arriba a derecha */
+.square-edit:hover::after {
+    transform: rotate(-45deg);
+    top: 50%;
+    left: 0%;
+    width: 100%; /* Asegura que la línea sea un poco más larga que el cuadro */
+}
+
+
+#btnAddCantidad {
+    background-color: #4CAF50; /* Color de fondo verde */
+    color: white; /* Texto blanco */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 5px 10px; /* Espaciado dentro del botón */
+    font-size: 13px; /* Tamaño de la fuente */
+    cursor: pointer; /* Puntero en forma de mano cuando el usuario pasa por encima */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Efecto de transición para el color y escala */
+}
+
+#btnAddCantidad:hover {
+    background-color: #45a049; /* Cambio de color de fondo al pasar el mouse */
+    transform: scale(1.05); /* Efecto de aumento de tamaño */
+}
+
+#btnAddCantidad:active {
+    background-color: #3e8e41; /* Color de fondo al hacer clic */
+    transform: scale(1); /* Vuelve a su tamaño original */
+}
+
+
+.modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+}
+
+
+#btnCostIng {
+    background-color: #28a745; /* Verde */
+    color: white; /* Texto blanco */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 5px 20px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño del texto */
+    cursor: pointer; /* Manito al pasar */
+    display: block; /* Para centrar con margin auto */
+    margin: 5px auto; /* Centrado horizontalmente */
+    text-align: center;
+    transition: background 0.3s ease-in-out; /* Animación suave */
+}
+
+#btnCostIng:hover {
+    background-color: #218838; /* Verde más oscuro en hover */
+}

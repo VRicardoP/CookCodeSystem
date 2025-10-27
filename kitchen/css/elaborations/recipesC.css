@@ -1,0 +1,100 @@
+#newProduct {
+    display: block;
+    /* Ocultar el formulario inicialmente */
+}
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+.tab button {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+.tab button:hover {
+    background-color: #1cc88a;
+}
+
+.tab button.active {
+    background-color: #1cc88a;
+}
+
+/* Estilos para el contenido de las pestañas */
+.tabcontent {
+    display: block;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+#recipeForm table tbody tr td:not(:first-child) input{
+    max-width: 7em;
+}
+
+#newRecipe-instructions {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+
+    textarea {
+        width: 808px;
+    }
+}
+
+/* TABLE STYLES */
+table.styled {
+    border-collapse: collapse;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    color: rgb(22, 22, 22);
+  
+      
+  th,
+  td {
+    padding: 15px;
+    background-color: rgba(255,255,255,0.2);
+  }
+  
+  th {
+    text-align: left;
+  }
+  
+  thead {
+    th {
+      color: white;
+      background-color: #007934;
+    }
+  }
+  
+  tbody {
+    tr {
+        transition: 0.2s;
+      &:hover {
+        transition: 0.2s;
+        background-color: rgba(121, 121, 121, 0.3);
+      }
+    }
+    td {
+      position: relative;
+      &:hover {
+        &:before {
+          content: "";
+          position: absolute;
+          left: 0;
+          right: 0;
+          top: -9999px;
+          bottom: -9999px;
+          background-color: rgba(255,255,255,0.2);
+          z-index: -1;
+        }
+      }
+    }
+  }
+  }

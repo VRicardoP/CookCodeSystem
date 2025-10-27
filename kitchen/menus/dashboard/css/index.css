@@ -1,0 +1,132 @@
+img,
+picture,
+svg,
+video,
+canvas {
+    max-width: 100%;
+    /* Makes it responsive */
+    height: auto;
+    /* Makes it responsive */
+    vertical-align: middle;
+    /* Makes text next to inline images look better */
+    font-style: italic;
+    /* If the images don't load it makes the alt decription look better */
+    background-repeat: no-repeat;
+    /* The background repeat and size are there if you want to load a picture first like a backroung image that is worse quality while the better quality image loads */
+    background-size: cover;
+}
+
+#accordionSidebar li:hover {
+    background-color: #008f3d;
+    transition: 0.2s;
+    font-weight: bold;
+    padding-left: 1.5em;
+}
+
+li object {
+    width: 20px;
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+/* Estilo para el contenedor de checkboxes con scroll */
+#checkboxContainerCostos,
+#checkboxContainerBeneficios,
+#checkboxContainerVentas,
+#checkboxContainerAutoconsumo {
+    width: 300px;
+    height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+}
+
+/* Estilo para los checkboxes y etiquetas */
+.platoCheckbox {
+    margin-right: 10px;
+    /* Espacio a la derecha de los checkboxes */
+}
+
+label {
+    display: block;
+    /* Cada checkbox en una nueva línea */
+    margin-bottom: 5px;
+    /* Espacio debajo de cada checkbox */
+}
+
+.dropdown-item-status {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #000;
+   
+    background-color: #f8f9fa;
+   
+    border-bottom: 1px solid #ddd;
+  
+    cursor: pointer;
+   
+}
+
+.dropdown-item-status:hover {
+    background-color: #e9ecef;
+  
+}
+
+
+.dropdown-menu .dropdown-item-status {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    cursor: pointer; 
+    color: black; /* Color de letra normal */
+    text-decoration: none; /* Quita el subrayado */
+    transition: color 0.3s ease; /* Transición suave */
+}
+
+.dropdown-menu .dropdown-item-status:hover {
+    color: blue; /* Cambia el color al pasar el cursor (puedes elegir otro color) */
+}
+/* Aplicar un efecto de oscurecimiento a la caja cuando se pase el cursor */
+i {
+    transition: background-color 0.3s ease, transform 0.1s ease; /* Transición suave para el fondo y el efecto de presionar */
+    padding: 8px;  /* Espaciado interior */
+    border-radius: 8px;  /* Esquinas redondeadas */
+    cursor: pointer; /* Para indicar que es clickeable */
+    background-color: transparent; /* Fondo transparente inicialmente */
+}
+
+/* Cuando pasas el cursor por encima, se oscurece el fondo y aumenta el padding */
+i:hover {
+    background-color: rgba(0, 0, 0, 0.1);  /* Oscurece ligeramente el fondo */
+    transform: scale(1.05); /* Le da un pequeño efecto de agrandamiento */
+}
+
+/* Efecto cuando haces clic (presionar el botón) */
+i:active {
+    transform: scale(0.98); /* Efecto de "apretar" el botón (reduce ligeramente el tamaño) */
+    background-color: rgba(0, 0, 0, 0.2);  /* Fondo más oscuro cuando se presiona */
+}
+.spinner {
+    border: 8px solid transparent;
+    border-top: 8px solid #3498db;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+    
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+}
+
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+

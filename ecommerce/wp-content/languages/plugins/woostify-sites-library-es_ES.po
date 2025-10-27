@@ -1,0 +1,1184 @@
+# Translation of Plugins - Woostify Sites Library - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Woostify Sites Library - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-08-21 15:37:18+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.11\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Woostify Sites Library - Stable (latest release)\n"
+
+#: includes/ctf7/class-import-export.php:194
+msgid "Export"
+msgstr "Exportar"
+
+#: includes/class-woostify-sites-elementor.php:662
+msgid "Pages"
+msgstr "Páginas"
+
+#: includes/class-woostify-sites-elementor.php:659
+msgid "Footer"
+msgstr "Pie de página "
+
+#: includes/class-woostify-sites-elementor.php:658
+msgid "Header"
+msgstr "Cabecera"
+
+#: includes/class-woostify-sites-elementor.php:486
+msgid "Invalid API URL"
+msgstr "URL de la API no válida"
+
+#: includes/class-woostify-sites-elementor.php:413
+msgid "Import Template"
+msgstr "Importar plantilla"
+
+#: includes/class-woostify-sites-elementor.php:311
+#: includes/class-woostify-sites-elementor.php:757
+msgid "My Favorites"
+msgstr "Mis favoritos"
+
+#: includes/class-woostify-sites-elementor.php:298
+#: includes/class-woostify-sites-elementor.php:400
+#: includes/class-woostify-sites-elementor.php:624
+#: includes/class-woostify-sites-elementor.php:745
+msgid "Close"
+msgstr "Cerrar"
+
+#: includes/class-woostify-sites-elementor.php:275
+#: includes/class-woostify-sites-elementor.php:722
+msgid "Library"
+msgstr "Biblioteca"
+
+#: demos/demos.php:3689
+msgid "Thank You"
+msgstr "Gracias"
+
+#: demos/demos.php:3688
+msgid "My Account"
+msgstr "Mi cuenta"
+
+#: demos/demos.php:3687
+msgid "Check Out"
+msgstr "Finalizar compra"
+
+#: demos/demos.php:3686
+msgid "Cart"
+msgstr "Carrito"
+
+#: demos/demos.php:3685
+msgid "Shop Single"
+msgstr "Página de producto"
+
+#: demos/demos.php:3684 includes/class-woostify-sites-elementor.php:660
+msgid "Shop"
+msgstr "Tienda"
+
+#: demos/demos.php:3659
+msgid "Archive"
+msgstr "Archivo"
+
+#: demos/demos.php:3658
+msgid "Counter"
+msgstr "Contador"
+
+#: demos/demos.php:3657
+msgid "Team"
+msgstr "Equipo"
+
+#: demos/demos.php:3656
+msgid "Contact"
+msgstr "Contacto"
+
+#: demos/demos.php:3655
+msgid "Video"
+msgstr "Vídeo"
+
+#: demos/demos.php:3654
+msgid "Countdown"
+msgstr "Cuenta atrás"
+
+#: demos/demos.php:3653
+msgid "Top bar"
+msgstr "Barra superior"
+
+#: demos/demos.php:3652
+msgid "Brand"
+msgstr "Marca"
+
+#: demos/demos.php:3651
+msgid "Blog"
+msgstr "Blog"
+
+#: demos/demos.php:3647
+msgid "Instagram"
+msgstr "Instagram"
+
+#: demos/demos.php:3646
+msgid "Service"
+msgstr "Servicio"
+
+#: demos/demos.php:3645
+msgid "Product"
+msgstr "Producto"
+
+#: demos/demos.php:3644
+msgid "Call To Action"
+msgstr "Llamada a la acción"
+
+#: demos/demos.php:3643
+msgid "Categories"
+msgstr "Categorías"
+
+#: demos/demos.php:3642
+msgid "Banner"
+msgstr "Banner"
+
+#: class-woostify-sites.php:3136 class-woostify-sites.php:3173
+#: demos/demos.php:3667
+msgid "Pro"
+msgstr "Pro"
+
+#: class-woostify-sites.php:3133 demos/demos.php:3666
+msgid "Free"
+msgstr "Gratuito"
+
+#: class-woostify-sites.php:3127 class-woostify-sites.php:3130
+#: includes/class-woostify-sites-elementor.php:231
+msgid "All"
+msgstr "Todos"
+
+#: class-woostify-sites.php:3114
+msgid "Woostify Logo"
+msgstr "Logotipo de Woostify"
+
+#: includes/class-woostify-sites-elementor.php:391
+#: includes/class-woostify-sites-elementor.php:602
+msgid "Back to Library"
+msgstr "Volver a la biblioteca"
+
+#: includes/class-woostify-sites-elementor.php:499
+msgid "Invalid Post Meta"
+msgstr "Metadatos de la entrada no válidos"
+
+#: includes/class-woostify-sites-elementor.php:506
+msgid "Invalid Post ID or Elementor Meta"
+msgstr "Metadatos de Elementor o ID de la entrada no válidos"
+
+#: includes/class-woostify-sites-elementor.php:577
+msgid "No template found"
+msgstr "No se ha encontrado la plantilla."
+
+#: includes/class-woostify-sites-elementor.php:661
+msgid "Blocks"
+msgstr "Bloques"
+
+#: demos/demos.php:3648
+msgid "Subscribe"
+msgstr "Suscríbete"
+
+#: demos/demos.php:3650
+msgid "Testimonial"
+msgstr "Testimonios"
+
+#: includes/class-woostify-sites-elementor.php:826
+msgid "No template found!"
+msgstr "No se ha encontrado la plantilla."
+
+#: includes/class-woostify-sites-elementor.php:408
+msgid "Go Pro"
+msgstr "Hazte Pro"
+
+#: demos/demos.php:3649
+msgid "Slide"
+msgstr "Diapositiva"
+
+#: includes/class-woostify-sites-elementor.php:482
+msgid "You are not allowed to perform this action"
+msgstr "No tienes permisos para realizar esta acción"
+
+#: includes/admin/class-admin.php:108
+msgid "Preview \"%s\" Site"
+msgstr "Previsualizar el sitio «%s»"
+
+#: includes/ctf7/class-import-export.php:206
+msgid "Price of %s products has been changed."
+msgstr "El precio de %s productos ha cambiado."
+
+#. Author of the plugin
+msgid "Woostify"
+msgstr "Woostify"
+
+#. Plugin Name of the plugin
+#: woostify-sites.php:68
+msgid "Woostify Sites Library"
+msgstr "Biblioteca de sitios Woostify"
+
+#. Description of the plugin
+msgid "Import site demos built with Woostify theme"
+msgstr "Importa sitios de demostración hechos con el tema Woostify"
+
+#: class-woostify-sites.php:858
+msgid "Ready"
+msgstr "Listo"
+
+#. Author URI of the plugin
+msgid "https://woostify.com"
+msgstr "https://woostify.com"
+
+#: includes/class-woostify-sites-widget-importer.php:260
+msgid "Imported to Inactive"
+msgstr "Importado a inactivo"
+
+#: includes/class-woostify-sites-widget-importer.php:256
+msgid "Imported"
+msgstr "Importado"
+
+#: includes/class-woostify-sites-widget-importer.php:198
+msgid "Widget already exists"
+msgstr "El widget ya existe"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: includes/class-tgm-plugin-activation.php:3613
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Instalando el plugin %1$s (%2$d/%3$d)"
+
+#: includes/class-tgm-plugin-activation.php:3611
+msgid "All installations have been completed."
+msgstr "Todas las instalaciones han sido completadas."
+
+#. translators: 1: plugin name.
+#: includes/class-tgm-plugin-activation.php:3610
+msgid "%1$s installed successfully."
+msgstr "%1$s instalado correctamente."
+
+#: includes/class-tgm-plugin-activation.php:3608
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "El proceso de instalación está comenzando. Este proceso puede tardar un poco en algunos alojamientos, así que, por favor, sé paciente."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: includes/class-tgm-plugin-activation.php:3605
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Instalando y activando el plugin %1$s (%2$d/%3$d)"
+
+#: includes/class-tgm-plugin-activation.php:3603
+msgid "All installations and activations have been completed."
+msgstr "Todas las instalaciones y activaciones han sido completadas."
+
+#. translators: 1: plugin name.
+#: includes/class-tgm-plugin-activation.php:3602
+#: includes/class-tgm-plugin-activation.php:3610
+msgid "Show Details"
+msgstr "Mostrar los detalles"
+
+#. translators: 1: plugin name.
+#: includes/class-tgm-plugin-activation.php:3602
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s instalado y activado correctamente."
+
+#: includes/class-tgm-plugin-activation.php:3600
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "El proceso de instalación y activación está comenzando. Este proceso puede tardar un poco en algunos alojamientos, así que, por favor, sé paciente."
+
+#. translators: 1: plugin name, 2: error message.
+#: includes/class-tgm-plugin-activation.php:3594
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Ha ocurrido un error durante la instalación de %1$s: <strong>%2$s</strong>."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: includes/class-tgm-plugin-activation.php:3591
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Actualizando el plugin %1$s (%2$d/%3$d)"
+
+#: includes/class-tgm-plugin-activation.php:3251
+msgid "Plugin activation failed."
+msgstr "Ha fallado la activación del plugin."
+
+#: includes/class-tgm-plugin-activation.php:3027
+msgid "No plugins are available to be activated at this time."
+msgstr "En este momento no hay plugins disponibles para activar."
+
+#: includes/class-tgm-plugin-activation.php:3001
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "No se han seleccionado plugins para activar. No se ha realizado ninguna acción."
+
+#: includes/class-tgm-plugin-activation.php:2895
+msgid "No plugins are available to be updated at this time."
+msgstr "En este momento no hay plugins disponibles para actualizar."
+
+#: includes/class-tgm-plugin-activation.php:2893
+msgid "No plugins are available to be installed at this time."
+msgstr "En este momento no hay plugins disponibles para instalar."
+
+#: includes/class-tgm-plugin-activation.php:2852
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "No se han seleccionado plugins para actualizar. No se ha realizado ninguna acción."
+
+#: includes/class-tgm-plugin-activation.php:2850
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "No se han seleccionado plugins para instalar. No se ha realizado ninguna acción."
+
+#: includes/class-tgm-plugin-activation.php:2816
+msgid "Update"
+msgstr "Actualizar "
+
+#: includes/class-tgm-plugin-activation.php:2777
+msgid "Upgrade message from the plugin author:"
+msgstr "Mensaje de actualización del autor del plugin:"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: includes/class-tgm-plugin-activation.php:2707
+msgid "Activate %2$s"
+msgstr "Activar %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: includes/class-tgm-plugin-activation.php:2701
+msgid "Update %2$s"
+msgstr "Actualizar %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: includes/class-tgm-plugin-activation.php:2696
+msgid "Install %2$s"
+msgstr "Instalar %2$s"
+
+#: includes/class-tgm-plugin-activation.php:2647
+msgid "Status"
+msgstr "Estado"
+
+#: includes/class-tgm-plugin-activation.php:2646
+msgid "Version"
+msgstr "Versión"
+
+#: includes/class-tgm-plugin-activation.php:2642
+msgid "Type"
+msgstr "Tipo"
+
+#: includes/class-tgm-plugin-activation.php:2641
+msgid "Source"
+msgstr "Fuente"
+
+#: includes/class-tgm-plugin-activation.php:2640
+msgid "Plugin"
+msgstr "Plugin"
+
+#: includes/class-tgm-plugin-activation.php:2626
+msgid "No plugins to install, update or activate."
+msgstr "No hay plugins para instalar, actualizar o activar."
+
+#: includes/class-tgm-plugin-activation.php:2603
+msgid "Available version:"
+msgstr "Versión disponible:"
+
+#: includes/class-tgm-plugin-activation.php:2583
+msgid "Installed version:"
+msgstr "Versión instalada:"
+
+#: includes/class-tgm-plugin-activation.php:2575
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "desconocida"
+
+#. translators: 1: number of plugins.
+#: includes/class-tgm-plugin-activation.php:2493
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "Para activar <span class=\"count\">(%s)</span>"
+msgstr[1] "Para activar <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: includes/class-tgm-plugin-activation.php:2489
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "<span class=\"count\">(%s)</span> actualización disponible"
+msgstr[1] "<span class=\"count\">(%s)</span> actualizaciones disponibles"
+
+#. translators: 1: number of plugins.
+#: includes/class-tgm-plugin-activation.php:2485
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "Para instalar <span class=\"count\">(%s)</span>"
+msgstr[1] "Para instalar <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: includes/class-tgm-plugin-activation.php:2481
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Todo <span class=\"count\">(%s)</span>"
+msgstr[1] "Todos <span class=\"count\">(%s)</span>"
+
+#. translators: 1: install status, 2: update status
+#: includes/class-tgm-plugin-activation.php:2435
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#: includes/class-tgm-plugin-activation.php:2426
+msgid "Update recommended"
+msgstr "Actualización recomendada"
+
+#: includes/class-tgm-plugin-activation.php:2414
+msgid "Active"
+msgstr "Activo"
+
+#: includes/class-tgm-plugin-activation.php:2412
+msgid "Installed But Not Activated"
+msgstr "Instalado, pero no activado"
+
+#: includes/class-tgm-plugin-activation.php:2408
+msgid "Not Installed"
+msgstr "No instalado"
+
+#: includes/class-tgm-plugin-activation.php:2391
+msgid "Pre-Packaged"
+msgstr "Preempaquetado"
+
+#: includes/class-tgm-plugin-activation.php:2388
+msgid "External Source"
+msgstr "Fuente externa"
+
+#: includes/class-tgm-plugin-activation.php:2385
+msgid "WordPress Repository"
+msgstr "Repositorio de WordPress"
+
+#: includes/class-tgm-plugin-activation.php:2369
+msgid "Recommended"
+msgstr "Recomendado"
+
+#. translators: %s: version number
+#: includes/class-tgm-plugin-activation.php:2075
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: includes/class-tgm-plugin-activation.php:1214
+#: includes/class-tgm-plugin-activation.php:3041
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "y"
+
+#: includes/class-tgm-plugin-activation.php:1030
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr "El paquete remoto del plugin está compuesto por más de un archivo, pero los archivos no están empaquetados dentro de una carpeta."
+
+#: includes/class-tgm-plugin-activation.php:1027
+#: includes/class-tgm-plugin-activation.php:1030
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr "Por favor, contacta con el proveedor del plugin y pídele que empaquete su plugin de acuerdo con las directrices de WordPress."
+
+#: includes/class-tgm-plugin-activation.php:1027
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr "El paquete remoto del plugin no contiene una carpeta con el slug deseado y no ha funcionado el renombrado."
+
+#: includes/class-tgm-plugin-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr "Establece la variable de configuración parent_slug en su lugar."
+
+#: includes/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr "Por favor, contacta con el administrador de este sitio para obtener ayuda."
+
+#: includes/class-tgm-plugin-activation.php:403
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr "Hay uno o más plugins necesarios o recomendados para instalar, actualizar o activar."
+
+#. translators: 1: plugin name.
+#: includes/class-tgm-plugin-activation.php:399
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr "El plugin no se ha activado. Este tema necesita una versión superior de  %s. Por favor, actualiza el plugin."
+
+#. translators: 1: plugin name.
+#: includes/class-tgm-plugin-activation.php:397
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "No se ha realizado ninguna acción. El plugin %1$s ya está activo."
+
+#: includes/class-tgm-plugin-activation.php:395
+#: includes/class-tgm-plugin-activation.php:3045
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "El siguiente plugin ha sido activado correctamente:"
+msgstr[1] "Los siguientes plugins han sido activados correctamente:"
+
+#: includes/class-tgm-plugin-activation.php:394
+#: includes/class-tgm-plugin-activation.php:3252
+msgid "Plugin activated successfully."
+msgstr "El plugin se ha activado correctamente."
+
+#: includes/class-tgm-plugin-activation.php:393
+#: includes/class-tgm-plugin-activation.php:920
+#: includes/class-tgm-plugin-activation.php:2626
+#: includes/class-tgm-plugin-activation.php:3673
+msgid "Return to the Dashboard"
+msgstr "Volver al escritorio"
+
+#: includes/class-tgm-plugin-activation.php:387
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Empezar a activar el plugin"
+msgstr[1] "Empezar a activar los plugins"
+
+#: includes/class-tgm-plugin-activation.php:382
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "Empezar a actualizar el plugin"
+msgstr[1] "Empezar a actualizar los plugins"
+
+#: includes/class-tgm-plugin-activation.php:377
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Empezar a instalar el plugin"
+msgstr[1] "Empezar a instalar los plugins"
+
+#. translators: 1: plugin name(s).
+#: includes/class-tgm-plugin-activation.php:359
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "Hay una actualización disponible para: %1$s."
+msgstr[1] "Hay actualizaciones disponibles para: %1$s."
+
+#. translators: 1: plugin name(s).
+#: includes/class-tgm-plugin-activation.php:347
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "Este tema recomienda el siguiente plugin: %1$s."
+msgstr[1] "Este tema recomienda los siguientes plugins: %1$s."
+
+#: includes/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr "Algo ha ido mal con la API del plugin."
+
+#. translators: %s: plugin name.
+#: includes/class-tgm-plugin-activation.php:339
+msgid "Updating Plugin: %s"
+msgstr "Actualizando el plugin: %s"
+
+#. translators: %s: plugin name.
+#: includes/class-tgm-plugin-activation.php:337
+msgid "Installing Plugin: %s"
+msgstr "Instalando el plugin: %s"
+
+#: includes/class-woostify-sites-downloader.php:78
+msgid "Missing URL for downloading a file!"
+msgstr "¡Falta la URL para descargar un archivo!"
+
+#: woostify-sites.php:129
+msgid "Start Customizing"
+msgstr "Empezar la personalización"
+
+#: woostify-sites.php:128
+msgid "Get Theme Support"
+msgstr "Obtén soporte para el tema"
+
+#: woostify-sites.php:127
+msgid "Explore Woostify"
+msgstr "Explorar Woostify"
+
+#: woostify-sites.php:126
+msgid "View your website"
+msgstr "Ver tu web"
+
+#: woostify-sites.php:125
+msgid "Extras"
+msgstr "Extras"
+
+#: woostify-sites.php:121
+msgid "All done. Have fun!"
+msgstr "Todo hecho. ¡Diviértete!"
+
+#: woostify-sites.php:117
+msgid "Import Starter Site"
+msgstr "Importa un sitio de inicio"
+
+#: woostify-sites.php:115 woostify-sites.php:119
+msgid "Advanced"
+msgstr "Avanzado"
+
+#: woostify-sites.php:112
+msgid "You're up to speed!"
+msgstr "¡Estás al día!"
+
+#: includes/class-tgm-plugin-activation.php:335 woostify-sites.php:111
+msgid "Install Plugins"
+msgstr "Instalar los plugins"
+
+#: woostify-sites.php:109
+msgid "Awesome. Your child theme has been created and is now activated."
+msgstr "Impresionante. El tema hijo ya ha sido creado y está ahora activado."
+
+#: woostify-sites.php:108
+msgid "Awesome. Your child theme has already been installed and is now activated."
+msgstr "Impresionante. El tema hijo ya ha sido instalado y está ahora activado."
+
+#: woostify-sites.php:107
+msgid "Learn about child themes"
+msgstr "Aprende sobre los temas hijo"
+
+#: woostify-sites.php:106
+msgid "Your child theme has already been installed and is now activated, if it wasn't already."
+msgstr "El tema hijo ya ha sido instalado y está ahora activado, si es que no lo estaba ya."
+
+#: woostify-sites.php:104
+msgid "You're good to go!"
+msgstr "¡Todo listo!"
+
+#: woostify-sites.php:99
+msgid "Hi. Welcome back"
+msgstr "Hola. Bienvenido de nuevo"
+
+#. translators: Theme Name
+#: woostify-sites.php:98
+msgid "Welcome to %s"
+msgstr "Bienvenido a %s"
+
+#: woostify-sites.php:95
+msgid "Need help?"
+msgstr "¿Necesitas ayuda?"
+
+#: woostify-sites.php:93
+msgid "The theme is already registered, so you can go to the next step!"
+msgstr "El tema ya está registrado, ¡puedes ir al siguiente paso!"
+
+#: woostify-sites.php:92
+msgid "License key"
+msgstr "Clave de licencia"
+
+#. translators: Theme Name
+#: woostify-sites.php:91
+msgid "Enter your license key to enable remote updates and theme support."
+msgstr "Introduce tu clave de licencia para activar las actualizaciones remotas y el soporte del tema."
+
+#. translators: Theme Name
+#: woostify-sites.php:87
+msgid "Activate %s"
+msgstr "Activar %s"
+
+#: woostify-sites.php:84
+msgid "Later"
+msgstr "Más tarde"
+
+#: includes/class-tgm-plugin-activation.php:2810 woostify-sites.php:79
+#: woostify-sites.php:80 woostify-sites.php:81
+msgid "Install"
+msgstr "Instalar"
+
+#: woostify-sites.php:78
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: woostify-sites.php:77
+msgid "Start"
+msgstr "Iniciar"
+
+#: woostify-sites.php:76
+msgid "Next"
+msgstr "Siguiente"
+
+#: woostify-sites.php:75
+msgid "Skip"
+msgstr "Omitir"
+
+#: woostify-sites.php:73
+msgid "Disable this wizard"
+msgstr "Desactivar este asistente"
+
+#: woostify-sites.php:72
+msgid "Return to the dashboard"
+msgstr "Volver al escritorio"
+
+#. translators: 1: Title Tag 2: Theme Name 3: Closing Title Tag
+#: woostify-sites.php:71
+msgid "%1$s%2$s Themes &lsaquo; Theme Setup: %3$s%4$s"
+msgstr "%1$s%2$s temas &lsaquo; Configuración del tema: %3$s%4$s"
+
+#: woostify-sites.php:23
+msgid "Woostify Sites"
+msgstr "Sitios Woostify"
+
+#: class-woostify-sites.php:2615
+msgid "The Hello world post status was set to draft"
+msgstr "El estado de la entrada «Hello word» se ha establecido como borrador"
+
+#: class-woostify-sites.php:2583
+msgid "The blog page was set"
+msgstr "Ha sido establecida la página de blog"
+
+#: class-woostify-sites.php:2573
+msgid "The home page was set"
+msgstr "Ha sido establecida la página de incio"
+
+#: class-woostify-sites.php:2477
+msgid "After import setup."
+msgstr "Después de la configuración de importación."
+
+#: class-woostify-sites.php:2476
+msgid "After import setup"
+msgstr "Antes de la configuración de importación"
+
+#: class-woostify-sites.php:2171 class-woostify-sites.php:2187
+#: class-woostify-sites.php:2414 class-woostify-sites.php:2427
+#: class-woostify-sites.php:2440 class-woostify-sites.php:2453
+#: class-woostify-sites.php:2466 class-woostify-sites.php:2479
+#: class-woostify-sites.php:2522
+msgid "Installing"
+msgstr "Instalando"
+
+#: class-woostify-sites.php:2155
+msgid "Updating"
+msgstr "Actualizando"
+
+#: class-woostify-sites.php:2139
+msgid "Activating"
+msgstr "Activando"
+
+#: class-woostify-sites.php:1921
+msgid "Your license key has been disabled."
+msgstr "Tu clave de licencia ha sido desactivada."
+
+#: class-woostify-sites.php:1246
+msgid "req"
+msgstr "req"
+
+#: class-woostify-sites.php:1245 includes/class-tgm-plugin-activation.php:2366
+msgid "Required"
+msgstr "Requerido"
+
+#: class-woostify-sites.php:1146
+msgid "The child theme installation step has been displayed"
+msgstr "Se ha mostrado el paso de instalación del tema hijo"
+
+#: class-woostify-sites.php:1067
+msgid "The license activation step has been displayed"
+msgstr "Se ha mostrado el paso de activación de la licencia"
+
+#: class-woostify-sites.php:972
+msgid "The welcome step has been displayed"
+msgstr "Se ha mostrado el paso de bienvenida"
+
+#: class-woostify-sites.php:835
+msgid "Plugins"
+msgstr "Plugins"
+
+#: class-woostify-sites.php:2411
+msgid "Content"
+msgstr "Contenido"
+
+#: class-woostify-sites.php:811
+msgid "Welcome"
+msgstr "Bienvenido"
+
+#: class-woostify-sites.php:695
+msgid "Please define an SVG icon filename."
+msgstr "Por favor, define un nombre de archivo del icono SVG."
+
+#: class-woostify-sites.php:690
+msgid "Please define default parameters in the form of an array."
+msgstr "Por favor, define los parámetros por defecto en forma de array."
+
+#: class-woostify-sites.php:2450
+msgid "Options"
+msgstr "Opciones"
+
+#: class-woostify-sites.php:2437
+msgid "Revolution Slider"
+msgstr "Revolution Slider"
+
+#: class-woostify-sites.php:2425
+msgid "Sample widgets data."
+msgstr "Datos de ejemplo para los widgets."
+
+#: class-woostify-sites.php:2424
+msgid "Widgets"
+msgstr "Widgets"
+
+#: class-woostify-sites.php:2413 class-woostify-sites.php:2426
+#: class-woostify-sites.php:2439 class-woostify-sites.php:2452
+#: class-woostify-sites.php:2465 class-woostify-sites.php:2478
+msgid "Pending"
+msgstr "Pendiente"
+
+#: class-woostify-sites.php:2320
+msgid "Invalid data!"
+msgstr "¡Datos no válidos!"
+
+#: class-woostify-sites.php:2302
+msgid "Error"
+msgstr "Error"
+
+#: class-woostify-sites.php:2238
+msgid "Invalid content!"
+msgstr "¡Contenido no válido!"
+
+#: class-woostify-sites.php:2200 class-woostify-sites.php:2415
+#: class-woostify-sites.php:2428 class-woostify-sites.php:2441
+#: class-woostify-sites.php:2454 class-woostify-sites.php:2467
+#: class-woostify-sites.php:2480
+msgid "Success"
+msgstr "Correcto"
+
+#: class-woostify-sites.php:1902 class-woostify-sites.php:1943
+msgid "An error occurred, please try again."
+msgstr "Ha ocurrido un error, por favor, inténtalo de nuevo."
+
+#: class-woostify-sites.php:1707
+msgid "The final step has been displayed"
+msgstr "El paso final ha sido mostrado"
+
+#: class-woostify-sites.php:1386 class-woostify-sites.php:1529
+#: class-woostify-sites.php:1619
+msgid "The content import step has been displayed"
+msgstr "Se ha mostrado el paso de importación de contenido"
+
+#: class-woostify-sites.php:1499 class-woostify-sites.php:3013
+msgid "Pricing"
+msgstr "Precios"
+
+#: class-woostify-sites.php:1497 class-woostify-sites.php:1501
+#: class-woostify-sites.php:3011 class-woostify-sites.php:3015
+msgid "Select"
+msgstr "Seleccionar"
+
+#: class-woostify-sites.php:1495 class-woostify-sites.php:3026
+msgid "Preview"
+msgstr "Previsualizar"
+
+#: class-woostify-sites.php:1284
+msgid "The plugin installation step has been displayed"
+msgstr "El paso de instalación del plugin ha sido mostrado"
+
+#. translators: 1: plugin name(s).
+#: includes/class-tgm-plugin-activation.php:371
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "El siguiente plugin recomendado está actualmente inactivo: %1$s."
+msgstr[1] "Los siguientes plugins recomendados están actualmente inactivos: %1$s."
+
+#: demos/demos.php:226 demos/demos.php:261 demos/demos.php:296
+#: demos/demos.php:331 demos/demos.php:366 demos/demos.php:401
+#: demos/demos.php:436 demos/demos.php:466 demos/demos.php:502
+#: demos/demos.php:538 demos/demos.php:573 demos/demos.php:608
+#: demos/demos.php:638 demos/demos.php:675 demos/demos.php:711
+#: demos/demos.php:747 demos/demos.php:783 demos/demos.php:819
+#: demos/demos.php:855
+msgid "After you import this demo, you should update permalink."
+msgstr "Después de importar esta demostración, deberías actualizar los enlaces permanentes."
+
+#: class-woostify-sites.php:2992 class-woostify-sites.php:3069
+msgid "Sorry! There is no demo for your choice."
+msgstr "¡Lo siento! No hay ninguna demostración que puedas elegir."
+
+#: demos/demos.php:21 demos/demos.php:51 demos/demos.php:86 demos/demos.php:121
+#: demos/demos.php:156 demos/demos.php:191
+msgid "After you import this demo, you will have to setup the slider separately."
+msgstr "Después de importar esta demostración, tendrás que configurar el carrusel por separado."
+
+#: class-woostify-sites.php:819
+msgid "License"
+msgstr "Licencia"
+
+#: includes/class-woostify-sites-widget-importer.php:266
+msgid "No Title"
+msgstr "Sin título"
+
+#: includes/class-woostify-sites-widget-importer.php:328
+msgid "No results for widget import!"
+msgstr "¡No hay resultados para la importación de widgets!"
+
+#: includes/class-woostify-sites-widget-importer.php:165
+msgid "Site does not support widget"
+msgstr "El sitio no es compatible con widgets"
+
+#: includes/class-woostify-sites-widget-importer.php:144
+msgid "Sidebar does not exist in theme (moving widget to Inactive)"
+msgstr "La barra lateral no existe en el tema (moviendo los widgets a inactivos)"
+
+#: includes/class-woostify-sites-widget-importer.php:105
+msgid "Error: Widget import data could not be read. Please try a different file."
+msgstr "Error: No se han podido leer los datos de importación de widgets. Por favor, prueba un archivo diferente."
+
+#: includes/class-woostify-sites-widget-importer.php:83
+msgid "Error: Widget import file does not have any content in it."
+msgstr "Error: El archivo de importación de widgets no tiene contenido."
+
+#: includes/class-woostify-sites-widget-importer.php:72
+msgid "Error: Widget import file could not be found."
+msgstr "Error: No se ha podido encontrar el archivo de importación de widgets."
+
+#. translators: 1: plugin name.
+#: includes/class-tgm-plugin-activation.php:3602
+#: includes/class-tgm-plugin-activation.php:3610
+msgid "Hide Details"
+msgstr "Ocultar los detalles"
+
+#. translators: 1: plugin name.
+#: includes/class-tgm-plugin-activation.php:3596
+msgid "The installation of %1$s failed."
+msgstr "Ha fallado la instalación de %1$s."
+
+#: includes/class-tgm-plugin-activation.php:2591
+msgid "Minimum required version:"
+msgstr "Versión mínima necesaria:"
+
+#: includes/class-tgm-plugin-activation.php:2423
+msgid "Requires Update"
+msgstr "Necesita actualización"
+
+#: includes/class-tgm-plugin-activation.php:2420
+msgid "Required Update not Available"
+msgstr "No está disponible la actualización necesaria"
+
+#: includes/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr "Actualización necesaria"
+
+#: includes/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "Este plugin tiene que ser actualizado para ser compatible con tu tema."
+
+#: includes/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr "Descartar este aviso"
+
+#. translators: 1: dashboard link.
+#: includes/class-tgm-plugin-activation.php:401
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Todos los plugins han sido instalados y activados correctamente. %1$s"
+
+#: includes/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr "Volver al instalador de plugins necesarios"
+
+#. translators: 1: plugin name(s).
+#: includes/class-tgm-plugin-activation.php:365
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "El siguiente plugin necesario está actualmente inactivo: %1$s."
+msgstr[1] "Los siguientes plugins necesario están actualmente inactivos: %1$s."
+
+#. translators: 1: plugin name(s).
+#: includes/class-tgm-plugin-activation.php:353
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] "El siguiente plugin tiene que ser actualizado a su última versión para asegurar la máxima compatibilidad con este tema: %1$s."
+msgstr[1] "Los siguientes plugins tienen que ser actualizados a su última versión para asegurar la máxima compatibilidad con este tema: %1$s."
+
+#. translators: 1: plugin name(s).
+#: includes/class-tgm-plugin-activation.php:341
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "Este tema necesita el siguiente plugin: %1$s."
+msgstr[1] "Este tema necesita los siguientes plugins: %1$s."
+
+#: includes/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr "Instalar los plugins necesarios"
+
+#: includes/class-woostify-sites-redux-importer.php:32
+msgid "The Redux Framework data was imported"
+msgstr "Han sido importados los datos de Redux Framework"
+
+#: includes/class-woostify-sites-downloader.php:96
+msgid "An error occurred while fetching file from: %1$s%2$s%3$s!%4$sReason: %5$s - %6$s."
+msgstr "Ha ocurrido un error al obtener el archivo desde: %1$s%2$s%3$s!%4$sRazón: %5$s - %6$s."
+
+#: class-woostify-sites.php:852
+msgid "Instal"
+msgstr "Instalar"
+
+#: includes/class-woostify-sites-downloader.php:56
+msgid "The file was not able to save to disk, while trying to download it"
+msgstr "No se ha podido guardar el archivo en el disco, mientras se intentaba descargarlo"
+
+#: includes/class-woostify-sites-customizer-importer.php:86
+msgid "Error: The customizer import file is not suitable for current theme. You can only import customizer settings for the same theme or a child theme."
+msgstr "Error: El archivo de importación del personalizador no es adecuado para el tema actual. Solo puedes importar los ajustes del personalizador para el mismo tema o para un tema hijo."
+
+#: includes/class-woostify-sites-customizer-importer.php:80
+msgid "Error: The customizer import file is not in a correct format. Please make sure to use the correct customizer import file."
+msgstr "Error: El archivo de importación del personalizador no está en el formato correcto. Por favor, asegúrate de utilizar el archivo de importación del personalizador correcto."
+
+#: includes/class-woostify-sites-customizer-importer.php:70
+msgid "Error: The customizer import file does not have any content in it. Please make sure to use the correct customizer import file."
+msgstr "Error: El archivo de importación del personalizador no tiene contenido. Por favor, asegúrate de utilizar el archivo de importación del personalizador correcto."
+
+#: includes/class-woostify-sites-customizer-importer.php:57
+msgid "Error: The customizer import file is missing! File path: %s"
+msgstr "Error: ¡Falta el archivo de importación del personalizador! Ruta del archivo: %s"
+
+#: includes/class-woostify-sites-customizer-importer.php:30
+msgid "The customizer import has finished successfully"
+msgstr "La importación del personalizador ha finalizado correctamente"
+
+#. translators: Theme Author
+#: woostify-sites.php:124
+msgid "Your theme has been all set up. Enjoy your new theme by Woostify."
+msgstr "Tu tema ha sido configurado totalmente. Disfruta de tu nuevo tema de Woostify."
+
+#: woostify-sites.php:118
+msgid "Let's import content to your website, to help you get familiar with the theme."
+msgstr "Vamos a importar contenido a tu web para ayudarte a familiarizarte con el tema."
+
+#: woostify-sites.php:114
+msgid "The required WordPress plugins are all installed and up to date. Press \"Next\" to continue the setup wizard."
+msgstr "Los plugins de WordPress necesarios están todos instalados y actualizados. Pulsa «Siguiente» para continuar con el asistente de configuración."
+
+#: woostify-sites.php:113
+msgid "Let's install some essential WordPress plugins to get your site up to speed."
+msgstr "Vamos a instalar algunos plugins esenciales para WordPress para poner tu sitio al día."
+
+#: woostify-sites.php:105
+msgid "Let's build & activate a child theme so you may easily make theme changes."
+msgstr "Vamos a crear y activar un tema hijo para que puedas realizar fácilmente cambios en el  tema."
+
+#: woostify-sites.php:103
+msgid "Install Child Theme"
+msgstr "Instalar un tema hijo"
+
+#: woostify-sites.php:101
+msgid "You may have already run this theme setup wizard. If you would like to proceed anyway, click on the \"Start\" button below."
+msgstr "Es posible que ya hayas ejecutado este asistente de configuración. Si quieres proceder de todos modos, haz clic a continuación en el botón «Empezar»."
+
+#: woostify-sites.php:100
+msgid "This wizard will set up your theme, install plugins, and import content. It is optional & should take only a few minutes."
+msgstr "Este asistente configurará tu tema, instalará los plugins e importará el contenido. Es opcional y solo debería tardar unos minutos."
+
+#: woostify-sites.php:94
+msgid "Your theme is activated! Remote updates and theme support are enabled."
+msgstr "¡Tu tema está activado! Las actualizaciones remotas y soporte técnico están activados."
+
+#. translators: Theme Name
+#: woostify-sites.php:89
+msgid "%s is Activated"
+msgstr "%s está activado"
+
+#: class-woostify-sites.php:548 includes/class-tgm-plugin-activation.php:2819
+#: woostify-sites.php:83
+msgid "Activate"
+msgstr "Activar"
+
+#: woostify-sites.php:82
+msgid "Start Import"
+msgstr "Iniciar la importación"
+
+#: class-woostify-sites.php:2506
+msgid "The revolution slider import was executed"
+msgstr "Se ha ejecutado la importación de Revolution Slider"
+
+#: class-woostify-sites.php:2464
+msgid "Redux framework options."
+msgstr "Opciones de Redux Framework."
+
+#: class-woostify-sites.php:2463
+msgid "Redux Options"
+msgstr "Opciones de Redux"
+
+#: class-woostify-sites.php:2451
+msgid "Sample theme options data."
+msgstr "Datos de ejemplo para las opciones del tema."
+
+#: class-woostify-sites.php:2179
+msgid "A plugin with the following data will be processed"
+msgstr "Se procesará un plugin con los siguientes datos"
+
+#: class-woostify-sites.php:2191
+msgid "A plugin with the following data was processed"
+msgstr "Ha sido procesado un plugin con los siguientes datos"
+
+#: class-woostify-sites.php:2102
+msgid "The child theme screenshot was not generated, because of these results"
+msgstr "La captura de pantalla del tema hijo no ha sido generada debido a estos resultados"
+
+#: class-woostify-sites.php:2100
+msgid "The child theme screenshot was copied to the child theme, with the following result"
+msgstr "La captura de pantalla del tema hijo ha sido copiada al tema hijo con el siguiente resultado"
+
+#: class-woostify-sites.php:2034
+msgid "The child theme functions.php content was generated"
+msgstr "Ha sido generado el contenido del archivo «functions.php» del tema hijo"
+
+#: class-woostify-sites.php:1939
+msgid "Your license key has reached its activation limit."
+msgstr "Tu clave de licencia ha alcanzado su límite de activaciones."
+
+#. translators: EDD Item Name
+#: class-woostify-sites.php:1935
+msgid "This appears to be an invalid license key for %s."
+msgstr "Esta parece ser una clave de licencia no válida para %s."
+
+#: class-woostify-sites.php:1930
+msgid "Your license is not active for this URL."
+msgstr "Tu clave de licencia no está activa para esta URL."
+
+#: class-woostify-sites.php:1925
+msgid "This appears to be an invalid license key. Please try again or contact support."
+msgstr "Esta no parece ser una clave de licencia válida. Por favor, vuelve a intentarlo o contacta con el soporte."
+
+#. translators: Expiration date
+#: class-woostify-sites.php:1915
+msgid "Your license key expired on %s."
+msgstr "Tu clave de licencia caduca el %s."
+
+#: class-woostify-sites.php:524
+msgid "Something went wrong. Please refresh the page and try again!"
+msgstr "Algo ha ido mal. Por favor, ¡actualiza la página e inténtalo de nuevo!"
+
+#: class-woostify-sites.php:2438
+msgid "Sample Revolution sliders data."
+msgstr "Datos de ejemplo para los carruseles de Revolution."
+
+#: class-woostify-sites.php:2412
+msgid "Demo content data."
+msgstr "Datos del contenido de demostración."
+
+#: class-woostify-sites.php:2315
+msgid "The content importer AJAX call for retrieving total content import items failed to start, because of incorrect data."
+msgstr "Ha fallado el inicio de la llamada al importador de contenido AJAX para recuperar el total de los elementos de importación de contenido debido a datos incorrectos."
+
+#: class-woostify-sites.php:2291
+msgid "The content import AJAX call failed with this passed data"
+msgstr "La llamada AJAX de importación de contenido ha fallado con estos datos"
+
+#: class-woostify-sites.php:2249
+msgid "The content import AJAX call will be executed with this import data"
+msgstr "La llamada AJAX de importación de contenidos se ejecutará con estos datos de importación"
+
+#: class-woostify-sites.php:2233
+msgid "The content importer AJAX call failed to start, because of incorrect data"
+msgstr "Ha fallado el inicio de la llamada AJAX del importador de contenidos debido a datos incorrectos"
+
+#: class-woostify-sites.php:1856
+msgid "The license activation was performed with the following results"
+msgstr "La activación de la clave de licencia se ha realizado con los siguientes resultados"
+
+#: class-woostify-sites.php:1843
+msgid "Please add your license key before attempting to activate one."
+msgstr "Por favor, añade tu clave de licencia antes de intentar activarla."
+
+#: class-woostify-sites.php:1834
+msgid "Yikes! The theme activation failed. Please try again or contact support."
+msgstr "¡Vaya! Ha fallado la activación del tema. Por favor, inténtalo de nuevo o contacta con el soporte."
+
+#: class-woostify-sites.php:1812
+msgid "The newly generated child theme was activated"
+msgstr "El tema hijo recién generado ha sido activado"
+
+#: class-woostify-sites.php:1794
+msgid "The existing child theme was activated"
+msgstr "El tema hijo existente ha sido activado"
+
+#: class-woostify-sites.php:1573
+msgid "Make sure you reset the site to default installation values before importing demo data."
+msgstr "Asegúrate de restablecer el sitio a los valores de instalación por defecto antes de importar los datos de la demostración."
+
+#: class-woostify-sites.php:2660
+msgid "This predefined demo import does not have the name parameter: import_file_name"
+msgstr "Esta importación de demostración predefinida no tiene el nombre del parámetro: import_file_name"
+
+#. translators: suggested plugin link
+#: class-woostify-sites.php:1578
+msgid "You can use the <a href=\"%s\">WP Reset</a> plugin to reset and run through demos."
+msgstr "Puedes usar el plugin <a href=\"%s\">WP Reset</a> para restablecer y ejecutar las demostraciones."
+
+#: class-woostify-sites.php:2065
+msgid "The child theme style.css content was generated"
+msgstr "Ha sido generado el contenido del archivo «style.css» del tema hijo"

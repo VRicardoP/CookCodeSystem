@@ -1,0 +1,181 @@
+/* =====================================
+   MEDIA QUERIES
+===================================== */
+
+
+
+
+@media only screen and (min-width: 850px) and (max-width: 1575px) {
+  .no-transform .animated-meta {
+    width: 100%;
+  }
+
+  .woocommerce .product .woocommerce-loop-product__title {
+    height: 70px;
+  }
+
+  .product-loop-meta .price {
+    font-size: 0;
+  }
+
+  #intro {
+    padding-top: 0.001em;
+    height: 11em;
+    width: 98%;
+  }
+
+  #intro h2 {
+    margin-top: 1.5em;
+    font-size: 2.5em;
+  }
+
+  #intro p {
+    margin-top: 0.25em;
+    font-size: 2em;
+  }
+}
+
+@media (min-width: 1575px) {
+  .woostify-container {
+    max-width: 1650px;
+  }
+
+  .site-content {
+    margin: 0px;
+  }
+  #intro {
+    position: relative;
+    height: 12em;
+  }
+
+  #intro h2 {
+    font-size: 2.5em;
+    text-align: left;
+    width: 45%;
+    color: #fff278;
+    margin-left: 7.56%;
+    padding-top: 3%;
+  }
+
+  #intro p {
+    text-align: left;
+    margin-left: 7.56%;
+    margin-top: -1.5rem;
+    font-size: 1.6em;
+    color: #b4b4b4;
+  }
+
+  #intro button {
+    margin-left: 0;
+    position: relative;
+    left: 70%;
+    top: -4vh;
+    padding: 1em 2em;
+    border-radius: 15em;
+    font-size: 0.75em;
+  }
+
+  .products {
+    margin: auto !important;
+    width: 90em;
+  }
+
+  .woocommerce .product .woocommerce-loop-product__title {
+    height: 35px;
+  }
+
+  footer {
+    height: 70px;
+    text-align: center;
+  }
+}
+
+
+/* Móviles (hasta 599px) */
+@media only screen and (max-width: 599px) {
+
+
+  .woostify-container{
+    display: flex;
+    flex-direction: column;
+  }
+.woostify-product-navigation{
+ display: none;
+}
+
+.product-image{
+  width: 100%;
+}
+
+
+  .no-transform .animated-meta {
+    width: 100%;
+  }
+
+  .woocommerce .product .woocommerce-loop-product__title {
+    height: auto;
+    min-height: 50px;
+    font-size: 1.1em;
+  }
+
+  .product-loop-meta .price {
+    font-size: 1em;
+  }
+
+  #intro {
+    padding-top: 1em;
+    height: auto;
+    width: 100%;
+    text-align: center;
+  }
+
+  #intro h2 {
+    margin-top: 0.5em;
+    font-size: 1.8em;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  #intro p {
+    margin-top: 0.5em;
+    font-size: 1.2em;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #intro button {
+    position: static;
+    margin: 1em auto;
+    padding: 0.8em 1.5em;
+    width: 80%;
+    max-width: 300px;
+  }
+
+  .products {
+    width: 100% !important;
+    margin: 0 auto !important;
+  }
+
+  footer {
+    height: auto;
+    padding: 1em 0;
+  }
+}
+
+/* Tabletas (600px - 699px) */
+@media only screen and (min-width: 600px) and (max-width: 850px) {
+  /* Ajustes específicos para tabletas pequeñas */
+  #intro h2 {
+    font-size: 2em;
+  }
+  
+  .products {
+    width: 95% !important;
+  }
+
+
+  .custom-logo{
+     width: 55% !important;
+  }
+}

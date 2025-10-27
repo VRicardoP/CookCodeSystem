@@ -1,0 +1,67 @@
+
+/* =====================================
+   ADMIN STYLES WP
+===================================== */
+#adminmenu,
+#adminmenu .wp-submenu,
+#adminmenuback,
+#adminmenuwrap {
+    background-color: var(--ccs-main-color);
+}
+
+#adminmenu div.wp-menu-image:before,
+#adminmenu li:hover div.wp-menu-image:before,
+#adminmenu li a:focus div.wp-menu-image:before,
+#adminmenu li.opensub div.wp-menu-image:before,
+.collapse-button-icon,
+#collapse-button .collapse-button-label,
+.wp-menu-image svg {
+    color: white;
+}
+
+#adminmenu a:hover,
+#adminmenu li.menu-top>a:focus,
+#adminmenu .wp-submenu a:hover,
+#adminmenu .wp-submenu a:focus {
+    color: white;
+}
+
+#adminmenu li.menu-top:hover,
+#adminmenu li.opensub>a.menu-top,
+#adminmenu li>a.menu-top:focus {
+    background-color: #cecece75;
+    color: white;
+}
+
+.current {
+    background-color: #00bbff6d;
+}
+
+.wrap .wp-heading-inline+.page-title-action {
+    margin-left: 0;
+    color: white;
+    background-color: green;
+    border-color: green;
+}
+
+.wrap .page-title-action {
+    color: #333;
+    background-color: white;
+    border: #333 solid 1px;
+}
+
+select {
+    border: 1px solid var(--ccs-main-color) !important;
+    color: var(--ccs-main-color) !important;
+}
+
+#order_data .order_data_column .form-field-wide input.date-picker {
+    width: 40%;
+}
+
+
+
+/* Checkout margen top */
+.wc-block-components-main .wc-block-checkout__main .wp-block-woocommerce-checkout-fields-block {
+    margin-top: 100px;
+}

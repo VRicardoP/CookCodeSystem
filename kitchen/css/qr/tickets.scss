@@ -1,0 +1,71 @@
+h1 {
+    color: black;
+}
+
+table {
+    font-size: 15px;
+
+    td {
+        white-space: nowrap;
+        padding: 0px;
+        margin: 0px;
+        text-align: center;
+        width: auto;
+    }
+
+    th {
+        padding: 0px;
+        margin: 0px;
+        background-color: whitesmoke;
+        text-align: center;
+        width: auto;
+    }
+}
+
+.action_button {
+    display: inline-flex;
+
+    button {
+        width: 30px;
+        height: 30px;
+        justify-items: center;
+    }
+}
+
+/* The Modal (background) */
+.modal-content {
+    background-color: #fff; // Cambia el fondo a blanco
+    border: 3px solid #ccc; // Añade un borde
+    border-radius: 12px; // Hace los bordes más redondeados
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); // Añade una sombra
+    max-width: 500px; // Establece un ancho máximo
+    margin: 0 auto; // Centra el modal horizontalmente
+    margin-top: 20px;
+
+    h1 {
+        margin-left: 10px;
+        margin-right: 10px; // Elimina el margen superior del título
+    }
+
+    p {
+        margin: 10px; // Elimina el margen superior del título
+    }
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: right;
+    background-color: #aaa;
+    padding: 5px;
+
+    &:hover,
+    &:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+}

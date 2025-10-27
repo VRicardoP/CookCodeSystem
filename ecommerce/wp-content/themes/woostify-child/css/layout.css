@@ -1,0 +1,58 @@
+
+/* =====================================
+   GLOBAL LAYOUT
+===================================== */
+footer {
+  display: grid;
+  place-content: center;
+  text-align: center;
+}
+.woostify-container {
+    padding: 0 0px;
+    margin: 0px;
+    padding-top:0px ;
+    width: 100%;
+  display: flex;
+}
+.site-main{
+    width: 100%;
+}
+#main img, video {
+   width: 100%;
+}
+
+#view {
+    padding: 0px;
+    margin: 0px;
+   
+   
+}
+
+.woocommerce-message {
+    background-color: #007934;
+}
+
+.woocommerce-message a.button:hover {
+    color: #007934;
+    background-color: #fff;
+}
+
+.site-content{
+    margin: 0px;
+    width: 100%;
+}
+
+.page-description{
+    display: none;
+}
+
+
+
+.content-area{
+  width: 100%;
+}
+  
+.woocommerce-form-login{
+  margin: auto;
+   
+}

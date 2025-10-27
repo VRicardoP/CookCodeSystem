@@ -1,0 +1,99 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Processing your request...</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+   <script src="ChatGPT5.js?v=14"></script>
+   <style>
+    table {
+  border-radius: 6px;
+  border-collapse: separate;
+  border:solid #707070 2px;
+  box-shadow: 2px 2px 2px #999;
+}
+
+
+
+</style>
+   <script>
+        var $_GET={};
+    document.location.search.replace(/\??(?:([^=]+)=([^&]*)&?)/g, function(){
+        function decode(s){ return decodeURIComponent(s.split("+").join(" "));}
+        $_GET[decode(arguments[1])] = decode(arguments[2]);
+    });
+    var destinoWeb = $_GET['destino']
+    </script>
+   <style>
+    @font-face {
+     font-family: 'Orbitron-Medium';
+     src: url('Orbitron-Medium.ttf') format("truetype");
+     font-weight: normal;
+     font-style: normal;
+  };
+    </style>
+  </head>
+  <body>
+  <h1 style="font-family:Orbitron-Medium;color:#707070" id="TituloPrin">Please, hold on a second...</h1>
+
+  <div id="idContainer">  
+    <form action=insertarDesdeAI.html method=get>
+    <table style="width:100%;" align="right">
+    <tr>
+    <td style="text-align:left;"><textarea id="txtOutput" rows="10" style="margin-top: 10px; width: 100%;" placeholder="Output" hidden></textarea><h3 style="font-family:Orbitron-Medium;color:#707070">Our AI Based Minichef tryes to do its best!</h3></td>
+    <td style="text-align:right;"><img src="robotfoto.jpg" width=200 height="200"></td>
+    </tr>
+    <tr>
+    <td><textarea name="txtOutput2" id="txtOutput2" rows="10" style="margin-top: 10px; width: 100%;" placeholder="Output2" hidden></textarea></td>
+    <td align="right" style="border:5px;border-radius:15px;border-color:#707070;"><a href="https://twitter.com/intent/tweet?text=aivation.com"><img src="logotwitter.png"></a><a href="whatsapp://send?text=aivacation.com"><img src="logowhatsapp.png"></a><button id="copiar" onclick="copiarPortapapeles()" ><img src="./copy.png" height="40" width="40" ></button></td>
+    </tr>
+    </table>     
+    <input type="submit" value="Save ingredients">
+  </form>
+    <div>
+  
+        <label id="lblSpeak"><input id="chkSpeak" type="checkbox" onclick="SpeechToText()" hidden/></label>
+        <label id="lblMute"><input id="chkMute" type="checkbox" onclick="Mute(this.checked)" hidden/></label>
+
+        <select id="selModel" hidden>
+            <option value="text-davinci-003">text-davinci-003</option>
+            <option value="text-davinci-002">text-davinci-002</option>
+            <option value="code-davinci-002">code-davinci-002</option>
+        </select>
+
+        <select id="selLang" onchange="ChangeLang(this)" hidden>
+            <option value="en-US">English (United States)</option>
+            <option value="fr-FR">French (France)</option>
+            <option value="ru-RU">Russian (Russia)</option>
+            <option value="pt-BR">Portuguese (Brazil)</option>
+            <option value="es-ES">Spanish (Spain)</option>
+            <option value="de-DE">German (Germany)</option>
+            <option value="it-IT">Italian (Italy)</option>
+            <option value="pl-PL">Polish (Poland)</option>
+            <option value="nl-NL">Dutch (Netherlands)</option>
+        </select>
+
+        <select id="selVoices" hidden></select>
+    </div>
+
+   <!-- <textarea id="txtMsg" rows="5" wrap="soft" style="width: 98%; margin-left: 3px; margin-top: 6px" placeholder="Input Text"></textarea>-->
+
+    <div id="idText" style="font-family:Orbitron-Medium;"></div>
+</div>
+<script>
+
+
+    var $_GET={};
+    document.location.search.replace(/\??(?:([^=]+)=([^&]*)&?)/g, function(){
+        function decode(s){ return decodeURIComponent(s.split("+").join(" "));}
+        $_GET[decode(arguments[1])] = decode(arguments[2]);
+    });
+    var destino = $_GET['destino']
+    
+    Send(destino);
+    
+    </script>
+
+    </body>
+  </html>

@@ -1,0 +1,446 @@
+Array
+(
+    [id_pedido] => 3317
+    [fecha_pedido] => 2025-05-23T12:16:25
+    [total] => 3.20
+    [cliente] => Array
+        (
+            [nombre] => Mateo Fernández García
+            [email] => cliente2@gmail.com
+            [telefono] => 963825284
+            [direccion] => C/ de Manuel Melià i Fuster, 1
+            [restaurante_id] => 2
+        )
+
+    [productos] => Array
+        (
+            [0] => Array
+                (
+                    [nombre_producto] => Manzanas - 1
+                    [sku_producto] => ING-474-001
+                    [cantidad] => 4
+                    [informacion_lote] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [sku] => ING-474-001-L461
+                                    [nombre] => Manzanas - Lote ING-474-001-L461
+                                    [cantidad_utilizada] => 4
+                                    [fecha_caducidad] => 2025-05-29
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [id_pedido] => 3318
+    [fecha_pedido] => 2025-05-23T12:17:15
+    [total] => 0.40
+    [cliente] => Array
+        (
+            [nombre] => Mateo Fernández García
+            [email] => cliente2@gmail.com
+            [telefono] => 963825284
+            [direccion] => C/ de Manuel Melià i Fuster, 1
+            [restaurante_id] => 2
+        )
+
+    [productos] => Array
+        (
+            [0] => Array
+                (
+                    [nombre_producto] => Manzanas - 0.5
+                    [sku_producto] => ING-474-0.5
+                    [cantidad] => 1
+                    [informacion_lote] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [id_pedido] => 3335
+    [fecha_pedido] => 2025-05-23T15:47:03
+    [total] => 0.30
+    [cliente] => Array
+        (
+            [nombre] => Mateo Fernández García
+            [email] => cliente2@gmail.com
+            [telefono] => 963825284
+            [direccion] => C/ de Manuel Melià i Fuster, 1
+            [restaurante_id] => 2
+        )
+
+    [productos] => Array
+        (
+            [0] => Array
+                (
+                    [nombre_producto] => sss - 0.5
+                    [sku_producto] => ING-475-005
+                    [cantidad] => 1
+                    [informacion_lote] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [id_pedido] => 3345
+    [fecha_pedido] => 2025-05-23T16:17:16
+    [total] => 1.44
+    [cliente] => Array
+        (
+            [nombre] => Mateo Fernández García
+            [email] => cliente2@gmail.com
+            [telefono] => 963825284
+            [direccion] => C/ de Manuel Melià i Fuster, 1
+            [restaurante_id] => 2
+        )
+
+    [productos] => Array
+        (
+            [0] => Array
+                (
+                    [nombre_producto] => Azúcar - 0.6
+                    [sku_producto] => ING-477-006
+                    [cantidad] => 2
+                    [informacion_lote] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [id_pedido] => 3346
+    [fecha_pedido] => 2025-05-23T16:27:04
+    [total] => 0.72
+    [cliente] => Array
+        (
+            [nombre] => Mateo Fernández García
+            [email] => cliente2@gmail.com
+            [telefono] => 963825284
+            [direccion] => C/ de Manuel Melià i Fuster, 1
+            [restaurante_id] => 2
+        )
+
+    [productos] => Array
+        (
+            [0] => Array
+                (
+                    [nombre_producto] => Azúcar - 0.6
+                    [sku_producto] => ING-477-006
+                    [cantidad] => 1
+                    [informacion_lote] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [id_pedido] => 3375
+    [fecha_pedido] => 2025-05-28T11:57:00
+    [total] => 3.93
+    [cliente] => Array
+        (
+            [nombre] => Mateo Fernández García
+            [email] => cliente2@gmail.com
+            [telefono] => 963825284
+            [direccion] => C/ de Manuel Melià i Fuster, 1
+            [restaurante_id] => 2
+        )
+
+    [productos] => Array
+        (
+            [0] => Array
+                (
+                    [nombre_producto] => Arroz a la cubana
+                    [sku_producto] => ELAB-248
+                    [cantidad] => 3
+                    [informacion_lote] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [sku] => ELAB-248-L369
+                                    [nombre] => Arroz a la cubana
+                                    [cantidad_utilizada] => 3
+                                    [fecha_caducidad] => 2025-06-03
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [id_pedido] => 3376
+    [fecha_pedido] => 2025-05-28T16:01:17
+    [total] => 1.31
+    [cliente] => Array
+        (
+            [nombre] => Mateo Fernández García
+            [email] => cliente2@gmail.com
+            [telefono] => 963825284
+            [direccion] => C/ de Manuel Melià i Fuster, 1
+            [restaurante_id] => 1
+        )
+
+    [productos] => Array
+        (
+            [0] => Array
+                (
+                    [nombre_producto] => Arroz a la cubana
+                    [sku_producto] => ELAB-248
+                    [cantidad] => 1
+                    [informacion_lote] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [sku] => ELAB-248-L369
+                                    [nombre] => Arroz a la cubana
+                                    [cantidad_utilizada] => 1
+                                    [fecha_caducidad] => 2025-06-03
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [id_pedido] => 3405
+    [fecha_pedido] => 2025-05-28T17:08:18
+    [total] => 25.50
+    [cliente] => Array
+        (
+            [nombre] => Mateo Fernández García
+            [email] => cliente2@gmail.com
+            [telefono] => 963825284
+            [direccion] => C/ de Manuel Melià i Fuster, 1
+            [restaurante_id] => 1
+        )
+
+    [productos] => Array
+        (
+            [0] => Array
+                (
+                    [nombre_producto] => Mahonesa - 1
+                    [sku_producto] => ING-485-010
+                    [cantidad] => 3
+                    [informacion_lote] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [id_pedido] => 3406
+    [fecha_pedido] => 2025-05-30T04:26:51
+    [total] => 25.50
+    [cliente] => Array
+        (
+            [nombre] => Mateo Fernández García
+            [email] => cliente2@gmail.com
+            [telefono] => 963825284
+            [direccion] => C/ de Manuel Melià i Fuster, 1
+            [restaurante_id] => 1
+        )
+
+    [productos] => Array
+        (
+            [0] => Array
+                (
+                    [nombre_producto] => Mahonesa - 1
+                    [sku_producto] => ING-485-010
+                    [cantidad] => 3
+                    [informacion_lote] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [id_pedido] => 3413
+    [fecha_pedido] => 2025-05-30T04:38:29
+    [total] => 0.95
+    [cliente] => Array
+        (
+            [nombre] => Mateo Fernández García
+            [email] => cliente2@gmail.com
+            [telefono] => 963825284
+            [direccion] => C/ de Manuel Melià i Fuster, 1
+            [restaurante_id] => 1
+        )
+
+    [productos] => Array
+        (
+            [0] => Array
+                (
+                    [nombre_producto] => Ensaladilla
+                    [sku_producto] => ELAB-249
+                    [cantidad] => 1
+                    [informacion_lote] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [sku] => ELAB-249-L370
+                                    [nombre] => Ensaladilla
+                                    [cantidad_utilizada] => 1
+                                    [fecha_caducidad] => 2025-06-11
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [id_pedido] => 3430
+    [fecha_pedido] => 2025-06-03T17:04:32
+    [total] => 0.90
+    [cliente] => Array
+        (
+            [nombre] => Mateo Fernández García
+            [email] => cliente2@gmail.com
+            [telefono] => 963825284
+            [direccion] => C/ de Manuel Melià i Fuster, 1
+            [restaurante_id] => 1
+        )
+
+    [productos] => Array
+        (
+            [0] => Array
+                (
+                    [nombre_producto] => Arroz - 0.5
+                    [sku_producto] => ING-487-005
+                    [cantidad] => 3
+                    [informacion_lote] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [sku] => ING-487-005-L478
+                                    [nombre] => Arroz - Lote ING-487-005-L478
+                                    [cantidad_utilizada] => 3
+                                    [fecha_caducidad] => 2025-06-15
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [id_pedido] => 3432
+    [fecha_pedido] => 2025-06-03T17:46:14
+    [total] => 0.30
+    [cliente] => Array
+        (
+            [nombre] => Mateo Fernández García
+            [email] => cliente2@gmail.com
+            [telefono] => 963825284
+            [direccion] => C/ de Manuel Melià i Fuster, 1
+            [restaurante_id] => 1
+        )
+
+    [productos] => Array
+        (
+            [0] => Array
+                (
+                    [nombre_producto] => Arroz - 0.5
+                    [sku_producto] => ING-487-005
+                    [cantidad] => 1
+                    [informacion_lote] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [sku] => ING-487-005-L478
+                                    [nombre] => Arroz - Lote ING-487-005-L478
+                                    [cantidad_utilizada] => 1
+                                    [fecha_caducidad] => 2025-06-15
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [id_pedido] => 3433
+    [fecha_pedido] => 2025-06-03T17:51:54
+    [total] => 0.30
+    [cliente] => Array
+        (
+            [nombre] => Mateo Fernández García
+            [email] => cliente2@gmail.com
+            [telefono] => 963825284
+            [direccion] => C/ de Manuel Melià i Fuster, 1
+            [restaurante_id] => 1
+        )
+
+    [productos] => Array
+        (
+            [0] => Array
+                (
+                    [nombre_producto] => Arroz - 0.5
+                    [sku_producto] => ING-487-005
+                    [cantidad] => 1
+                    [informacion_lote] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [sku] => ING-487-005-L478
+                                    [nombre] => Arroz - Lote ING-487-005-L478
+                                    [cantidad_utilizada] => 1
+                                    [fecha_caducidad] => 2025-06-15
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

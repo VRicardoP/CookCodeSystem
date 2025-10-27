@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Gestión de Mesas - TPV Restaurante</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="mesas.css" />
+    
+  </head>
+  <body>
+    <header>
+      <a
+        href="/restaurant/public/dashboard.php"
+        style="
+          text-decoration: none;
+          color: white;
+          display: flex;
+          align-items: center;
+          font-weight: bold;
+        "
+        ><i
+          class="fas fa-arrow-circle-left"
+          style="font-size: 28px; margin-right: 8px"
+        ></i
+        ><span style="font-size: 18px">Volver a Dashboard</span></a
+      >
+      <h1
+        style="
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          transform: translate(-50%, -50%);
+          margin: 0;
+          font-size: 32px;
+        "
+      >
+        Gestión de Mesas
+      </h1>
+    </header>
+
+    <div class="container">
+      <div class="panel-mesas">
+        <h3 style="padding-left: 10px;">Mesas Disponibles:</h3>
+        <div id="mesasContainer"></div>
+      </div>
+    </div>
+
+    <footer>
+      <button id="btnArqueo">Arqueo</button>
+      <button id="btnAbrirModal">Añadir mesa</button>
+    </footer>
+
+    <!-- Modal Añadir -->
+    <div id="modalAddMesa">
+      <div class="modal-content">
+        <h2>Añadir nueva mesa</h2>
+        <input type="text" id="nombreNuevaMesa" placeholder="Nombre mesa" />
+        <div>
+          <button id="btnCancelar">Cancelar</button>
+          <button id="btnGuardar">Añadir</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Editar -->
+    <div id="modalEditMesa">
+      <div class="modal-content">
+        <h2>Editar mesa</h2>
+        <input type="text" id="nombreEditarMesa" placeholder="Nombre mesa" />
+        <div>
+          <button id="btnCancelarEdit">Cancelar</button>
+          <button id="btnGuardarEdit">Guardar</button>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const mesasContainer = document.getElementById("mesasContainer");
+      const modalAdd = document.getElementById("modalAddMesa");
+      const btnAbrirModal = document.getElementById("btnAbrirModal");
+      const btnCancelarAdd = document.getElementById("btnCancelar");
+      const btnGuardarAdd = document.getElementById("btnGuardar");
+      const inputNombreMesa = document.getElementById("nombreNuevaMesa");
+
+      const modalEdit = document.getElementById("modalEditMesa");
+      const inputEditarNombre = document.getElementById("nombreEditarMesa");
+      const btnCancelarEdit = document.getElementById("btnCancelarEdit");
+      const btnGuardarEdit = document.getElementById("btnGuardarEdit");
+      let mesaActualEditar = null;
+
+      function mostrarMesas(mesas) {
+        mesasContainer.innerHTML = "";
+        if (mesas.length === 0) {
+          mesasContainer.innerHTML = "<p>No hay mesas disponibles</p>";
+          return;
+        }
+        mesas.forEach((mesa) => {
+          const wrapper = document.createElement("div");
+          wrapper.className = "mesa-btn-wrapper";
+
+          const btn = document.createElement("button");
+          btn.className = "mesa-btn";
+          btn.textContent = mesa.nombre;
+          btn.addEventListener("click", () => {
+            window.location.href = `index.php?mesa_id=${mesa.id}`;
+          });
+
+          const menuBtn = document.createElement("button");
+          menuBtn.className = "menu-btn";
+          menuBtn.innerHTML = '<i class="fas fa-ellipsis-v"></i>';
+          menuBtn.addEventListener("click", (e) => {
+            e.stopPropagation();
+            // cerrar otros menús
+            document.querySelectorAll(".menu-opciones").forEach((m) => {
+              if (m !== menuOpciones) m.style.display = "none";
+            });
+            menuOpciones.style.display =
+              menuOpciones.style.display === "block" ? "none" : "block";
+          });
+
+          const menuOpciones = document.createElement("div");
+          menuOpciones.className = "menu-opciones";
+
+          const btnEditar = document.createElement("button");
+          btnEditar.textContent = "Editar";
+          btnEditar.addEventListener("click", () => {
+            mesaActualEditar = mesa;
+            inputEditarNombre.value = mesa.nombre;
+            modalEdit.style.display = "flex";
+            menuOpciones.style.display = "none";
+            inputEditarNombre.focus();
+          });
+
+          const btnBorrar = document.createElement("button");
+          btnBorrar.textContent = "Borrar";
+          btnBorrar.addEventListener("click", () => {
+            if (
+              confirm(`¿Seguro que quieres borrar la mesa "${mesa.nombre}"?`)
+            ) {
+              fetch("database/mesas.php", {
+                method: "POST",
+                headers: {
+                  "Content-Type": "application/x-www-form-urlencoded",
+                },
+                body: new URLSearchParams({ id: mesa.id, accion: "borrar" }),
+              })
+                .then((res) => res.json())
+                .then((data) => {
+                  if (data.error) {
+                    alert("Error: " + data.error);
+                  } else {
+                    cargarMesas();
+                  }
+                })
+                .catch((error) => {
+                  console.error("Error al borrar mesa:", error);
+                  alert("Error al borrar la mesa.");
+                });
+            }
+            menuOpciones.style.display = "none";
+          });
+
+          menuOpciones.appendChild(btnEditar);
+          menuOpciones.appendChild(btnBorrar);
+
+          wrapper.appendChild(btn);
+          wrapper.appendChild(menuBtn);
+          wrapper.appendChild(menuOpciones);
+          mesasContainer.appendChild(wrapper);
+        });
+      }
+
+      function cargarMesas() {
+        fetch("database/mesas.php")
+          .then((response) => response.json())
+          .then((data) => {
+            if (data.error) {
+              alert("Error al cargar las mesas.");
+            } else {
+              mostrarMesas(data);
+            }
+          })
+          .catch((error) => {
+            console.error("Error al obtener las mesas:", error);
+            alert("Error al cargar las mesas.");
+          });
+      }
+
+      cargarMesas();
+
+      btnAbrirModal.addEventListener("click", () => {
+        modalAdd.style.display = "flex";
+        inputNombreMesa.value = "";
+        inputNombreMesa.focus();
+      });
+
+      btnCancelarAdd.addEventListener("click", () => {
+        modalAdd.style.display = "none";
+      });
+
+      btnGuardarAdd.addEventListener("click", () => {
+        const nombre = inputNombreMesa.value.trim();
+        if (!nombre) {
+          alert("Por favor, ingresa un nombre para la mesa.");
+          inputNombreMesa.focus();
+          return;
+        }
+        fetch("database/mesas.php", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/x-www-form-urlencoded",
+          },
+          body: new URLSearchParams({ nombre }),
+        })
+          .then((response) => response.json())
+          .then((data) => {
+            if (data.error) {
+              alert("Error: " + data.error);
+            } else {
+              modalAdd.style.display = "none";
+              cargarMesas();
+            }
+          })
+          .catch((error) => {
+            console.error("Error al añadir mesa:", error);
+            alert("Error al añadir mesa");
+          });
+      });
+
+      window.addEventListener("click", (e) => {
+        if (e.target === modalAdd) {
+          modalAdd.style.display = "none";
+        }
+        if (e.target === modalEdit) {
+          modalEdit.style.display = "none";
+        }
+        // cerrar menús si clic fuera
+        document.querySelectorAll(".menu-opciones").forEach((menu) => {
+          menu.style.display = "none";
+        });
+      });
+
+      window.addEventListener("keydown", (e) => {
+        if (e.key === "Escape") {
+          if (modalAdd.style.display === "flex")
+            modalAdd.style.display = "none";
+          if (modalEdit.style.display === "flex")
+            modalEdit.style.display = "none";
+        }
+      });
+
+      btnCancelarEdit.addEventListener("click", () => {
+        modalEdit.style.display = "none";
+      });
+
+      btnGuardarEdit.addEventListener("click", () => {
+        const nuevoNombre = inputEditarNombre.value.trim();
+        if (!nuevoNombre) {
+          alert("Por favor, ingresa un nombre para la mesa.");
+          inputEditarNombre.focus();
+          return;
+        }
+        fetch("database/mesas.php", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/x-www-form-urlencoded",
+          },
+          body: new URLSearchParams({
+            id: mesaActualEditar.id,
+            nombre: nuevoNombre,
+            accion: "editar",
+          }),
+        })
+          .then((res) => res.json())
+          .then((data) => {
+            if (data.error) {
+              alert("Error: " + data.error);
+            } else {
+              modalEdit.style.display = "none";
+              cargarMesas();
+            }
+          })
+          .catch((error) => {
+            console.error("Error al editar mesa:", error);
+            alert("Error al editar la mesa.");
+          });
+      });
+    </script>
+  </body>
+</html>

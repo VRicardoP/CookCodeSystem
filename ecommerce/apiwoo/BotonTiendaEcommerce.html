@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Externo al Ecommerce</title>
+</head>
+<body>
+    <h1>Boton del Ecommerce</h1>
+
+    <div>
+        <!--GUARDAR EN EL BOTON LA CONTRASEÑA Y EL USUARIO -->
+        <button type="button" id="loginButtonEcommerce" data-username="cliente1@gmail.com" data-password="^nmZ^jm(%DS8zWhnDUUffeQ&">Tienda Online</button>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function(){
+
+        
+        document.getElementById('loginButtonEcommerce').addEventListener('click', function(event) {
+            const username = event.target.getAttribute('data-username');
+            const password = event.target.getAttribute('data-password');
+
+            
+            const formData = new FormData();
+            formData.append('log', username);
+            formData.append('pwd', password);
+            formData.append('rememberme', true);
+            formData.append('wp-submit', 'Log In');
+            formData.append('redirect_to', 'http://localhost:8080/ecommerce/'); //Cuando acabe el login redirecciona a la tienda
+            formData.append('testcookie', 1);
+
+            fetch('http://localhost:8080/ecommerce/wp-login.php', {
+                method: 'POST',
+                body: formData,
+                credentials: 'include' 
+            })
+            .then(response => {
+                if (response.redirected) {
+                    window.location.href = response.url;
+                } else {
+                    throw new Error('El usuario o contraseña no es válido');
+                }
+            })
+            .catch(error => {
+                alert('Error: ' + error.message);
+            });
+        });
+    });
+    </script>
+</body>
+</html>

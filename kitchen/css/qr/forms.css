@@ -1,0 +1,30 @@
+.sugerencias {
+  position: absolute;
+  background-color: #FCFCFC;
+  max-height: 150px;
+  overflow-y: auto;
+  z-index: 1000;
+  overflow-x: hidden;
+  max-width: 50px;
+  margin-right: 40px;
+}
+.sugerencias div {
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  max-width: 100px;
+  width: 50%;
+}
+.sugerencias div:hover {
+  background-color: #f1f1f1;
+}
+
+h1 {
+  color: black;
+}
+
+.text-right-input {
+  text-align: right;
+}
+
+/*# sourceMappingURL=forms.css.map */

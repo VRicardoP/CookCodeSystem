@@ -1,0 +1,407 @@
+[
+    {
+        "id": 1881,
+        "name": "Champi",
+        "sku": "ING-266",
+        "price": "1.95",
+        "stock_quantity": 0,
+        "fecha_elaboracion": "",
+        "fecha_caducidad": ""
+    },
+    {
+        "id": 1871,
+        "name": "Ensaladilla rusa",
+        "sku": "ELAB-259-107",
+        "price": "2.61",
+        "stock_quantity": 5,
+        "fecha_elaboracion": "2024-10-16",
+        "fecha_caducidad": "2024-10-20"
+    },
+    {
+        "id": 1868,
+        "name": "Ensaladilla rusa",
+        "sku": "ELAB-107",
+        "price": "2.61",
+        "stock_quantity": 5,
+        "fecha_elaboracion": "",
+        "fecha_caducidad": ""
+    },
+    {
+        "id": 1865,
+        "name": "Zanahoria",
+        "sku": "ING-292-256",
+        "price": "1.50",
+        "stock_quantity": 8,
+        "fecha_elaboracion": "2024-10-16",
+        "fecha_caducidad": "2024-10-26"
+    },
+    {
+        "id": 1862,
+        "name": "Zanahoria",
+        "sku": "ING-256",
+        "price": "1.50",
+        "stock_quantity": 8,
+        "fecha_elaboracion": "",
+        "fecha_caducidad": ""
+    },
+    {
+        "id": 1859,
+        "name": "Sal",
+        "sku": "ING-298-262",
+        "price": "0.45",
+        "stock_quantity": 1,
+        "fecha_elaboracion": "2024-10-16",
+        "fecha_caducidad": "2024-12-05"
+    },
+    {
+        "id": 1856,
+        "name": "Sal",
+        "sku": "ING-262",
+        "price": "0.45",
+        "stock_quantity": 1,
+        "fecha_elaboracion": "",
+        "fecha_caducidad": ""
+    },
+    {
+        "id": 1853,
+        "name": "Picatostes",
+        "sku": "ING-297-261",
+        "price": "7.95",
+        "stock_quantity": 2,
+        "fecha_elaboracion": "2024-10-16",
+        "fecha_caducidad": "2024-10-26"
+    },
+    {
+        "id": 1850,
+        "name": "Picatostes",
+        "sku": "ING-261",
+        "price": "7.95",
+        "stock_quantity": 2,
+        "fecha_elaboracion": "",
+        "fecha_caducidad": ""
+    },
+    {
+        "id": 1847,
+        "name": "Mahonesa",
+        "sku": "ING-293-257",
+        "price": "11.40",
+        "stock_quantity": 3,
+        "fecha_elaboracion": "2024-10-16",
+        "fecha_caducidad": "2024-10-31"
+    },
+    {
+        "id": 1844,
+        "name": "Mahonesa",
+        "sku": "ING-257",
+        "price": "11.40",
+        "stock_quantity": 3,
+        "fecha_elaboracion": "",
+        "fecha_caducidad": ""
+    },
+    {
+        "id": 1841,
+        "name": "Huevo",
+        "sku": "ING-296-260",
+        "price": "0.75",
+        "stock_quantity": 0,
+        "fecha_elaboracion": "2024-10-16",
+        "fecha_caducidad": "2024-10-22"
+    },
+    {
+        "id": 1838,
+        "name": "Huevo",
+        "sku": "ING-260",
+        "price": "0.75",
+        "stock_quantity": 0,
+        "fecha_elaboracion": "",
+        "fecha_caducidad": ""
+    },
+    {
+        "id": 1835,
+        "name": "Guisantes",
+        "sku": "ING-294-258",
+        "price": "2.40",
+        "stock_quantity": 2,
+        "fecha_elaboracion": "2024-10-16",
+        "fecha_caducidad": "2024-10-26"
+    },
+    {
+        "id": 1832,
+        "name": "Guisantes",
+        "sku": "ING-258",
+        "price": "2.40",
+        "stock_quantity": 2,
+        "fecha_elaboracion": "",
+        "fecha_caducidad": ""
+    },
+    {
+        "id": 1829,
+        "name": "At\u00fan",
+        "sku": "ING-295-259",
+        "price": "21.00",
+        "stock_quantity": 0,
+        "fecha_elaboracion": "2024-10-16",
+        "fecha_caducidad": "2024-10-22"
+    },
+    {
+        "id": 1826,
+        "name": "At\u00fan",
+        "sku": "ING-259",
+        "price": "21.00",
+        "stock_quantity": 0,
+        "fecha_elaboracion": "",
+        "fecha_caducidad": ""
+    },
+    {
+        "id": 1823,
+        "name": "Aceitunas",
+        "sku": "ING-299-263",
+        "price": "5.25",
+        "stock_quantity": 0,
+        "fecha_elaboracion": "2024-10-16",
+        "fecha_caducidad": "2024-11-03"
+    },
+    {
+        "id": 1820,
+        "name": "Aceitunas",
+        "sku": "ING-263",
+        "price": "5.25",
+        "stock_quantity": 0,
+        "fecha_elaboracion": "",
+        "fecha_caducidad": ""
+    },
+    {
+        "id": 1816,
+        "name": "Bechamel",
+        "sku": "ELAB-258-106",
+        "price": "2.93",
+        "stock_quantity": 2,
+        "fecha_elaboracion": "2024-10-16",
+        "fecha_caducidad": "2024-10-26"
+    },
+    {
+        "id": 1813,
+        "name": "Bechamel",
+        "sku": "ELAB-106",
+        "price": "2.93",
+        "stock_quantity": 2,
+        "fecha_elaboracion": "",
+        "fecha_caducidad": ""
+    },
+    {
+        "id": 1810,
+        "name": "Hamburguesa",
+        "sku": "ELAB-257-103",
+        "price": "9.00",
+        "stock_quantity": 1,
+        "fecha_elaboracion": "2024-10-16",
+        "fecha_caducidad": "2024-10-21"
+    },
+    {
+        "id": 1807,
+        "name": "Hamburguesa",
+        "sku": "ELAB-103",
+        "price": "9.00",
+        "stock_quantity": 1,
+        "fecha_elaboracion": "",
+        "fecha_caducidad": ""
+    },
+    {
+        "id": 1804,
+        "name": "Pan hamburguesa",
+        "sku": "ING-291-250",
+        "price": "0.45",
+        "stock_quantity": 7,
+        "fecha_elaboracion": "2024-10-16",
+        "fecha_caducidad": "2024-10-20"
+    },
+    {
+        "id": 1801,
+        "name": "Pan hamburguesa",
+        "sku": "ING-250",
+        "price": "0.45",
+        "stock_quantity": 7,
+        "fecha_elaboracion": "",
+        "fecha_caducidad": ""
+    },
+    {
+        "id": 1798,
+        "name": "Queso",
+        "sku": "ING-290-253",
+        "price": "13.50",
+        "stock_quantity": 5,
+        "fecha_elaboracion": "2024-10-16",
+        "fecha_caducidad": "2024-10-31"
+    },
+    {
+        "id": 1795,
+        "name": "Queso",
+        "sku": "ING-253",
+        "price": "13.50",
+        "stock_quantity": 5,
+        "fecha_elaboracion": "",
+        "fecha_caducidad": ""
+    },
+    {
+        "id": 1792,
+        "name": "Pulpo a la gallega",
+        "sku": "ELAB-256-104",
+        "price": "3.16",
+        "stock_quantity": 7,
+        "fecha_elaboracion": "2024-10-16",
+        "fecha_caducidad": "2024-10-26"
+    },
+    {
+        "id": 1789,
+        "name": "Pulpo a la gallega",
+        "sku": "ELAB-104",
+        "price": "3.16",
+        "stock_quantity": 7,
+        "fecha_elaboracion": "",
+        "fecha_caducidad": ""
+    },
+    {
+        "id": 1786,
+        "name": "Bolognesa",
+        "sku": "ELAB-255-105",
+        "price": "0.68",
+        "stock_quantity": 2,
+        "fecha_elaboracion": "2024-10-16",
+        "fecha_caducidad": "2024-10-26"
+    },
+    {
+        "id": 1783,
+        "name": "Bolognesa",
+        "sku": "ELAB-105",
+        "price": "0.68",
+        "stock_quantity": 2,
+        "fecha_elaboracion": "",
+        "fecha_caducidad": ""
+    },
+    {
+        "id": 1776,
+        "name": "Piment\u00f3n",
+        "sku": "ING-289-251",
+        "price": "18.00",
+        "stock_quantity": 8,
+        "fecha_elaboracion": "2024-10-16",
+        "fecha_caducidad": "2024-11-08"
+    },
+    {
+        "id": 1773,
+        "name": "Piment\u00f3n",
+        "sku": "ING-251",
+        "price": "18.00",
+        "stock_quantity": 8,
+        "fecha_elaboracion": "",
+        "fecha_caducidad": ""
+    },
+    {
+        "id": 1770,
+        "name": "Pulpo",
+        "sku": "ING-288-252",
+        "price": "21.00",
+        "stock_quantity": 16,
+        "fecha_elaboracion": "2024-10-16",
+        "fecha_caducidad": "2024-10-16"
+    },
+    {
+        "id": 1767,
+        "name": "Pulpo",
+        "sku": "ING-252",
+        "price": "21.00",
+        "stock_quantity": 16,
+        "fecha_elaboracion": "",
+        "fecha_caducidad": ""
+    },
+    {
+        "id": 1764,
+        "name": "Jamon",
+        "sku": "ING-287-249",
+        "price": "37.50",
+        "stock_quantity": 24,
+        "fecha_elaboracion": "2024-10-16",
+        "fecha_caducidad": "2024-10-31"
+    },
+    {
+        "id": 1761,
+        "name": "Jamon",
+        "sku": "ING-249",
+        "price": "37.50",
+        "stock_quantity": 24,
+        "fecha_elaboracion": "",
+        "fecha_caducidad": ""
+    },
+    {
+        "id": 1758,
+        "name": "Hamburguesa",
+        "sku": "ING-285-247",
+        "price": "15.00",
+        "stock_quantity": 7,
+        "fecha_elaboracion": "2024-10-16",
+        "fecha_caducidad": "2024-10-24"
+    },
+    {
+        "id": 1755,
+        "name": "Hamburguesa",
+        "sku": "ING-247",
+        "price": "15.00",
+        "stock_quantity": 7,
+        "fecha_elaboracion": "",
+        "fecha_caducidad": ""
+    },
+    {
+        "id": 1752,
+        "name": "Lechuga",
+        "sku": "ING-284-246",
+        "price": "2.25",
+        "stock_quantity": 19,
+        "fecha_elaboracion": "2024-10-16",
+        "fecha_caducidad": "2024-10-22"
+    },
+    {
+        "id": 1749,
+        "name": "Lechuga",
+        "sku": "ING-246",
+        "price": "2.25",
+        "stock_quantity": 19,
+        "fecha_elaboracion": "",
+        "fecha_caducidad": ""
+    },
+    {
+        "id": 1739,
+        "name": "Tomate",
+        "sku": "ING-276-254",
+        "price": "1.80",
+        "stock_quantity": 5,
+        "fecha_elaboracion": "2024-10-15",
+        "fecha_caducidad": "2024-10-27"
+    },
+    {
+        "id": 1736,
+        "name": "Tomate",
+        "sku": "ING-254",
+        "price": "1.80",
+        "stock_quantity": 5,
+        "fecha_elaboracion": "",
+        "fecha_caducidad": ""
+    },
+    {
+        "id": 1733,
+        "name": "Patata",
+        "sku": "ING-277-255",
+        "price": "1.50",
+        "stock_quantity": 24,
+        "fecha_elaboracion": "2024-10-15",
+        "fecha_caducidad": "2024-10-30"
+    },
+    {
+        "id": 1730,
+        "name": "Patata",
+        "sku": "ING-255",
+        "price": "1.50",
+        "stock_quantity": 24,
+        "fecha_elaboracion": "",
+        "fecha_caducidad": ""
+    }
+]

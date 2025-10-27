@@ -1,0 +1,466 @@
+.button-container {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Espacio entre los botones */
+}
+
+#cancelIngredient{
+    margin: 0 auto;
+    display: block;
+    width: 30%;
+
+    /* Estilo base */
+    font-weight: bold;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: 2px solid #8e2416; /* Marco alrededor del botón */
+    border-radius: 5px;
+    cursor: pointer;
+
+    /* Efecto 3D */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+#addValue {
+    background-color: #5e9420; /* Color azul */
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+    /* Efecto de relieve */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+.value-box {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px 10px;
+    border: 2px solid #8a6d3b; /* Color marrón tipo cartón */
+    border-radius: 4px 12px 4px 12px; /* Esquinas alternadas */
+    background: linear-gradient(145deg, #f4e3c1, #e0c693); /* Simula textura de cartón */
+    font-size: 16px;
+    font-weight: bold;
+    color: #5a3e1b; /* Color oscuro para contraste */
+    text-align: center;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); /* Sombra para dar relieve */
+    position: relative;
+}
+
+
+
+#addValue:hover {
+    background-color: #477b0c; /* Azul más oscuro */
+    transform: translateY(-2px); /* Efecto de elevación */
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.3);
+    color: rgb(3, 3, 3);
+}
+
+
+#addValue:active {
+    transform: translateY(1px); /* Simula que se presiona */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+#saveIngredient{
+    margin: 0 auto;
+    display: block;
+    width: 30%;
+
+    /* Estilo base */
+    font-weight: bold;
+    background-color: #4CAF50; /* Cambia el color según tu preferencia */
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: 2px solid #388E3C; /* Marco alrededor del botón */
+    border-radius: 5px;
+    cursor: pointer;
+
+    /* Efecto 3D */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+ #saveRecipe, #btnCosteRecipe {
+    margin: 0 auto;
+    display: block;
+    width: 30%;
+
+    /* Estilo base */
+    background-color: #4CAF50; /* Cambia el color según tu preferencia */
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: 2px solid #388E3C; /* Marco alrededor del botón */
+    border-radius: 5px;
+    cursor: pointer;
+
+    /* Efecto 3D */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+#saveIngredient:hover, #saveRecipe:hover, #btnCosteRecipe:hover, #cancelIngredient:hover{
+    /* Efecto 3D al pasar el mouse */
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.3);
+    color: #040404;
+}
+
+#saveIngredient:active, #saveRecipe:active, #btnCosteRecipe:active {
+    /* Efecto de pulsar */
+    transform: translateY(4px); /* Mueve el botón hacia abajo */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Reduce la sombra para simular la presión */
+}
+
+#btnCosteRecipe {
+  width: 50%;
+}
+
+.tab {
+  background-color: #007934;
+}
+
+.tablinks:hover {
+  background-color: #1cc88a !important;
+}
+
+.card {
+  margin: 20px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  max-width: 900px;
+  padding-bottom: 0px;
+}
+
+.tabla {
+  width: 100%;
+  /* Ocupa todo el ancho del card */
+  table-layout: fixed;
+  /* Distribuye las columnas proporcionalmente */
+  border-collapse: collapse;
+  /* Elimina espacios entre celdas */
+}
+
+.tabla th,
+.tabla td {
+  border: 2px solid #040404;
+  color: black;
+  text-align: left;
+  vertical-align: top;
+  /* Permite que el texto se ajuste en varias líneas */
+  white-space: normal;
+  word-wrap: break-word;
+  /* Divide palabras largas en varias líneas */
+  background-color: #258f68f7;
+}
+
+/* Añade scroll horizontal si la tabla se sale del card */
+.tabla-container {
+  overflow-x: auto;
+}
+
+.tabla td input {
+  width: 100%;
+  /* Ajusta el input al ancho completo de la celda */
+  box-sizing: border-box;
+  /* Incluye padding y borde dentro del ancho */
+  padding: 6px;
+  /* Añade padding para mejor apariencia */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.tabla td:nth-child(n + 2) input {
+  text-align: right;
+  /* Alinea el contenido a la derecha */
+}
+
+.tabla td {
+  background-color: white;
+}
+
+.tabla th {
+  text-align: center;
+}
+
+#contenedorimagenCh {
+  border: 2px dashed #ccc;
+  width: 100%;
+
+  border-radius: 10px;
+  padding: 0px;
+}
+
+#imagenChIng {
+  border: 2px solid #040404;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+  margin: 0px;
+  padding: 0px;
+}
+
+#imagenCh {
+  border: 2px solid #040404;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+  margin: 0px;
+}
+
+#coste-total {
+  font-size: 0.9em;
+  font-weight: bold;
+  border: 5px solid #007934;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #258f68f7;
+  width: 100%;
+}
+
+.container-fluid {
+  padding-bottom: 40px;
+}
+
+#coste-total-elaborados {
+  font-size: 0.8em;
+  font-weight: bold;
+  border: 5px solid #007934;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #258f68f7;
+  display: inline-block;
+}
+
+#coste-total-ingredientes {
+  font-size: 0.8em;
+  font-weight: bold;
+  border: 5px solid #007934;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #258f68f7;
+  display: inline-block;
+}
+
+
+
+#ingredientsModal {
+
+
+
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    
+
+
+}
+
+
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    outline: none;
+    transition: all 0.3s;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    border-color: #007934;
+    box-shadow: 0px 0px 5px rgba(0, 121, 52, 0.5);
+}
+
+
+
+
+#ingredientsModal {
+
+
+
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    
+
+
+}
+
+
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    outline: none;
+    transition: all 0.3s;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    border-color: #007934;
+    box-shadow: 0px 0px 5px rgba(0, 121, 52, 0.5);
+}
+
+
+
+
+#ingredientsModal {
+
+
+
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    
+
+
+}
+
+
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    outline: none;
+    transition: all 0.3s;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    border-color: #007934;
+    box-shadow: 0px 0px 5px rgba(0, 121, 52, 0.5);
+}
+
+
+
+
+#ingredientsModal {
+
+
+
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    
+
+
+}
+
+
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    outline: none;
+    transition: all 0.3s;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    border-color: #007934;
+    box-shadow: 0px 0px 5px rgba(0, 121, 52, 0.5);
+}
+
+
+/*Switch Botton*/
+.wrap-toggle {
+  text-align: left !important;
+  padding: 1rem;
+  display: flex;
+}
+
+.wrap-toggle h3 {
+  padding-right: 10px;
+}
+
+.switch {
+  text-align: left !important;
+  background-color: #007934;
+  display: inline-block;
+  position: relative;
+  border-radius: 40px;
+  cursor: pointer;
+  height: 30px;
+  width: 60px;
+}
+
+.switch::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 40px;
+  background-color: white;
+  left: 5px;
+  top: 5px;
+}
+
+input[type="checkbox"]:checked + .switch::after {
+  transform: translateX(30px);
+  background-color: white;
+}
+
+input[type="checkbox"]:checked + .switch {
+  background-color: #04b250;
+}
+
+.offscreen {
+  display: none;
+}
+
+#pre-prepared-container {
+  display: none;
+}

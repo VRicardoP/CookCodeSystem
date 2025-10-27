@@ -1,0 +1,12 @@
+
+.button-container {
+    width:100%; /* O un ancho fijo si lo prefieres */
+    text-align: center; /* Centrará el botón dentro del contenedor */
+   
+}
+#btnAddStock{
+    margin: 0 auto; /* Centra el botón horizontalmente */
+    display: block; /* Necesario para que el margin auto funcione correctamente */
+    width: 50%;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,459 @@
+/* ==================== */
+/* ESTRUCTURA GENERAL   */
+/* ==================== */
+
+select {
+  cursor: pointer;
+}
+
+.container-fluid {
+    padding-bottom: 40px;
+  }
+  
+  .card {
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    max-width: 900px;
+    padding-bottom: 0;
+  }
+  
+  /* ==================== */
+  /* COMPONENTES DE FORM  */
+  /* ==================== */
+  fieldset {
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #f9f9f9;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  legend {
+    font-weight: 600;
+    color: #2E8B57;
+    padding: 0 10px;
+  }
+  
+  label {
+    margin-right: 5px;
+  }
+  
+  input[type="number"] {
+    text-align: right;
+  }
+  
+  .row select {
+    text-align: center;
+  }
+  
+  /* ==================== */
+  /* BOTONES PRINCIPALES  */
+  /* ==================== */
+  .button-container {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  /* Botón Guardar */
+  #saveIngredient {
+    margin: 0 auto;
+    display: block;
+    width: 30%;
+    font-weight: bold;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: 2px solid #388E3C;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+  }
+  
+  #saveIngredient:hover {
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.3);
+    background-color: #3e8e41;
+  }
+  
+  #saveIngredient:active {
+    transform: translateY(1px);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Botón Cancelar */
+  #cancelIngredient {
+    margin: 0 auto;
+    display: block;
+    width: 30%;
+    font-weight: bold;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: 2px solid #8e2416;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+  }
+  
+  #cancelIngredient:hover {
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.3);
+    background-color: #8e2416;
+  }
+  
+.clear-btn{
+  background-color: #fff0f0; 
+  color: #ee4943; 
+ 
+  font-weight: 500;
+  font-weight: bold;
+    font-size: 16px;
+  padding: 6px 16px;
+  border: none;
+  border-radius: 8px; /* Bordes más redondeados */
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  margin-left: 10px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.clear-btn:hover{
+  background-color: #f7dbdb; 
+    transform: translateY(-1px);
+    box-shadow: 0 4px 6px rgba(67, 97, 238, 0.15);
+}
+
+
+  /* Botón Agregar */
+  #addValue {
+    background-color: #f0f4ff; /* Fondo azul muy claro */
+    color: #4361ee; /* Azul moderno */
+    font-size: 16px;
+    font-weight: 500;
+    font-weight: bold;
+    padding: 6px 16px;
+    border: none;
+    border-radius: 8px; /* Bordes más redondeados */
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    margin-left: 10px;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+  
+  #addValue:hover {
+    background-color: #e0e7ff; /* Azul un poco más intenso */
+    transform: translateY(-1px);
+    box-shadow: 0 4px 6px rgba(67, 97, 238, 0.15);
+  }
+  
+  #addValue:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 3px rgba(0,0,0,0.1);
+  }
+  
+  /* Opcional: Añadir icono '+' con CSS */
+  #addValue::before {
+    content: "+";
+   
+  }
+
+  #valuesList {
+    background-color: rgba(72, 179, 118, 0.08); /* Verde muy transparente (8% opacidad) */
+    border: 1px solid #e0e0e0; /* Borde sutil */
+    border-radius: 12px;
+    padding: 15px;
+    margin: 10px;
+    margin-top: 15px;
+    min-height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Espacio entre elementos */
+    align-content: flex-start;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(4px); /* Efecto vidrio moderno */
+  }
+  
+
+  
+
+
+  /* Estilo para cada valor añadido */
+  .value-item {
+    background-color: white;
+    border: 1px solid #dee2e6;
+    border-radius: 20px; /* Pastillas redondeadas */
+    padding: 6px 15px;
+    font-size: 14px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    animation: fadeIn 0.3s ease;
+  }
+  
+  /* Icono de cerrar para cada item */
+  .value-item .close-btn {
+    color: #6c757d;
+    cursor: pointer;
+    font-size: 12px;
+    transition: all 0.2s ease;
+  }
+  
+  .value-item .close-btn:hover {
+    color: #dc3545; /* Rojo al hover */
+    transform: scale(1.1);
+  }
+  
+  /* Efecto hover para los items */
+  .value-item:hover {
+    border-color: #4361ee;
+    transform: translateY(-2px);
+  }
+  
+  /* Animación de aparición */
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(5px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  /* Estilo cuando está vacío */
+  #valuesList:empty {
+    
+    background-color: transparent;
+    border: 2px dashed #e0e0e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6c757d;
+  }
+  
+
+
+  #valuesList:empty::after {
+    content: "Add quantities using the field next to it";
+    font-style: italic;
+    font-size: 14px;
+  }
+  /* ==================== */
+  /* COMPONENTES ESPECÍFICOS */
+  /* ==================== */
+  /* Toggle Button */
+  #toggleAttributesIng {
+    background-color: #e0e0e0;
+    transition: all 0.3s ease;
+  }
+  
+  #toggleAttributesIng:hover {
+    background-color: #b0b0b0;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    opacity: 0.9;
+  }
+  
+  #arrowIconIng {
+    color: green;
+    font-size: 24px;
+  }
+  
+  /* Value Boxes */
+  .value-box {
+    display: inline-flex;
+    align-items: center;
+    margin: 6px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 16px; /* Bordes más redondeados */
+    background: linear-gradient(145deg, #f5f7fa, #e4e9f2); /* Degradado moderno en grises */
+    font-size: 14px;
+    font-weight: 600; /* Semi-bold */
+    color: #2d3748; /* Texto oscuro elegante */
+    text-align: center;
+    box-shadow: 
+      0 2px 4px rgba(0,0,0,0.1), /* Sombra suave */
+      inset 0 0 0 1px rgba(255,255,255,0.8); /* Efecto de borde interno */
+    position: relative;
+    animation: fadeIn 0.3s ease;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: default;
+  }
+  .value-box.colored {
+    background: linear-gradient(145deg, #e3f2fd, #bbdefb); /* Azul pastel */
+    color: #1976d2;
+  }
+  /* Contenedor de Imagen */
+  #contenedorimagenCh {
+    background-color: #f8f9fa;
+    color: #969696;
+    border: 2px dashed #ccc;
+    width: 100%;
+    border-radius: 10px;
+    height: 200px;
+    transition: all 0.3s ease;
+  }
+
+
+
+  #contenedorimagenCh:hover {
+    border-color: #040404;
+    color: #040404;
+    border-width: 2px;
+}
+
+
+  
+  #imagenChIng {
+    border: 2px solid #040404;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  
+  /* ==================== */
+  /* ANIMACIONES          */
+  /* ==================== */
+ 
+ 
+  
+  @keyframes expandAnimation {
+    0% { max-height: 0; padding: 0; }
+    100% { max-height: 5000px; padding: 10px; }
+  }
+  
+  @keyframes collapseAnimation {
+    0% { max-height: 5000px; padding: 10px; }
+    100% { max-height: 0; padding: 0; }
+  }
+
+
+  /* Asegurar que el contenido no cause saltos */
+#formContentIngDesp {
+    will-change: height; /* Optimización para el navegador */
+}
+
+/* Estilo para el hr cuando está visible */
+#formContentIngDesp > hr {
+    margin-top: 15px;
+    margin-bottom: 0;
+    border-top: 1px solid #dee2e6;
+    transition: opacity 0.2s ease;
+}
+
+/* Para evitar cambios bruscos en los inputs */
+#valuesContainer {
+    min-height: 38px; /* Altura aproximada de un input + botón */
+}
+
+.legend-button {
+    color: #2E8B57 !important;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    border: 0;
+    background: none;
+    text-decoration: none;
+}
+
+.legend-button i {
+    color: #2E8B57 !important;
+    float: right;
+}
+
+/* Breakpoint para tablets y móviles */
+@media (max-width: 768px) {
+  .card {
+    padding: 20px;
+    margin: 10px;
+  }
+
+  #saveIngredient,
+  #cancelIngredient {
+    width: 100%; /* Botones a ancho completo en móvil */
+    font-size: 14px;
+  }
+
+  .clear-btn,
+  #addValue {
+    font-size: 14px;
+    padding: 6px 12px;
+  }
+
+  .value-box,
+  .value-item {
+    font-size: 12px;
+    padding: 6px 10px;
+  }
+
+  fieldset {
+    padding: 15px;
+  }
+
+  legend {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 390px) {
+  .card {
+    padding: 15px;
+    margin: 10px;
+  }
+
+  fieldset {
+    padding: 12px;
+    margin-bottom: 16px;
+  }
+
+  legend {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  #saveIngredient,
+  #cancelIngredient {
+    width: 100%;
+    font-size: 14px;
+    padding: 8px 10px;
+  }
+
+  .clear-btn,
+  #addValue {
+    font-size: 13px;
+    padding: 5px 10px;
+    gap: 4px;
+  }
+
+  .value-box,
+  .value-item {
+    font-size: 12px;
+    padding: 5px 10px;
+  }
+
+  .button-container {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  #contenedorimagenCh {
+    height: 160px;
+  }
+}

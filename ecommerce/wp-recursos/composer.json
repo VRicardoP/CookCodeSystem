@@ -1,0 +1,8 @@
+{
+    "name": "alvaro/wp-recursos",
+    "description": "API Recursos Woocommerce",
+    "license": "MTI",
+    "require": {
+        "automattic/woocommerce": "^3.1"
+    }
+}

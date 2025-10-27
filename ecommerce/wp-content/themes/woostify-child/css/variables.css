@@ -1,0 +1,12 @@
+
+/* =====================================
+   VARIABLES CSS
+===================================== */
+:root {
+    --ccs-main-color: #007934;
+    --ccs-secondary-color: #faf7f2;
+    --ccs-text-color: #fff;
+    --ccs-main-color-trans: #007934be;
+    --ccs-main-color-dark:  #015b28be;
+    --ccs-hover-color:#00662c;
+}

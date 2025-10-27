@@ -1,0 +1,214 @@
+main {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 100vh;
+  padding: 2em;
+  margin-left: 20%;
+  overflow: auto; /* Cambia a 'auto' para evitar un segundo scroll innecesario */
+  overflow-x: hidden; /* Oculta el scroll horizontal */
+}
+
+main #mainTitle {
+  margin-bottom: 1em;
+}
+
+.uiWindow-bg,
+.uiWindow-blurBg {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10vh;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.uiWindow-blurBg {
+  -webkit-backdrop-filter: blur(2px) brightness(90%);
+  backdrop-filter: blur(2px) brightness(90%);
+}
+
+.uiWindow {
+  display: flex;
+  flex-direction: column;
+  padding: 2em 1.5em;
+  background-color: #fcfcfc;
+  border-radius: 15px;
+}
+
+.uiWindow .uiWindow-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.uiWindow .uiWindow-nav button {
+  z-index: 99;
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: transparent;
+  font-weight: bolder;
+}
+
+.uiWindow .uiWindow-nav button:hover {
+  cursor: pointer;
+}
+
+.uiWindow .uiWindow-nav button object {
+  background-color: transparent;
+  width: 40px;
+}
+
+.uiWindow .uiWindow-nav button object:hover {
+  cursor: pointer;
+}
+#receipts-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  justify-content: space-around;
+}
+
+.dishes-list-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow cards to wrap onto multiple rows */
+  justify-content: space-around; /* Space between cards */
+  margin: 20px; /* General margin */
+}
+
+.dish-container {
+  border-radius: 20px; /* Rounded corners for the card */
+  display: flex;
+  flex-direction: column; /* Column layout for images and info */
+  flex-basis: 20%; /* Base width for each card */
+  background-color: #e5e5e5; /* Same background as recipe cards */
+  max-height: 350px; /* Limit the height of each card */
+  transition: filter 0.3s; /* Smooth transition for hover effect */
+  margin: 10px;
+}
+
+.dish-container:hover {
+  filter: brightness(110%); /* Brighten on hover */
+  cursor: pointer; /* Change cursor on hover */
+}
+
+.dish-container img {
+  border-radius: 20px 20px 0 0; /* Rounded corners for the image */
+  height: 160px;
+}
+
+.dish-container h3 {
+  font-size: 29px;
+  text-decoration: double;
+  color: black;
+}
+
+.dish-container .dish-container-info {
+  display: flex;
+  flex-direction: column;
+  padding: 10px; /* Padding around the text */
+  gap: 5px; /* Space between elements */
+  max-height: 100%; /* Allow flexibility */
+  overflow: hidden; /* Hide overflow text */
+}
+
+.dish-window .dish-window-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1em 0 0 0;
+}
+
+.dish-window .dish-window-main section {
+  display: flex;
+  flex-direction: column;
+  min-width: 100px; /* Minimum width for section */
+  max-width: 40vw; /* Responsive max width */
+  padding-right: 2em; /* Space between sections */
+  color: gray; /* Text color */
+  font-style: italic; /* Italicize for description */
+  line-height: 1.5; /* Line height for readability */
+}
+
+.dish-window .dish-window-main aside {
+  display: flex;
+  flex-direction: column;
+  max-width: 270px; /* Set a max width for aside */
+  color: #808080; /* Text color for aside */
+}
+
+.dish-window .dish-window-main aside img {
+  width: 300px; /* Image fills aside */
+}
+.dish-window .dish-window-main aside button {
+  width: 50px; /* Image fills aside */
+  height: 50px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+@media print {
+  body * {
+    display: none;
+  }
+  .dish-window {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+  }
+  .dish-window * {
+    display: inline;
+  }
+  .dish-window button {
+    display: none;
+  }
+}
+@page {
+  size: auto;
+  margin: 0.5rem 0;
+} /*# sourceMappingURL=receipts.css.map */
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 400px;
+}
+
+.modal-content h3 {
+  margin-bottom: 20px;
+}
+
+#restaurant-list {
+  margin: 20px 0;
+  text-align: left;
+}
+
+#restaurant-list div {
+  margin-bottom: 10px;
+}
+
+.card:hover {
+  box-shadow: 0 0 10px 10px var(--corp1, #00793433);
+  border-color: #00994d;
+}

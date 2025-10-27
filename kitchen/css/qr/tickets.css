@@ -1,0 +1,186 @@
+h1 {
+    color: black;
+}
+
+.dataTables_wrapper .dataTables_length,
+.dataTables_wrapper .dataTables_paginate,
+.dataTables_wrapper .dataTables_info,
+.dataTables_wrapper .dataTables_filter {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.dataTables_wrapper .dataTables_length {
+    margin-right: 20px;
+}
+
+.dataTables_wrapper .dataTables_length label,
+.dataTables_wrapper .dataTables_filter label {
+    margin-right: 10px;
+    white-space: nowrap;
+}
+
+
+
+.dataTables_wrapper .dataTables_info {
+    margin-top: 10px;
+}
+
+.dataTables_wrapper .dataTables_paginate {
+    margin-top: 10px;
+}
+
+/* Adjust the width of the table */
+.dataTables_wrapper {
+    width: 100% !important;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+.dataTables_wrapper td,
+.dataTables_wrapper th {
+    padding: 0px !important;
+    border-right: 1px solid #ddd;
+    text-align: center !important;
+    vertical-align: middle;
+    color: rgb(0, 0, 0);
+
+}
+
+.dataTables_wrapper th {
+    background-color: #007934;
+    border: none;
+}
+
+/* Ensure pagination is in a single line */
+.dataTables_wrapper .dataTables_paginate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    margin: 0 5px;
+}
+
+/* Align search label and input on a single line */
+.dataTables_wrapper .dataTables_filter label {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+/* Remove the right border from the last cell in each row */
+.dataTables_wrapper td:last-child,
+.dataTables_wrapper th:last-child {
+    border-right: none;
+
+}
+
+
+
+.action_button button {
+    width: 30px;
+    height: 30px;
+    margin-right: 2px;
+    padding: 2px;
+}
+
+.action_button button:last-child {
+    margin-right: 0px;
+}
+
+
+/* The Modal (background) */
+.modal-content {
+    background-color: #fff;
+    border: 3px solid #090909;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 20px;
+    color: black;
+}
+
+.modal-content h1 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.modal-content p {
+    margin: 10px;
+}
+
+
+.marco {
+   height: 40px;
+    background-color:#007934;
+    padding: 5px;
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
+}
+
+
+
+.modal-header {
+    display: flex;
+    align-items: center;
+  
+    margin: 0px;
+}
+
+.modal-header h2 {
+    margin: 0;
+    font-size: 25px;
+}
+
+
+.modal-header img {
+    height: 130px;
+    width: 180px;
+    margin-left: 5px;
+    border: solid 3px black;
+    object-fit: cover;
+    border-radius: 3px;
+}
+
+.modal-body {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+}
+
+.modal-body p {
+    flex: 1 1 45%; /* Adjust the width of each column */
+    margin: 5px;
+}
+
+.modal-ingredients {
+    display: flex;
+    flex-wrap: wrap;
+  margin: 10px;
+    font-size: 12px;
+  
+}
+
+.modal-ingredients p {
+    flex: 1 1 45%; /* Adjust the width of each column */
+    margin: 5px;
+}
+.modal-ingredients h3 {
+    margin: 0px;
+    font-size: 18px;
+    border-bottom: solid 1px;
+   width: 100%;
+
+}

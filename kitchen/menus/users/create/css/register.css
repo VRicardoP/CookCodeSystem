@@ -1,0 +1,59 @@
+.border.border-primary.rounded.m-5.p-5.row > div{
+    width: 90% !important;
+    margin:0em 5% !important;
+    
+}
+.border.border-primary.rounded.m-5.p-5.row > div > input {
+    text-align: center;
+}
+
+@media (min-width: 1200px) {
+    .border.border-primary.rounded.m-5.p-5.row > div:first-child {
+        width: 40% !important;
+        margin:0em 5% !important;
+    }
+
+    .border.border-primary.rounded.m-5.p-5.row > div:nth-child(2) {
+        width: 40% !important;
+        margin:0em 5%  2em !important;
+    }
+
+    .border.border-primary.rounded.m-5.p-5.row > div:nth-child(3) {
+        width: 40% !important;
+        margin:0em 5%  2em !important;
+    }
+
+    .border.border-primary.rounded.m-5.p-5.row > div:nth-child(4) {
+        width: 40% !important;
+        margin:0em 5%  2em !important;
+    }
+    .border.border-primary.rounded.m-5.p-5.row > div:nth-child(5) {
+        width: 30% !important;
+        margin:0em 1.5% 0em 5% !important;
+    }
+    .border.border-primary.rounded.m-5.p-5.row > div:nth-child(6) {
+        width: 27% !important;
+        margin:0em 1.5% 2em !important;
+    }
+    .border.border-primary.rounded.m-5.p-5.row > div:nth-child(7) {
+        width: 27% !important;
+        margin:0em 5% 0em 1.5%!important;
+    }
+    .border.border-primary.rounded.m-5.p-5.row > div:nth-child(8) {
+        width: 30% !important;
+        margin:0em 1.5% 0em 5% !important;
+    }
+    .border.border-primary.rounded.m-5.p-5.row > div:nth-child(9) {
+        width: 27% !important;
+        margin:0em 1.5% !important;
+    }
+    .border.border-primary.rounded.m-5.p-5.row > div:nth-child(10) {
+        width: 27% !important;
+        margin:0em 5% 2em 1.5%!important;
+    }
+    .border.border-primary.rounded.m-5.p-5.row > div:nth-child(11) {
+        width: 90% !important;
+        margin:0em 5% 2em!important;
+    }
+
+}

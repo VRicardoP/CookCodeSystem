@@ -1,0 +1,4 @@
+<FilesMatch "\.svg$">
+    AddType image/svg+xml .svg
+    Header set Content-Type "image/svg+xml"
+</FilesMatch>

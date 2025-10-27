@@ -1,0 +1,79 @@
+.dataTables_wrapper .dataTables_length label,
+.dataTables_wrapper .dataTables_filter label {
+  margin-right: 10px;
+  white-space: nowrap;
+}
+
+.dataTables_wrapper td,
+.dataTables_wrapper th {
+  padding: 0px !important;
+  border-right: 1px solid #ddd;
+  text-align: center !important;
+  vertical-align: middle;
+  color: rgb(0, 0, 0);
+}
+
+.dataTables_wrapper th {
+  background-color: #258f68f7;
+  border: none;
+}
+
+/* Ensure pagination is in a single line */
+.dataTables_wrapper .dataTables_paginate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+  margin: 0 5px;
+}
+
+/* Align search label and input on a single line */
+.dataTables_wrapper .dataTables_filter label {
+  display: flex;
+  align-items: center;
+}
+
+/* Remove the right border from the last cell in each row */
+.dataTables_wrapper td:last-child,
+.dataTables_wrapper th:last-child {
+  border-right: none;
+}
+
+.action_button button {
+  width: 30px;
+  height: 30px;
+  margin-right: 2px;
+  padding: 2px;
+}
+
+.action_button button:last-child {
+  margin-right: 0px;
+}
+
+.img-table img {
+  width: 45px; /* Ajusta el ancho de la imagen */
+  height: 45px; /* Ajusta la altura de la imagen */
+  object-fit: cover; /* Asegura que la imagen se recorte para cubrir el área sin distorsionarse */
+  border: 2px solid #292828; /* Agrega un borde de 2px de color gris claro */
+  border-radius: 5px; /* Opcional: da bordes redondeados al marco */
+  margin: 5px;
+  background-color: #f4f4f4;
+}
+
+/* Button Styling */
+.btn-primary {
+  background-color: #258f8ff7;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}

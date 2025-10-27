@@ -1,0 +1,16 @@
+@media print {
+  nav {
+    display: none;
+  }
+  .content-top {
+    display: none;
+  }
+  #sidebar{
+    display: none;
+  }
+  p{
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=printQr.css.map */

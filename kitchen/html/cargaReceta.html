@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+    <link href="css/sb-admin-2.min.css" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!--<script src="ChatGPT5.js?v=14"></script>-->
+    <script src="api2.js"></script>
+
+	<title>Minichef recipe</title>
+    <!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11328295509"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-11328295509'); </script>
+    <!-- Event snippet for Website traffic conversion page --> <script> gtag('event', 'conversion', {'send_to': 'AW-11328295509/TtGACNj7jOMYENWk4Jkq'}); </script>
+    <script>
+        var $_GET={};
+    document.location.search.replace(/\??(?:([^=]+)=([^&]*)&?)/g, function(){
+        function decode(s){ return decodeURIComponent(s.split("+").join(" "));}
+        $_GET[decode(arguments[1])] = decode(arguments[2]);
+    });
+    var destinoWeb = $_GET['destino'];
+    </script>
+</head>
+<body>
+    <header>
+        <div class="cabecera">
+            <a href="index.html"><div class="logo"></div></a>
+            <a href="#" class="botonopciones"></a>
+        </div>
+    </header>
+     <!-- Page Wrapper -->
+     <div id="wrapper">
+
+        <!-- Sidebar -->
+        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+            <!-- Sidebar - Brand -->
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+                <div class="sidebar-brand-icon rotate-n-15">
+                </div>
+                <div class="sidebar-brand-text mx-3"><img src="./img/cookcode.png" height="80" width="225"></div>
+            </a>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider my-0">
+
+            <!-- Nav Item - Dashboard -->
+            <li class="nav-item active">
+                <a class="nav-link" href="index.php">
+                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <span>Dashboard</span></a>
+            </li>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider">
+
+            <!-- Heading -->
+            <div class="sidebar-heading">
+                Utilities
+            </div>
+            <!-- Nav Item - Pedidos -->
+            <li class="nav-item">
+                <a class="nav-link" href="pedidos.html">
+                    <i class="fa-solid fa-clipboard-check"></i>
+                    <span>Orders</span></a>
+            </li>
+            <!-- Nav Item - Tickets -->
+            <li class="nav-item">
+                <a class="nav-link" href="/kitchen/tickets.php">
+                    <i class="fa-solid fa-tag"></i>
+                    <span>Tickets</span></a>
+            </li>
+             <!-- Nav Item - Elaborations -->
+             <li class="nav-item">
+                <a class="nav-link" href="http://localhost/cocinas/woocommerceapicon/ingredientes.php">
+                    <i class="fa-solid fa-cutlery"></i>
+                <span>Ingredients</span></a>
+                </li>
+            <!-- Nav Item - Elaborations -->
+            <li class="nav-item">
+                <a class="nav-link" href="http://localhost/cocinas/woocommerceapicon/elab.php">
+                    <i class="fa-solid fa-cutlery"></i>
+                    <span>Elaborations</span></a>
+            </li>
+            <!-- Nav Item - PreElaborations -->
+                <li class="nav-item">
+                    <a class="nav-link" href="http://localhost/cocinas/woocommerceapicon/preelab.php">
+                        <i class="fa-solid fa-cutlery"></i>
+                        <span>Preelaborations</span></a>
+                </li>
+             <!-- Nav Item - Tags- CUIDADO CON LOS HARDLINKS-->
+             <li class="nav-item">
+                <a class="nav-link" href="/kitchen/qrcode/generator/index.php">
+                    <i class="fa fa-qrcode"></i>
+                    <span>Tags</span></a>
+            </li>
+            <!-- Nav Item - MiniChef-->
+            <li class="nav-item">
+                <a class="nav-link" href="/kitchen/minichef.html">
+                    <i class="fa fa-desktop"></i>
+                    <span>MiniChef</span></a>
+            </li>
+            <!-- Nav Item - Restaurant -->
+            <li class="nav-item">
+                <a class="nav-link" href="http://localhost/wordpress/tienda/">
+                    <i class="fa-solid fa-shop"></i>
+                    <span>Shop</span></a>
+            </li>
+
+           
+            <!-- Divider -->
+            <hr class="sidebar-divider d-none d-md-block">
+
+            <!-- Sidebar Toggler (Sidebar) -->
+            <div class="text-center d-none d-md-inline">
+                <button class="rounded-circle border-0" id="sidebarToggle"></button>
+            </div>
+        </ul>
+        <!-- End of Sidebar -->
+
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+    <main>
+    <script>
+ 
+        document.write('<img class="cover" style="margin:20px;width:70%;height:260px;border-radius: 18%;" src="img/'+destinoWeb+'.jpg">');
+        </script>
+        <script>
+            /* When the user clicks on the button, 
+            toggle between hiding and showing the dropdown content */
+            function myFunction() {
+              document.getElementById("myDropdown").classList.toggle("show");
+            }
+            
+            // Close the dropdown if the user clicks outside of it
+            window.onclick = function(e) {
+              if (!e.target.matches('.dropbtn')) {
+              var myDropdown = document.getElementById("myDropdown");
+                if (myDropdown.classList.contains('show')) {
+                  myDropdown.classList.remove('show');
+                }
+              }
+            }
+            </script>
+            
+        <div class="texto">
+            <h1 class="titulo" id="titulo">Please, hold on a second...</h1>
+            <p class="nota" id="nota">Creating your recipe...</p>
+        </div>
+        
+        <div id="animacioncarga" class="animacioncarga">
+            <svg width="60px" height="50px" viewBox="0 0 51 50" id="miSVG">
+
+                <rect y="0" width="16" height="50" fill="#ffe046">
+                    <animate attributeName="height" values="50;10;50" begin="0s" dur="1s" repeatCount="indefinite" />
+                    <animate attributeName="y" values="0;20;0" begin="0s" dur="1s" repeatCount="indefinite" />
+                </rect>
+
+                <rect x="19" y="0" width="16" height="50" fill="#3e6e07">
+                    <animate attributeName="height" values="50;10;50" begin="0.2s" dur="1s" repeatCount="indefinite" />
+                    <animate attributeName="y" values="0;20;0" begin="0.2s" dur="1s" repeatCount="indefinite" />
+                </rect>
+
+                <rect x="38" y="0" width="16" height="50" fill="#ffe046">
+                    <animate attributeName="height" values="50;10;50" begin="0.4s" dur="1s" repeatCount="indefinite" />
+                    <animate attributeName="y" values="0;20;0" begin="0.4s" dur="1s" repeatCount="indefinite" />
+                </rect>
+
+            </svg>
+        </div>
+        <textarea id="txtOutput" rows="10" style="margin-top: 10px; width: 100%;" placeholder="Output" hidden></textarea>
+        <textarea id="txtOutput2" rows="10" style="margin-top: 10px; width: 100%;" placeholder="Output2" hidden></textarea>
+        <textarea id="txtMsg" rows="5" wrap="soft" style="width: 98%; margin-left: 3px; margin-top: 6px" placeholder="Input Text" hidden></textarea>
+        <div class="bloqueenlaces">
+        <div id="idText" class="texto" style="padding-left:30px;width: calc(100% - 100px);margin: 0 auto 0 auto;"></div>
+       
+        <div>
+   <div id="compartir" class="compartir">
+            <div class="dropdown">
+                <button class="dropbtn" onclick="myFunction()"></button>
+                <div class="dropdown-content" id="myDropdown">
+                  <a href="https://twitter.com/intent/tweet?text=aivation.com" class="fa fa-twitter"></a>
+
+                  <script>document.write('<a href="whatsapp://send?text='+txtMsg+'" class="fa fa-whatsapp"></a>');</script>
+                  <a href="" class="fa fa-copy"></a>
+                </div>
+              </div>
+            <!--<a href="#" class="botoncompartir"></a>-->
+        </div>
+            <label id="lblSpeak"><input id="chkSpeak" type="checkbox" onclick="SpeechToText()" hidden/></label>
+            <label id="lblMute"><input id="chkMute" type="checkbox" onclick="Mute(this.checked)" hidden/></label>
+    
+            <select id="selModel" hidden>
+                <option value="text-davinci-003">text-davinci-003</option>
+                <option value="text-davinci-002">text-davinci-002</option>
+                <option value="code-davinci-002">code-davinci-002</option>
+            </select>
+    
+            <select id="selLang" onchange="ChangeLang(this)" hidden>
+                <option value="en-US">English (United States)</option>
+                <option value="fr-FR">French (France)</option>
+                <option value="ru-RU">Russian (Russia)</option>
+                <option value="pt-BR">Portuguese (Brazil)</option>
+                <option value="es-ES">Spanish (Spain)</option>
+                <option value="de-DE">German (Germany)</option>
+                <option value="it-IT">Italian (Italy)</option>
+                <option value="pl-PL">Polish (Poland)</option>
+                <option value="nl-NL">Dutch (Netherlands)</option>
+            </select>
+    
+            <select id="selVoices" hidden></select>
+        </div>
+        
+    
+    </main>
+    <script>
+
+
+        var $_GET={};
+        document.location.search.replace(/\??(?:([^=]+)=([^&]*)&?)/g, function(){
+            function decode(s){ return decodeURIComponent(s.split("+").join(" "));}
+            $_GET[decode(arguments[1])] = decode(arguments[2]);
+        });
+        var destino = $_GET['destino']
+        
+        makeStreamApiCall(destino);
+        
+        </script>
+</body>
+</html>

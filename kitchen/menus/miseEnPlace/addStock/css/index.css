@@ -1,0 +1,230 @@
+
+
+.card {
+    border: 1px solid rgba(0, 0, 0, 0.125); /* Color del borde */
+    border-radius: 0.5rem; /* Bordes redondeados */
+    overflow: hidden; /* Asegura que los elementos hijos respeten los bordes */
+    transition: border-color 0.3s ease; /* Transición para el cambio de borde */
+}
+
+.card:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Efecto de iluminación */
+    transform: scale(1.03); /* Pequeño escalado */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Suavizar la animación */
+    border-color: rgba(0, 0, 0, 0.5); /* Cambia el color del borde al pasar el mouse */
+
+}
+.button-round {
+    padding: 8px 16px; /* Tamaño del botón */
+    border: 2px solid transparent; /* Borde inicial transparente */
+    border-radius: 6px; /* Bordes ligeramente redondeados */
+    font-size: 1rem; /* Tamaño del texto */
+    color: rgb(10, 10, 10); /* Color del texto */
+    background-color: #f8f9fa; /* Fondo claro por defecto */
+    transition: all 0.3s ease; /* Animación suave */
+    margin: 0 8px; /* Espaciado horizontal entre botones */
+    cursor: pointer; /* Manito al pasar sobre ellos */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra ligera */
+}
+
+.button-round.btn-danger {
+    background-color: #dc3545; /* Rojo para el botón de restar */
+}
+
+.button-round.btn-success {
+    background-color: #28a745; /* Verde para el botón de sumar */
+}
+
+.button-round:hover {
+    transform: scale(1.1); /* Aumenta un 10% de su tamaño */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* Sombra más pronunciada */
+    border: 2px solid white; /* Borde blanco para contraste */
+}
+
+.button-round:active {
+    transform: scale(1); /* Vuelve a su tamaño normal al hacer clic */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra reducida */
+}
+
+input{
+    margin-bottom: 10px;
+}
+
+.text-right {
+    text-align: right;
+    /* Alinear el contenido a la derecha */
+}
+
+
+
+
+
+
+
+
+
+/* Contenedor principal de productos */
+#products-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Estilos para cada card de producto */
+.product-card {
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Efecto al pasar el mouse sobre el card */
+.product-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Imagen del producto */
+.product-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* Estilo para el nombre del producto */
+.product-card h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 10px 0;
+}
+
+/* Estilo para los detalles del producto */
+.product-card p {
+    font-size: 1rem;
+    color: #666;
+    margin: 5px 0;
+}
+
+/* Estilo para los títulos de los detalles (como ID, SKU) */
+.product-card p strong {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Estilo para el select de variaciones */
+.variation-select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+    font-size: 1rem;
+}
+
+/* Estilo para el stock de las variaciones */
+.stock-info {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #4caf50;
+}
+
+/* Mensajes de carga y error */
+#products-container.text {
+    font-size: 1.2rem;
+    color: #f44336; /* Color rojo para mensajes de error */
+    text-align: center;
+}
+
+/* Estilo de la imagen placeholder (si no hay imagen) */
+.product-image[alt="placeholder"] {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ccc;
+}
+
+
+
+/* Estilos generales para el control de cantidad */
+.quantity-control {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    gap: 15px;
+    justify-content: center; /* Centrar el contenido */
+}
+
+/* Estilo del input de cantidad */
+.quantity-control input {
+    width: 60px;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo cuando el input está enfocado */
+.quantity-control input:focus {
+    border-color: #007bff;
+    background-color: #f0f8ff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+    outline: none;
+    width: 70%;
+}
+
+/* Estilo de los botones + y - */
+.quantity-control button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px; /* Botones de tamaño más grande */
+    height: 45px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Efecto al pasar el ratón sobre los botones */
+.quantity-control button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px); /* Sombra para resaltar al hacer hover */
+}
+
+/* Efecto al hacer clic en los botones */
+.quantity-control button:active {
+    transform: translateY(0); /* Efecto de presión al hacer clic */
+}
+
+/* Estilo cuando el botón está deshabilitado */
+.quantity-control button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Sombra sutil para los botones para dar profundidad */
+.quantity-control button:focus {
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+}

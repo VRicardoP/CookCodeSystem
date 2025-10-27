@@ -1,0 +1,1981 @@
+[2025-02-03 15:35:31] Datos recibidos: Array
+(
+    [sku] => ELAB-197
+    [name] => fbfbg
+    [type] => simple
+    [description] => Este elaborado (fbfbg) es una parte esencial de nuestras recetas.
+    [short_description] => Elaborado: fbfbg
+    [images] => Array
+        (
+            [0] => Array
+                (
+                    [src] => http://localhost:8080/kitchen/img/recipes/hamburguesa.jpg
+                )
+
+        )
+
+    [categories] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 24
+                )
+
+        )
+
+    [meta_data] => Array
+        (
+            [0] => Array
+                (
+                    [key] => cost_price
+                    [value] => 0
+                )
+
+            [1] => Array
+                (
+                    [key] => type_unit
+                    [value] => Unidad
+                )
+
+        )
+
+    [manage_stock] => 
+    [regular_price] => 0
+)
+
+[2025-02-03 16:04:17] Datos recibidos: Array
+(
+    [sku] => ELAB-198
+    [name] => dfgdhdhd
+    [type] => simple
+    [description] => Este elaborado (dfgdhdhd) es una parte esencial de nuestras recetas.
+    [short_description] => Elaborado: dfgdhdhd
+    [images] => Array
+        (
+            [0] => Array
+                (
+                    [src] => http://localhost:8080/kitchen/img/recipes/mousse-chocolate.jpg
+                )
+
+        )
+
+    [categories] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 24
+                )
+
+        )
+
+    [meta_data] => Array
+        (
+            [0] => Array
+                (
+                    [key] => cost_price
+                    [value] => 0
+                )
+
+            [1] => Array
+                (
+                    [key] => type_unit
+                    [value] => Unidad
+                )
+
+        )
+
+    [manage_stock] => 
+    [regular_price] => 0
+)
+
+[2025-02-03 16:52:24] Datos recibidos: Array
+(
+    [sku] => ELAB-199
+    [name] => Tallarines
+    [type] => simple
+    [description] => Este elaborado (Tallarines) es una parte esencial de nuestras recetas.
+    [short_description] => Elaborado: Tallarines
+    [images] => Array
+        (
+            [0] => Array
+                (
+                    [src] => http://localhost:8080/kitchen/img/recipes/tallarines-pesto.jfif
+                )
+
+        )
+
+    [categories] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 24
+                )
+
+        )
+
+    [meta_data] => Array
+        (
+            [0] => Array
+                (
+                    [key] => cost_price
+                    [value] => 0
+                )
+
+            [1] => Array
+                (
+                    [key] => type_unit
+                    [value] => Unidad
+                )
+
+        )
+
+    [manage_stock] => 
+    [regular_price] => 0
+)
+
+[2025-02-03 16:57:25] Datos recibidos: Array
+(
+    [sku] => ELAB-200
+    [name] => Tortilla
+    [type] => simple
+    [description] => Este elaborado (Tortilla) es una parte esencial de nuestras recetas.
+    [short_description] => Elaborado: Tortilla
+    [images] => Array
+        (
+            [0] => Array
+                (
+                    [src] => http://localhost:8080/kitchen/img/recipes/Tortilla española.jpg
+                )
+
+        )
+
+    [categories] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 24
+                )
+
+        )
+
+    [meta_data] => Array
+        (
+            [0] => Array
+                (
+                    [key] => cost_price
+                    [value] => 0
+                )
+
+            [1] => Array
+                (
+                    [key] => type_unit
+                    [value] => Unidad
+                )
+
+        )
+
+    [manage_stock] => 
+    [regular_price] => 0
+)
+
+[2025-02-03 17:04:30] Datos recibidos: Array
+(
+    [sku] => ELAB-201
+    [name] => llll
+    [type] => simple
+    [description] => Este elaborado (llll) es una parte esencial de nuestras recetas.
+    [short_description] => Elaborado: llll
+    [images] => Array
+        (
+            [0] => Array
+                (
+                    [src] => http://localhost:8080/kitchen/img/recipes/lubina-al-horno-con-patatas.jpg
+                )
+
+        )
+
+    [categories] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 24
+                )
+
+        )
+
+    [meta_data] => Array
+        (
+            [0] => Array
+                (
+                    [key] => cost_price
+                    [value] => 0
+                )
+
+            [1] => Array
+                (
+                    [key] => type_unit
+                    [value] => Unidad
+                )
+
+        )
+
+    [manage_stock] => 
+    [regular_price] => 0
+)
+
+[2025-02-06 00:20:52] Datos recibidos: Array
+(
+    [sku] => ELAB-202
+    [name] => Sandwich
+    [type] => simple
+    [description] => Este elaborado (Sandwich) es una parte esencial de nuestras recetas.
+    [short_description] => Elaborado: Sandwich
+    [images] => Array
+        (
+            [0] => Array
+                (
+                    [src] => http://localhost:8080/kitchen/img/recipes/sandwich.jpg
+                )
+
+        )
+
+    [categories] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 24
+                )
+
+        )
+
+    [meta_data] => Array
+        (
+            [0] => Array
+                (
+                    [key] => cost_price
+                    [value] => 0
+                )
+
+            [1] => Array
+                (
+                    [key] => type_unit
+                    [value] => Unidad
+                )
+
+        )
+
+    [manage_stock] => 
+    [regular_price] => 0
+)
+
+[2025-02-06 11:32:44] Datos recibidos: Array
+(
+    [sku] => ELAB-203
+    [name] => gyjtgk
+    [type] => simple
+    [description] => Este elaborado (gyjtgk) es una parte esencial de nuestras recetas.
+    [short_description] => Elaborado: gyjtgk
+    [images] => Array
+        (
+            [0] => Array
+                (
+                    [src] => http://localhost:8080/kitchen/img/recipes/Fabada.jpg
+                )
+
+        )
+
+    [categories] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 24
+                )
+
+        )
+
+    [meta_data] => Array
+        (
+            [0] => Array
+                (
+                    [key] => cost_price
+                    [value] => 0
+                )
+
+            [1] => Array
+                (
+                    [key] => type_unit
+                    [value] => Unidad
+                )
+
+        )
+
+    [manage_stock] => 
+    [regular_price] => 0
+)
+
+[2025-03-14 14:46:14] Datos recibidos: Array
+(
+    [sku] => ELAB-204
+    [name] => Pollo con patatas
+    [type] => simple
+    [description] => Este elaborado (Pollo con patatas) es una parte esencial de nuestras recetas.
+    [short_description] => Elaborado: Pollo con patatas
+    [images] => Array
+        (
+            [0] => Array
+                (
+                    [src] => http://localhost:8080/kitchen/img/recipes/pollo-patatas.jpg
+                )
+
+        )
+
+    [categories] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 24
+                )
+
+        )
+
+    [meta_data] => Array
+        (
+            [0] => Array
+                (
+                    [key] => cost_price
+                    [value] => 0
+                )
+
+            [1] => Array
+                (
+                    [key] => type_unit
+                    [value] => Unidad
+                )
+
+        )
+
+    [manage_stock] => 
+    [regular_price] => 0
+)
+
+[2025-03-24 11:03:17] Datos recibidos: Array
+(
+    [sku] => ELAB-205
+    [name] => Sandwich
+    [type] => simple
+    [description] => Este elaborado (Sandwich) es una parte esencial de nuestras recetas.
+    [short_description] => Elaborado: Sandwich
+    [images] => Array
+        (
+            [0] => Array
+                (
+                    [src] => http://localhost:8080/kitchen/img/recipes/sandwich.jpg
+                )
+
+        )
+
+    [categories] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 24
+                )
+
+        )
+
+    [meta_data] => Array
+        (
+            [0] => Array
+                (
+                    [key] => cost_price
+                    [value] => 0
+                )
+
+            [1] => Array
+                (
+                    [key] => type_unit
+                    [value] => Unidad
+                )
+
+        )
+
+    [manage_stock] => 
+    [regular_price] => 0
+)
+
+[2025-03-26 11:10:51] Datos recibidos: Array
+(
+    [sku] => ELAB-206
+    [name] => sdfsd
+    [type] => simple
+    [description] => Este elaborado (sdfsd) es una parte esencial de nuestras recetas.
+    [short_description] => Elaborado: sdfsd
+    [images] => Array
+        (
+            [0] => Array
+                (
+                    [src] => http://localhost:8080/kitchen/img/recipes/mousse-con-nata.jpg
+                )
+
+        )
+
+    [categories] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 24
+                )
+
+        )
+
+    [meta_data] => Array
+        (
+            [0] => Array
+                (
+                    [key] => cost_price
+                    [value] => 0
+                )
+
+            [1] => Array
+                (
+                    [key] => type_unit
+                    [value] => Unidad
+                )
+
+        )
+
+    [manage_stock] => 
+    [regular_price] => 0
+)
+
+[2025-03-26 12:00:15] Datos recibidos: Array
+(
+    [sku] => ELAB-207
+    [name] => dthsdfhasefa
+    [type] => simple
+    [description] => Este elaborado (dthsdfhasefa) es una parte esencial de nuestras recetas.
+    [short_description] => Elaborado: dthsdfhasefa
+    [images] => Array
+        (
+            [0] => Array
+                (
+                    [src] => http://localhost:8080/kitchen/img/recipes/sin-imagen.jpg
+                )
+
+        )
+
+    [categories] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 24
+                )
+
+        )
+
+    [meta_data] => Array
+        (
+            [0] => Array
+                (
+                    [key] => cost_price
+                    [value] => 0
+                )
+
+            [1] => Array
+                (
+                    [key] => type_unit
+                    [value] => Unidad
+                )
+
+        )
+
+    [manage_stock] => 
+    [regular_price] => 0
+)
+
+[2025-05-15 17:36:29] Datos recibidos: Array
+(
+    [sku] => PRE-222
+    [name] => rrrr
+    [type] => simple
+    [description] => Este elaborado (rrrr) es una parte esencial de nuestras recetas.
+    [short_description] => Elaborado: rrrr
+    [images] => Array
+        (
+            [0] => Array
+                (
+                    [src] => http://localhost:8080/kitchen/img/recipes/cocido.jpeg
+                )
+
+        )
+
+    [categories] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 39
+                )
+
+        )
+
+    [meta_data] => Array
+        (
+            [0] => Array
+                (
+                    [key] => cost_price
+                    [value] => 0
+                )
+
+            [1] => Array
+                (
+                    [key] => type_unit
+                    [value] => Unidad
+                )
+
+        )
+
+    [manage_stock] => 
+    [regular_price] => 0
+)
+
+[2025-05-15 17:37:29] Datos recibidos: Array
+(
+    [sku] => PRE-223
+    [name] => gggg
+    [type] => simple
+    [description] => Este elaborado (gggg) es una parte esencial de nuestras recetas.
+    [short_description] => Elaborado: gggg
+    [images] => Array
+        (
+            [0] => Array
+                (
+                    [src] => http://localhost:8080/kitchen/img/recipes/Bolognesa.jpg
+                )
+
+        )
+
+    [categories] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 39
+                )
+
+        )
+
+    [meta_data] => Array
+        (
+            [0] => Array
+                (
+                    [key] => cost_price
+                    [value] => 0
+                )
+
+            [1] => Array
+                (
+                    [key] => type_unit
+                    [value] => Unidad
+                )
+
+        )
+
+    [manage_stock] => 
+    [regular_price] => 0
+)
+
+[2025-05-15 17:43:39] Datos recibidos: Array
+(
+    [sku] => ELAB-225
+    [name] => sdcss
+    [type] => simple
+    [description] => Este elaborado (sdcss) es una parte esencial de nuestras recetas.
+    [short_description] => Elaborado: sdcss
+    [images] => Array
+        (
+            [0] => Array
+                (
+                    [src] => http://localhost:8080/kitchen/img/recipes/Fabada.jpg
+                )
+
+        )
+
+    [categories] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 24
+                )
+
+        )
+
+    [meta_data] => Array
+        (
+            [0] => Array
+                (
+                    [key] => cost_price
+                    [value] => 0
+                )
+
+            [1] => Array
+                (
+                    [key] => type_unit
+                    [value] => Unidad
+                )
+
+        )
+
+    [manage_stock] => 
+    [regular_price] => 0
+)
+
+[2025-05-15 17:47:27] Datos recibidos: Array
+(
+    [sku] => PRE-226
+    [name] => sdsds
+    [type] => simple
+    [description] => Este elaborado (sdsds) es una parte esencial de nuestras recetas.
+    [short_description] => Elaborado: sdsds
+    [images] => Array
+        (
+            [0] => Array
+                (
+                    [src] => http://localhost:8080/kitchen/img/recipes/mousse-chocolate.jpg
+                )
+
+        )
+
+    [categories] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 39
+                )
+
+        )
+
+    [meta_data] => Array
+        (
+            [0] => Array
+                (
+                    [key] => cost_price
+                    [value] => 0
+                )
+
+            [1] => Array
+                (
+                    [key] => type_unit
+                    [value] => Unidad
+                )
+
+        )
+
+    [manage_stock] => 
+    [regular_price] => 0
+)
+
+[2025-05-15 17:49:21] Datos recibidos: Array
+(
+    [sku] => PRE-227
+    [name] => dfdf
+    [type] => simple
+    [description] => Este elaborado (dfdf) es una parte esencial de nuestras recetas.
+    [short_description] => Elaborado: dfdf
+    [images] => Array
+        (
+            [0] => Array
+                (
+                    [src] => http://localhost:8080/kitchen/img/recipes/paella.jpg
+                )
+
+        )
+
+    [categories] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 39
+                )
+
+        )
+
+    [meta_data] => Array
+        (
+            [0] => Array
+                (
+                    [key] => cost_price
+                    [value] => 0
+                )
+
+            [1] => Array
+                (
+                    [key] => type_unit
+                    [value] => Unidad
+                )
+
+        )
+
+    [manage_stock] => 
+    [regular_price] => 0
+)
+
+[2025-05-15 17:53:04] Datos recibidos: Array
+(
+    [sku] => PRE-228
+    [name] => hjhh
+    [type] => simple
+    [description] => Este elaborado (hjhh) es una parte esencial de nuestras recetas.
+    [short_description] => Elaborado: hjhh
+    [images] => Array
+        (
+            [0] => Array
+                (
+                    [src] => http://localhost:8080/kitchen/img/recipes/pollo-patatas.jpg
+                )
+
+        )
+
+    [categories] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 39
+                )
+
+        )
+
+    [meta_data] => Array
+        (
+            [0] => Array
+                (
+                    [key] => cost_price
+                    [value] => 0
+                )
+
+            [1] => Array
+                (
+                    [key] => type_unit
+                    [value] => Unidad
+                )
+
+        )
+
+    [manage_stock] => 
+    [regular_price] => 0
+)
+
+[2025-05-15 17:54:56] Datos recibidos: Array
+(
+    [sku] => PRE-229
+    [name] => rvdfv
+    [type] => simple
+    [description] => Este elaborado (rvdfv) es una parte esencial de nuestras recetas.
+    [short_description] => Elaborado: rvdfv
+    [images] => Array
+        (
+            [0] => Array
+                (
+                    [src] => http://localhost:8080/kitchen/img/recipes/arroz-cubana.jpg
+                )
+
+        )
+
+    [categories] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 40
+                )
+
+        )
+
+    [meta_data] => Array
+        (
+            [0] => Array
+                (
+                    [key] => cost_price
+                    [value] => 0
+                )
+
+            [1] => Array
+                (
+                    [key] => type_unit
+                    [value] => Unidad
+                )
+
+        )
+
+    [manage_stock] => 
+    [regular_price] => 0
+)
+
+[2025-05-15 18:56:02] Datos recibidos: Array
+(
+    [sku] => PRE-230
+    [name] => Bechamel
+    [type] => simple
+    [description] => Este elaborado (Bechamel) es una parte esencial de nuestras recetas.
+    [short_description] => Elaborado: Bechamel
+    [images] => Array
+        (
+            [0] => Array
+                (
+                    [src] => http://localhost:8080/kitchen/img/recipes/salsa-bechamel.jpg
+                )
+
+        )
+
+    [categories] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 40
+                )
+
+        )
+
+    [meta_data] => Array
+        (
+            [0] => Array
+                (
+                    [key] => cost_price
+                    [value] => 0
+                )
+
+            [1] => Array
+                (
+                    [key] => type_unit
+                    [value] => Unidad
+                )
+
+        )
+
+    [manage_stock] => 
+    [regular_price] => 0
+)
+
+[2025-05-15 18:59:22] Datos recibidos: Array
+(
+    [sku] => PRE-231
+    [name] => Pulpo
+    [type] => simple
+    [description] => Este elaborado (Pulpo) es una parte esencial de nuestras recetas.
+    [short_description] => Elaborado: Pulpo
+    [images] => Array
+        (
+            [0] => Array
+                (
+                    [src] => http://localhost:8080/kitchen/img/recipes/pulpo-gallega.jpg
+                )
+
+        )
+
+    [categories] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 40
+                )
+
+        )
+
+    [meta_data] => Array
+        (
+            [0] => Array
+                (
+                    [key] => cost_price
+                    [value] => 0
+                )
+
+            [1] => Array
+                (
+                    [key] => type_unit
+                    [value] => Unidad
+                )
+
+        )
+
+    [manage_stock] => 
+    [regular_price] => 0
+)
+
+[2025-05-15 19:00:16] Datos recibidos: Array
+(
+    [sku] => ELAB-232
+    [name] => Hambueguesa
+    [type] => simple
+    [description] => Este elaborado (Hambueguesa) es una parte esencial de nuestras recetas.
+    [short_description] => Elaborado: Hambueguesa
+    [images] => Array
+        (
+            [0] => Array
+                (
+                    [src] => http://localhost:8080/kitchen/img/recipes/hamburguesa.jpg
+                )
+
+        )
+
+    [categories] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 24
+                )
+
+        )
+
+    [meta_data] => Array
+        (
+            [0] => Array
+                (
+                    [key] => cost_price
+                    [value] => 0
+                )
+
+            [1] => Array
+                (
+                    [key] => type_unit
+                    [value] => Unidad
+                )
+
+        )
+
+    [manage_stock] => 
+    [regular_price] => 0
+)
+
+[2025-05-15 21:49:17] Datos recibidos: Array
+(
+    [sku] => PRE-233
+    [name] => Ensaladilla
+    [type] => simple
+    [description] => Este elaborado (Ensaladilla) es una parte esencial de nuestras recetas.
+    [short_description] => Elaborado: Ensaladilla
+    [images] => Array
+        (
+            [0] => Array
+                (
+                    [src] => http://localhost:8080/kitchen/img/recipes/ensaladilla.jpg
+                )
+
+        )
+
+    [categories] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 40
+                )
+
+        )
+
+    [meta_data] => Array
+        (
+            [0] => Array
+                (
+                    [key] => cost_price
+                    [value] => 0
+                )
+
+            [1] => Array
+                (
+                    [key] => type_unit
+                    [value] => Unidad
+                )
+
+        )
+
+    [manage_stock] => 
+    [regular_price] => 0
+)
+
+[2025-05-15 21:52:53] Datos recibidos: Array
+(
+    [sku] => ELAB-234
+    [name] => Pulpo a la gallega
+    [type] => simple
+    [description] => Este elaborado (Pulpo a la gallega) es una parte esencial de nuestras recetas.
+    [short_description] => Elaborado: Pulpo a la gallega
+    [images] => Array
+        (
+            [0] => Array
+                (
+                    [src] => http://localhost:8080/kitchen/img/recipes/pulpos-a-la-gallega.jpg
+                )
+
+        )
+
+    [categories] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 24
+                )
+
+        )
+
+    [meta_data] => Array
+        (
+            [0] => Array
+                (
+                    [key] => cost_price
+                    [value] => 0
+                )
+
+            [1] => Array
+                (
+                    [key] => type_unit
+                    [value] => Unidad
+                )
+
+        )
+
+    [manage_stock] => 
+    [regular_price] => 0
+)
+
+[2025-05-15 22:17:53] Datos recibidos: Array
+(
+    [sku] => PRE-235
+    [name] => Caracoles
+    [type] => simple
+    [description] => Este elaborado (Caracoles) es una parte esencial de nuestras recetas.
+    [short_description] => Elaborado: Caracoles
+    [images] => Array
+        (
+            [0] => Array
+                (
+                    [src] => http://localhost:8080/kitchen/img/recipes/caracoles-salsa.jpg
+                )
+
+        )
+
+    [categories] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 40
+                )
+
+        )
+
+    [meta_data] => Array
+        (
+            [0] => Array
+                (
+                    [key] => cost_price
+                    [value] => 0
+                )
+
+            [1] => Array
+                (
+                    [key] => type_unit
+                    [value] => Unidad
+                )
+
+        )
+
+    [manage_stock] => 
+    [regular_price] => 0
+)
+
+[2025-05-15 22:43:37] Datos recibidos: Array
+(
+    [sku] => PRE-236
+    [name] => fgfg
+    [type] => simple
+    [description] => Este elaborado (fgfg) es una parte esencial de nuestras recetas.
+    [short_description] => Elaborado: fgfg
+    [images] => Array
+        (
+            [0] => Array
+                (
+                    [src] => http://localhost:8080/kitchen/img/recipes/croqueta-queso.jpg
+                )
+
+        )
+
+    [categories] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 40
+                )
+
+        )
+
+    [meta_data] => Array
+        (
+            [0] => Array
+                (
+                    [key] => cost_price
+                    [value] => 0
+                )
+
+            [1] => Array
+                (
+                    [key] => type_unit
+                    [value] => Unidad
+                )
+
+        )
+
+    [manage_stock] => 
+    [regular_price] => 0
+)
+
+[2025-05-16 00:56:17] Datos recibidos: Array
+(
+    [sku] => PRE-237
+    [name] => wwwwwww
+    [type] => simple
+    [description] => sssssssssssssssssss.
+ssssssssssssssssssss.
+ssssssssssssssssss
+    [short_description] => rrrrrrrrrrrrrrrrrr
+    [images] => Array
+        (
+            [0] => Array
+                (
+                    [src] => http://localhost:8080/kitchen/img/recipes/croqueta-queso.jpg
+                )
+
+        )
+
+    [categories] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 40
+                )
+
+        )
+
+    [meta_data] => Array
+        (
+            [0] => Array
+                (
+                    [key] => cost_price
+                    [value] => 0
+                )
+
+            [1] => Array
+                (
+                    [key] => localizacion
+                    [value] => Freezer
+                )
+
+            [2] => Array
+                (
+                    [key] => empaquetado
+                    [value] => Pack
+                )
+
+            [3] => Array
+                (
+                    [key] => alergeno
+                    [value] => Desconocido
+                )
+
+            [4] => Array
+                (
+                    [key] => peso
+                    [value] => 0.1
+                )
+
+        )
+
+    [manage_stock] => 
+    [regular_price] => 0
+)
+
+[2025-05-16 01:03:59] Datos recibidos: Array
+(
+    [sku] => PRE-238
+    [name] => Timbal
+    [type] => simple
+    [description] => sdcsdcsdsdcsc
+sdcsdcs
+csdcsdcsdcsdcsdcsdc
+    [short_description] => sdd
+    [images] => Array
+        (
+            [0] => Array
+                (
+                    [src] => http://localhost:8080/kitchen/img/recipes/timbal-lomo.JPG
+                )
+
+        )
+
+    [categories] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 40
+                )
+
+        )
+
+    [meta_data] => Array
+        (
+            [0] => Array
+                (
+                    [key] => cost_price
+                    [value] => 0
+                )
+
+            [1] => Array
+                (
+                    [key] => localizacion
+                    [value] => Freezer
+                )
+
+            [2] => Array
+                (
+                    [key] => empaquetado
+                    [value] => Bag
+                )
+
+            [3] => Array
+                (
+                    [key] => alergeno
+                    [value] => Desconocido
+                )
+
+            [4] => Array
+                (
+                    [key] => peso
+                    [value] => 0.1
+                )
+
+        )
+
+    [manage_stock] => 
+    [regular_price] => 0
+)
+
+[2025-05-16 01:33:23] Datos recibidos: Array
+(
+    [sku] => ELAB-239
+    [name] => lkñklñlk
+    [type] => simple
+    [description] => 
+    [short_description] => 
+    [images] => Array
+        (
+            [0] => Array
+                (
+                    [src] => http://localhost:8080/kitchen/img/recipes/sandwich.jpg
+                )
+
+        )
+
+    [categories] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 24
+                )
+
+        )
+
+    [meta_data] => Array
+        (
+            [0] => Array
+                (
+                    [key] => cost_price
+                    [value] => 0
+                )
+
+            [1] => Array
+                (
+                    [key] => localizacion
+                    [value] => Freezer
+                )
+
+            [2] => Array
+                (
+                    [key] => empaquetado
+                    [value] => Bag
+                )
+
+            [3] => Array
+                (
+                    [key] => alergeno
+                    [value] => Desconocido
+                )
+
+            [4] => Array
+                (
+                    [key] => peso
+                    [value] => 1.7
+                )
+
+        )
+
+    [manage_stock] => 
+    [regular_price] => 0
+)
+
+[2025-05-16 13:50:27] Datos recibidos: Array
+(
+    [sku] => PRE-240
+    [name] => Bechamel
+    [type] => simple
+    [description] => sdss.
+sddsdsdsds.
+    [short_description] => sdss
+    [images] => Array
+        (
+            [0] => Array
+                (
+                    [src] => http://localhost:8080/kitchen/img/recipes/salsa-bechamel.jpg
+                )
+
+        )
+
+    [categories] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 40
+                )
+
+        )
+
+    [meta_data] => Array
+        (
+            [0] => Array
+                (
+                    [key] => cost_price
+                    [value] => 0
+                )
+
+            [1] => Array
+                (
+                    [key] => localizacion
+                    [value] => Freezer
+                )
+
+            [2] => Array
+                (
+                    [key] => empaquetado
+                    [value] => Bag
+                )
+
+            [3] => Array
+                (
+                    [key] => alergeno
+                    [value] => Desconocido
+                )
+
+            [4] => Array
+                (
+                    [key] => peso
+                    [value] => 0.1
+                )
+
+        )
+
+    [manage_stock] => 
+    [regular_price] => 0
+)
+
+[2025-05-19 08:04:07] Datos recibidos: Array
+(
+    [sku] => ELAB-241
+    [name] => cccccccccccc
+    [type] => simple
+    [images] => Array
+        (
+            [0] => Array
+                (
+                    [src] => http://localhost:8080/kitchen/img/recipes/Bolognesa.jpg
+                )
+
+        )
+
+    [categories] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 24
+                )
+
+        )
+
+    [meta_data] => Array
+        (
+            [0] => Array
+                (
+                    [key] => cost_price
+                    [value] => 0
+                )
+
+            [1] => Array
+                (
+                    [key] => localizacion
+                    [value] => Desconocida
+                )
+
+            [2] => Array
+                (
+                    [key] => empaquetado
+                    [value] => Desconocido
+                )
+
+            [3] => Array
+                (
+                    [key] => alergeno
+                    [value] => Desconocido
+                )
+
+            [4] => Array
+                (
+                    [key] => peso
+                    [value] => Desconocido
+                )
+
+        )
+
+    [manage_stock] => 
+    [regular_price] => 0
+)
+
+[2025-05-19 08:04:54] Datos recibidos: Array
+(
+    [sku] => ELAB-242
+    [name] => xxxxxxxxxxxxxxxx
+    [type] => simple
+    [images] => Array
+        (
+            [0] => Array
+                (
+                    [src] => http://localhost:8080/kitchen/img/recipes/Fabada.jpg
+                )
+
+        )
+
+    [categories] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 24
+                )
+
+        )
+
+    [meta_data] => Array
+        (
+            [0] => Array
+                (
+                    [key] => cost_price
+                    [value] => 0
+                )
+
+            [1] => Array
+                (
+                    [key] => localizacion
+                    [value] => Desconocida
+                )
+
+            [2] => Array
+                (
+                    [key] => empaquetado
+                    [value] => Desconocido
+                )
+
+            [3] => Array
+                (
+                    [key] => alergeno
+                    [value] => Desconocido
+                )
+
+            [4] => Array
+                (
+                    [key] => peso
+                    [value] => Desconocido
+                )
+
+        )
+
+    [manage_stock] => 
+    [regular_price] => 0
+)
+
+[2025-05-19 08:10:06] Datos recibidos: Array
+(
+    [sku] => PRE-243
+    [name] => sdscsdc
+    [type] => simple
+    [description] => 
+    [short_description] => 
+    [images] => Array
+        (
+            [0] => Array
+                (
+                    [src] => http://localhost:8080/kitchen/img/recipes/Tortilla española.jpg
+                )
+
+        )
+
+    [categories] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 40
+                )
+
+        )
+
+    [meta_data] => Array
+        (
+            [0] => Array
+                (
+                    [key] => cost_price
+                    [value] => 0
+                )
+
+            [1] => Array
+                (
+                    [key] => localizacion
+                    [value] => Freezer
+                )
+
+            [2] => Array
+                (
+                    [key] => empaquetado
+                    [value] => Bag
+                )
+
+            [3] => Array
+                (
+                    [key] => alergeno
+                    [value] => Desconocido
+                )
+
+            [4] => Array
+                (
+                    [key] => peso
+                    [value] => 0.15
+                )
+
+        )
+
+    [manage_stock] => 
+    [regular_price] => 0
+)
+
+[2025-05-19 08:11:01] Datos recibidos: Array
+(
+    [sku] => PRE-244
+    [name] => ffff
+    [type] => simple
+    [description] => 
+    [short_description] => 
+    [images] => Array
+        (
+            [0] => Array
+                (
+                    [src] => http://localhost:8080/kitchen/img/recipes/hamburguesa.jpg
+                )
+
+        )
+
+    [categories] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 40
+                )
+
+        )
+
+    [meta_data] => Array
+        (
+            [0] => Array
+                (
+                    [key] => cost_price
+                    [value] => 0
+                )
+
+            [1] => Array
+                (
+                    [key] => localizacion
+                    [value] => Freezer
+                )
+
+            [2] => Array
+                (
+                    [key] => empaquetado
+                    [value] => Bag
+                )
+
+            [3] => Array
+                (
+                    [key] => alergeno
+                    [value] => Desconocido
+                )
+
+            [4] => Array
+                (
+                    [key] => peso
+                    [value] => 0.1
+                )
+
+        )
+
+    [manage_stock] => 
+    [regular_price] => 0
+)
+
+[2025-05-19 08:12:23] Datos recibidos: Array
+(
+    [sku] => PRE-245
+    [name] => dfvsdv
+    [type] => simple
+    [description] => sssssssssssssssss
+    [short_description] => dxdcd
+    [images] => Array
+        (
+            [0] => Array
+                (
+                    [src] => http://localhost:8080/kitchen/img/recipes/paella.jpg
+                )
+
+        )
+
+    [categories] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 40
+                )
+
+        )
+
+    [meta_data] => Array
+        (
+            [0] => Array
+                (
+                    [key] => cost_price
+                    [value] => 0
+                )
+
+            [1] => Array
+                (
+                    [key] => localizacion
+                    [value] => Freezer
+                )
+
+            [2] => Array
+                (
+                    [key] => empaquetado
+                    [value] => Bag
+                )
+
+            [3] => Array
+                (
+                    [key] => alergeno
+                    [value] => Desconocido
+                )
+
+            [4] => Array
+                (
+                    [key] => peso
+                    [value] => 0.1
+                )
+
+        )
+
+    [manage_stock] => 
+    [regular_price] => 0
+)
+
+[2025-05-23 12:01:11] Datos recibidos: Array
+(
+    [sku] => PRE-246
+    [name] => Arroz a la cubana
+    [type] => simple
+    [description] => xxxxxxxxx.
+xxxxxxxxxxxxx.
+xxxxxxxxxxxxxxxx.
+    [short_description] => Arroz con tomate y huevo
+    [images] => Array
+        (
+            [0] => Array
+                (
+                    [src] => http://localhost:8080/kitchen/img/recipes/arroz-cubana.jpg
+                )
+
+        )
+
+    [categories] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 40
+                )
+
+        )
+
+    [meta_data] => Array
+        (
+            [0] => Array
+                (
+                    [key] => cost_price
+                    [value] => 0
+                )
+
+            [1] => Array
+                (
+                    [key] => localizacion
+                    [value] => Freezer
+                )
+
+            [2] => Array
+                (
+                    [key] => empaquetado
+                    [value] => Bag
+                )
+
+            [3] => Array
+                (
+                    [key] => alergeno
+                    [value] => Desconocido
+                )
+
+            [4] => Array
+                (
+                    [key] => peso
+                    [value] => 0.05
+                )
+
+        )
+
+    [manage_stock] => 
+    [regular_price] => 0
+)
+
+[2025-05-23 12:08:22] Datos recibidos: Array
+(
+    [sku] => ELAB-247
+    [name] => mousee
+    [type] => simple
+    [description] => 
+    [short_description] => ddddddddddddd
+    [images] => Array
+        (
+            [0] => Array
+                (
+                    [src] => http://localhost:8080/kitchen/img/recipes/mousse-chocolate.jpg
+                )
+
+        )
+
+    [categories] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 24
+                )
+
+        )
+
+    [meta_data] => Array
+        (
+            [0] => Array
+                (
+                    [key] => cost_price
+                    [value] => 0
+                )
+
+            [1] => Array
+                (
+                    [key] => localizacion
+                    [value] => Freezer
+                )
+
+            [2] => Array
+                (
+                    [key] => empaquetado
+                    [value] => Bag
+                )
+
+            [3] => Array
+                (
+                    [key] => alergeno
+                    [value] => Desconocido
+                )
+
+            [4] => Array
+                (
+                    [key] => peso
+                    [value] => 0.25
+                )
+
+        )
+
+    [manage_stock] => 
+    [regular_price] => 0
+)
+
+[2025-05-28 09:35:09] Datos recibidos: Array
+(
+    [sku] => ELAB-248
+    [name] => Arroz a la cubana
+    [type] => simple
+    [description] => Cocinar el arroz:
+
+Enjuaga el arroz hasta que el agua salga clara.
+
+En una olla, sofríe los ajos picados (si usas) en un poco de aceite.
+
+Añade el arroz y una pizca de sal. Cubre con el doble de agua (aproximadamente 2 tazas).
+
+Cocina a fuego medio-alto hasta que hierva, luego tapa y baja el fuego. Cocina unos 15-18 minutos o hasta que el arroz esté hecho y el agua absorbida.
+
+Freír los plátanos:
+
+Pela y corta los plátanos en mitades o en lonchas largas.
+
+Fríelos en aceite caliente hasta que estén dorados por ambos lados. Sácalos y escúrrelos en papel absorbente.
+
+Freír los huevos:
+
+Fríe los huevos en una sartén con un poco de aceite. Puedes dejar la yema líquida o cocida, según tu gusto.
+
+Calentar la salsa de tomate:
+
+Calienta la salsa de tomate en una sartén. Puedes añadir una pizca de sal o azúcar según tu preferencia.
+
+Montar el plato:
+
+Sirve el arroz en el centro del plato.
+
+Coloca el huevo frito encima o al lado.
+
+Añade los plátanos fritos a un lado.
+
+Cubre el arroz con un poco de salsa de tomate o sírvela aparte.
+    [short_description] => Arroz a la cubana con huevo.
+    [images] => Array
+        (
+            [0] => Array
+                (
+                    [src] => http://localhost:8080/kitchen/img/recipes/arroz-cubana.jpg
+                )
+
+        )
+
+    [categories] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 24
+                )
+
+        )
+
+    [meta_data] => Array
+        (
+            [0] => Array
+                (
+                    [key] => cost_price
+                    [value] => 0
+                )
+
+            [1] => Array
+                (
+                    [key] => localizacion
+                    [value] => Freezer
+                )
+
+            [2] => Array
+                (
+                    [key] => empaquetado
+                    [value] => Pack
+                )
+
+            [3] => Array
+                (
+                    [key] => alergeno
+                    [value] => Desconocido
+                )
+
+            [4] => Array
+                (
+                    [key] => peso
+                    [value] => 0.74
+                )
+
+        )
+
+    [manage_stock] => 
+    [regular_price] => 0
+)
+
+[2025-05-28 14:58:23] Datos recibidos: Array
+(
+    [sku] => ELAB-249
+    [name] => Ensaladilla
+    [type] => simple
+    [description] => 1.xxxxxxxxxxxxx.
+2.xxxxxxxxxxxxxxxxx.
+3.xxxxxxxxxxxxxxxxxx.
+    [short_description] => Ensalalilla rusa
+    [images] => Array
+        (
+            [0] => Array
+                (
+                    [src] => http://localhost:8080/kitchen/img/recipes/ensaladilla.jpg
+                )
+
+        )
+
+    [categories] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 24
+                )
+
+        )
+
+    [meta_data] => Array
+        (
+            [0] => Array
+                (
+                    [key] => cost_price
+                    [value] => 0
+                )
+
+            [1] => Array
+                (
+                    [key] => localizacion
+                    [value] => Freezer
+                )
+
+            [2] => Array
+                (
+                    [key] => empaquetado
+                    [value] => Box
+                )
+
+            [3] => Array
+                (
+                    [key] => alergeno
+                    [value] => Desconocido
+                )
+
+            [4] => Array
+                (
+                    [key] => peso
+                    [value] => 1.1
+                )
+
+        )
+
+    [manage_stock] => 
+    [regular_price] => 0
+)
+

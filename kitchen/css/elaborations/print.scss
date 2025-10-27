@@ -1,0 +1,216 @@
+// Variables
+$button-width: 34px;
+$button-height: 34px;
+$button-margin: 5px;
+$button-padding: 5px 10px;
+$button-border-radius: 5px;
+$button-font-size: 15px;
+$margin-top-print: 50px;
+
+// Estilos generales
+body {
+    font-size: 10px;
+}
+
+
+
+
+
+.nameGroup {
+    font-size: 700%;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    color: #000;
+   
+    button {
+        font-size: $button-font-size;
+        text-align: center;
+        padding: $button-padding;
+        border-radius: $button-border-radius;
+        align-items: center;
+        margin-left: 30px;
+        height: 10%;
+        
+        img {
+            width: $button-width;
+            height: $button-height;
+            margin-right: $button-margin;
+            margin-left: $button-margin;
+        }
+    }
+}
+
+.table-container {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.tabla {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+    table-layout: fixed;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.tabla th,
+.tabla td {
+    border: 2px solid #000;
+    color: #000;
+    overflow: hidden;
+    font-weight: bold;
+}
+
+.tabla th {
+    text-align: center;
+    padding: 0 40px;
+    font-size: 8px;
+}
+
+.tabla td {
+    vertical-align: top;
+    font-size: 6px;
+}
+
+.content_tag {
+    display: flex;
+    border: solid 3px;
+    width: 820px;
+    height: auto;
+    padding: 10px;
+    padding-right: 60px;
+   
+}
+
+@media (max-width: 768px) {
+    .content_tag {
+        width: 60%;
+        padding-right: 10px; /* Ajusta el padding derecho si es necesario */
+    }
+}
+
+
+.div_emulsion {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.div-direction-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-part {
+    width: 42%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    word-wrap: break-word;
+}
+
+.right-part {
+    width: 58%;
+}
+
+.div-direction,
+.div-image {
+    width: 50%;
+}
+
+.div-direction {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text_small {
+    font-size: 7px;
+}
+
+.exp_lote {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.address {
+    margin-bottom: 50px;
+}
+
+.div_ing {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.div_conser {
+    font-weight: bold;
+}
+
+.title_conser,
+.title_ing {
+    text-align: center;
+    margin-bottom: 3px;
+    font-weight: bold;
+}
+
+.center_text {
+    text-align: center;
+}
+
+.address {
+    font-weight: bold;
+}
+
+.language-ellipse {
+    width: 20px;
+    height: 12px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    border: solid 2px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.language-ellipse::before {
+    content: attr(lang);
+    font-size: 7px;
+    color: #333;
+}
+
+.content_ing {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    word-wrap: break-word;
+}
+
+.content_ing span {
+    max-width: 100%;
+}
+
+.peso_neto {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+// Estilos específicos para impresión
+@media print {
+    @page {
+        margin-top: $margin-top-print;
+    }
+
+    button {
+        display: none;
+    }
+
+    nav {
+        display: none;
+    }
+}

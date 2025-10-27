@@ -1,0 +1,19 @@
+// Estilos específicos para impresión
+@media print {
+    
+
+
+    // Ocultar la navegación
+    nav {
+        display: none;
+    }
+
+
+.content-top{
+    display: none;
+} 
+
+   
+
+   
+}

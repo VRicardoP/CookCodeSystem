@@ -1,0 +1,131 @@
+<?php
+
+class AlmacenPreelaboraciones {
+    private int $ID;
+    private string $tipoProd;
+    private string $fName;
+    private string $packaging;
+    private int $productamount;
+    private string $fechaElab;
+    private string $fechaCad;
+    private string $warehouse;
+    private string $costCurrency;
+    private int $costPrice;
+    private string $saleCurrency;
+    private int $salePrice;
+    private string $codeContents;
+
+    // Constructor
+    public function __construct(
+        int $ID = 0,
+        string $tipoProd = "",
+        string $fName = "",
+        string $packaging = "",
+        int $productamount = 0,
+        string $fechaElab = "",
+        string $fechaCad = "",
+        string $warehouse = "",
+        string $costCurrency = "",
+        int $costPrice = 0,
+        string $saleCurrency = "",
+        int $salePrice = 0,
+        string $codeContents = ""
+    ) {
+        $this->ID = $ID;
+        $this->tipoProd = $tipoProd;
+        $this->fName = $fName;
+        $this->packaging = $packaging;
+        $this->productamount = $productamount;
+        $this->fechaElab = $fechaElab;
+        $this->fechaCad = $fechaCad;
+        $this->warehouse = $warehouse;
+        $this->costCurrency = $costCurrency;
+        $this->costPrice = $costPrice;
+        $this->saleCurrency = $saleCurrency;
+        $this->salePrice = $salePrice;
+        $this->codeContents = $codeContents;
+    }
+
+    // Métodos Getter
+    public function getID(): int {
+        return $this->ID;
+    }
+    public function getTipoProd(): string {
+        return $this->tipoProd;
+    }
+    public function getFName(): string {
+        return $this->fName;
+    }
+    public function getPackaging(): string {
+        return $this->packaging;
+    }
+    public function getProductamount(): int {
+        return $this->productamount;
+    }
+    public function getFechaElab(): string {
+        return $this->fechaElab;
+    }
+    public function getFechaCad(): string {
+        return $this->fechaCad;
+    }
+    public function getWarehouse(): string {
+        return $this->warehouse;
+    }
+    public function getCostCurrency(): string {
+        return $this->costCurrency;
+    }
+    public function getCostPrice(): int {
+        return $this->costPrice;
+    }
+    public function getSaleCurrency(): string {
+        return $this->saleCurrency;
+    }
+    public function getSalePrice(): int {
+        return $this->salePrice;
+    }
+    public function getCodeContents(): string {
+        return $this->codeContents;
+    }
+
+    // Métodos Setter
+    public function setID(int $ID): void {
+        $this->ID = $ID;
+    }
+    public function setTipoProd(string $tipoProd): void {
+        $this->tipoProd = $tipoProd;
+    }
+    public function setFName(string $fName): void {
+        $this->fName = $fName;
+    }
+    public function setPackaging(string $packaging): void {
+        $this->packaging = $packaging;
+    }
+    public function setProductamount(int $productamount): void {
+        $this->productamount = $productamount;
+    }
+    public function setFechaElab(string $fechaElab): void {
+        $this->fechaElab = $fechaElab;
+    }
+    public function setFechaCad(string $fechaCad): void {
+        $this->fechaCad = $fechaCad;
+    }
+    public function setWarehouse(string $warehouse): void {
+        $this->warehouse = $warehouse;
+    }
+    public function setCostCurrency(string $costCurrency): void {
+        $this->costCurrency = $costCurrency;
+    }
+    public function setCostPrice(int $costPrice): void {
+        $this->costPrice = $costPrice;
+    }
+    public function setSaleCurrency(string $saleCurrency): void {
+        $this->saleCurrency = $saleCurrency;
+    }
+    public function setSalePrice(int $salePrice): void {
+        $this->salePrice = $salePrice;
+    }
+    public function setCodeContents(string $codeContents): void {
+        $this->codeContents = $codeContents;
+    }
+}
+?>

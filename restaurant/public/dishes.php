@@ -1,0 +1,76 @@
+<?php
+include_once $_SERVER["DOCUMENT_ROOT"] . '/restaurant/php/verifyLogged.php';
+
+include_once $_SERVER["DOCUMENT_ROOT"] . '/restaurant/php/verifyLogged.php';
+$restauranteId = (int) ($_SESSION['loggedRestaurant'] ?? 0);
+
+$link = mysqli_connect('localhost', 'root', '', 'restaurant');
+$query = "SELECT * FROM `platos` WHERE id IN (SELECT id_plato FROM plato_restaurante WHERE id_restaurante = $restauranteId)";
+
+$result = $link->query($query);
+
+$platos = array();
+$platos = $result->fetch_all(MYSQLI_ASSOC);
+
+$json = json_encode($platos);
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/dishes.css">
+    <script defer type="module" src="./js/dishList.js"></script>
+    <title>Dishes</title>
+</head>
+
+<body>
+    <nav>
+        <div>
+            <img src="./img/ccsLogoWhite.png" alt="Cook Code System Logo">
+        </div>
+        <ul>
+            <a href="dashboard.php">
+                <li> <object data="./svg/dashboard.svg" type="image/svg+xml"></object>Dashboard</li>
+            </a>
+            <a href="analytics.php">
+                <li> <object data="./svg/graph.svg" type=""></object>Analytics</li>
+            </a>
+            <a href="stock.php">
+                <li> <object data="./svg/stock.svg" type=""></object>Stock</li>
+            </a>
+            <a href="receipts.php">
+                <li> <object data="./svg/receipt.svg" type=""></object>Pre-prepareds</li>
+            </a>
+          
+            <a href="dishes.php"><li> <object data="./svg/receipt.svg" type=""></object>Dishes</li></a>
+            <a href="orders.php">
+                <li> <object data="./svg/orders.svg" type=""></object>Orders</li>
+            </a>
+            <a href="/restaurant/TPV/mesas.html">
+                <li> <object data="./svg/tpv.svg" type=""></object>TPV</li>
+            </a>
+            <a href="settings.php">
+                <li> <object data="./svg/settings.svg" type=""></object>Settings</li>
+            </a>
+        </ul>
+    </nav>
+
+    <main>
+        <h2 id="mainTitle">Dishes</h2>
+       
+        <section id="receipts-container">
+            <div id="lista" style="width: 80%; margin-top: 30px; margin-bottom: 60px"></div>      
+        </section>
+    </main>
+</body>
+
+<script>
+    const platos = <?php echo $json; ?>;
+</script>
+
+<script src="js/mostrarPlatos.js"></script>
+
+</html>
