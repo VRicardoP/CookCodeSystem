@@ -1,0 +1,76 @@
+# ### General ###
+# Ignorar archivos de configuración de IDEs y editores de código
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Ignorar archivos compilados y de dependencias
+/node_modules/
+
+# Archivos de registro y temporales
+*.log
+*.tmp
+*.temp
+temp/
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de entorno local que pueden contener secretos
+.env
+.env.local
+.env.*.local
+
+# Archivos de Docker generados localmente
+# docker-compose.override.yml
+
+# --- Proyecto ecommerce (WordPress) ---
+
+# Archivo de configuración principal de WordPress con secretos
+# /ecommerce/wp-config.php
+
+# Contenido generado por el usuario
+/ecommerce/wp-content/uploads/
+/ecommerce/wp-content/blogs.dir/
+
+# Archivos de caché y copias de seguridad
+/ecommerce/wp-content/cache/
+/ecommerce/wp-content/backup-db/
+/ecommerce/wp-content/upgrade/
+/ecommerce/wp-content/advanced-cache.php
+/ecommerce/wp-content/wp-cache-config.php
+
+# Archivos generados por plugins de SEO y otros
+/ecommerce/sitemap.xml
+/ecommerce/sitemap.xml.gz
+
+# --- Proyecto restaurant (PHP con Composer) ---
+
+# Directorio de dependencias de Composer
+/restaurant/vendor/
+
+# Archivo de registro de la aplicación
+/restaurant/AppLog.log
+
+# Archivo de configuración local si existiera
+/restaurant/config.local.php
+
+# --- Proyecto kitchen (PHP) ---
+
+# Archivos con credenciales de base de datos hardcodeadas
+# /kitchen/DBConnection.php
+# /kitchen/index_web.php
+
+# Directorio temporal para QR y otros
+/kitchen/temp/
+
+# Archivo de configuración local si existiera
+/kitchen/config.local.php
+
+# --- Proyecto MiniChef ---
+
+# Archivos de configuración local y registros para MiniChef
+/MiniChef/config.local.txt
+/MiniChef/*.log

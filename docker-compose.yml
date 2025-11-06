@@ -1,0 +1,97 @@
+version: "3.8"
+
+services:
+  # --- Aplicación E-commerce (WordPress) ---
+  ecommerce:
+    build: ./ecommerce
+    ports:
+      - "8080:80"
+    environment:
+      WORDPRESS_DB_HOST: db_ecommerce:3306
+      WORDPRESS_DB_USER: user_ecommerce
+      WORDPRESS_DB_PASSWORD: password_ecommerce
+      WORDPRESS_DB_NAME: ecommerce_db
+    volumes:
+      # Montamos wp-content para persistir temas, plugins y uploads
+      - ./ecommerce/wp-content:/var/www/html/wp-content
+    depends_on:
+      - db_ecommerce
+    networks:
+      - app_network
+
+  # --- Base de Datos para E-commerce ---
+  db_ecommerce:
+    image: mysql:8.0
+    environment:
+      MYSQL_DATABASE: ecommerce_db
+      MYSQL_USER: user_ecommerce
+      MYSQL_PASSWORD: password_ecommerce
+      MYSQL_ROOT_PASSWORD: root_password
+    volumes:
+      # Persiste los datos de la base de datos
+      - db_data_ecommerce:/var/lib/mysql
+      # Importa el archivo .sql al iniciar
+      - ./ecommerce/ecommerce_db.sql:/docker-entrypoint-initdb.d/init.sql
+    networks:
+      - app_network
+
+  # --- Aplicación Restaurant (PHP/Composer) ---
+  restaurant:
+    build: ./restaurant
+    ports:
+      - "8081:80"
+    volumes:
+      - ./restaurant:/var/www/html
+    depends_on:
+      - db_restaurant
+    networks:
+      - app_network
+
+  # --- Base de Datos para Restaurant ---
+  db_restaurant:
+    image: mysql:8.0
+    environment:
+      MYSQL_DATABASE: restaurant_db
+      MYSQL_USER: user_restaurant
+      MYSQL_PASSWORD: password_restaurant
+      MYSQL_ROOT_PASSWORD: root_password
+    volumes:
+      - db_data_restaurant:/var/lib/mysql
+      - ./restaurant/restaurant_db.sql:/docker-entrypoint-initdb.d/init.sql
+    networks:
+      - app_network
+
+  # --- Aplicación Kitchen (PHP Simple) ---
+  kitchen:
+    build: ./kitchen
+    ports:
+      - "8082:80"
+    volumes:
+      - ./kitchen:/var/www/html
+    depends_on:
+      - db_kitchen
+    networks:
+      - app_network
+
+  # --- Base de Datos para Kitchen ---
+  db_kitchen:
+    image: mysql:8.0
+    environment:
+      MYSQL_DATABASE: kitchen_db
+      MYSQL_USER: user_kitchen
+      MYSQL_PASSWORD: password_kitchen
+      MYSQL_ROOT_PASSWORD: root_password
+    volumes:
+      - db_data_kitchen:/var/lib/mysql
+      - ./kitchen/kitchen_db.sql:/docker-entrypoint-initdb.d/init.sql
+    networks:
+      - app_network
+
+volumes:
+  db_data_ecommerce:
+  db_data_restaurant:
+  db_data_kitchen:
+
+networks:
+  app_network:
+    driver: bridge
