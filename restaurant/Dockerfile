@@ -21,3 +21,6 @@ RUN composer install --no-interaction --no-plugins --no-scripts
 
 # 5. Copiar la configuración del Virtual Host de Apache para apuntar a /public
 COPY vhost.conf /etc/apache2/sites-available/000-default.conf
+
+# 6. Habilitar el módulo rewrite de Apache
+RUN a2enmod rewrite
